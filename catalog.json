@@ -1,0 +1,108 @@
+[
+  {
+    "name": "shop",
+    "parent": [""],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": [""]
+  },
+  {
+    "name": "bakery",
+    "parent": ["shop"],
+    "tags": {"shop": "bakery"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "closeway"]
+  },
+  {
+    "name": "shop-beauty",
+    "parent": ["shop"],
+    "tags": {"shop": "beauty"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "closeway"]
+  },
+  {
+    "name": "shop-books",
+    "parent": ["shop"],
+    "tags": {"shop": "books"},
+    "moretags": {
+      "second_hand": {
+        "class": "second_hand",
+        "tag": "second_hand",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "closeway"]
+  },
+  {
+    "name": "shop-car_repair",
+    "parent": ["shop"],
+    "tags": {"shop": "car_repair"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "closeway"]
+  },
+  {
+    "name": "shop-confectionery",
+    "parent": ["shop"],
+    "tags": {"shop": "confectionery"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "closeway"]
+  },
+  {
+    "name": "supermarket",
+    "parent": ["shop"],
+    "tags": {"shop": "supermarket"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "closeway"]
+  },
+  {
+    "name": "health",
+    "parent": [""],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": [""]
+  },
+  {
+    "name": "health-pharmacy",
+    "parent": ["health"],
+    "tags": {"amenity": "pharmacy"},
+    "moretags": {
+      "dispensing": {
+        "class": "boolean",
+        "tag": "dispensing",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "closeway"]
+  },
+  {
+    "name": "service",
+    "parent": [""],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": [""]
+  },
+  {
+    "name": "service-bank",
+    "parent": ["service"],
+    "tags": {"amenity": "bank"},
+    "moretags": {
+      "atm": {
+        "class": "boolean",
+        "tag": "atm",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "closeway"]
+  }
+]

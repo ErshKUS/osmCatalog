@@ -1,0 +1,36 @@
+{
+  "language": "ru",
+  "catalog": {
+    "shop": {"name": "Магазины", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Key:shop", "keywords": ""},
+    "bakery": {"name": "Хлебный магазин", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbakery", "keywords": ""},
+    "shop-beauty": {"name": "Салон красоты", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbeauty", "keywords": ""},
+    "shop-books": {"name": "Книжный магазин", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbooks", "keywords": ""},
+    "shop-car_repair": {"name": "Автосервис", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dconfectionery", "keywords": ""},
+    "shop-confectionery": {"name": "Кондитерская", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dconfectionery", "keywords": ""},
+    "supermarket": {"name": "Супермаркет", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dsupermarket", "keywords": ""},
+    "health": {"name": "Здоровье", "description": "", "link": "", "keywords": ""},    
+    "health-pharmacy": {"name": "Аптека", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dpharmacy", "keywords": ""},    
+    "service": {"name": "Услуги", "description": "", "link": "", "keywords": ""},
+    "service-bank": {"name": "Банк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbank", "keywords": ""}
+  
+  },
+  "moretags": {
+    "second_hand": {"name": "Продажа б/у"},
+    "atm": {"name": "Наличие банкомата"},
+    "dispensing": {"name": "Изготовление лекарства по рецепту"}
+  },
+  "class": {
+    "null": "неизвестно",
+    "boolean": {
+      "true": "да",
+      "false": "нет",
+      "yes": "да",
+      "no": "нет"      
+    },
+    "second_hand": {
+      "yes": "да",
+      "only": "только б/у",
+      "no": "нет"      
+    }
+  }
+}
