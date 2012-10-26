@@ -9,11 +9,12 @@
     "bicycle": {"name": "Велосипедный магазин", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dbicycle", "keywords": ""},
     "convenience": {"name": "Магазин", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dconvenience", "keywords": ""},
     "mall": {"name": "Торговый центр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dmall", "keywords": ""},
-    "shop-car_repair": {"name": "Автосервис", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dconfectionery", "keywords": ""},
+    "car_repair": {"name": "Автосервис", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dconfectionery", "keywords": ""},
     "confectionery": {"name": "Кондитерская", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dconfectionery", "keywords": ""},
     "supermarket": {"name": "Супермаркет", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dsupermarket", "keywords": ""},
     "health": {"name": "Здоровье", "description": "", "link": "", "keywords": ""},    
     "pharmacy": {"name": "Аптека", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dpharmacy", "keywords": ""},    
+    "hospital": {"name": "Больница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dhospital", "keywords": ""},    
     "service": {"name": "Услуги", "description": "", "link": "", "keywords": ""},
     "bank": {"name": "Банк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbank", "keywords": ""},
     "atm": {"name": "Банкомат", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Datm", "keywords": ""}
@@ -23,6 +24,7 @@
     "second_hand": {"name": "Продажа б/у"},
     "atm": {"name": "Наличие банкомата"},
     "dispensing": {"name": "Изготовление лекарства по рецепту"},
+    "emergency": {"name": "Является скорой помощью"},
     "fee": {"name": "Наличие комиссии"}
   },
   "class": {

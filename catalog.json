@@ -70,7 +70,7 @@
     "type": ["node","closeway"]
   },
   {
-    "name": "shop-car_repair",
+    "name": "car_repair",
     "parent": ["service"],
     "tags": {"shop": "car_repair"},
     "moretags": {},
@@ -115,6 +115,20 @@
     "poi": true,
     "type": ["node", "closeway"]
   },
+  {
+    "name": "hospital",
+    "parent": ["health"],
+    "tags": {"amenity": "hospital"},
+    "moretags": {
+      "emergency": {
+        "class": "boolean",
+        "tag": "emergency",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "closeway"]
+  },  
   {
     "name": "service",
     "parent": [""],
