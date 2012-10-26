@@ -11,13 +11,15 @@
     "health": {"name": "Здоровье", "description": "", "link": "", "keywords": ""},    
     "pharmacy": {"name": "Аптека", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dpharmacy", "keywords": ""},    
     "service": {"name": "Услуги", "description": "", "link": "", "keywords": ""},
-    "bank": {"name": "Банк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbank", "keywords": ""}
+    "bank": {"name": "Банк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbank", "keywords": ""},
+    "atm": {"name": "Банкомат", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Datm", "keywords": ""}
   
   },
   "moretags": {
     "second_hand": {"name": "Продажа б/у"},
     "atm": {"name": "Наличие банкомата"},
-    "dispensing": {"name": "Изготовление лекарства по рецепту"}
+    "dispensing": {"name": "Изготовление лекарства по рецепту"},
+    "fee": {"name": "Наличие комиссии"}
   },
   "class": {
     "null": "неизвестно",
@@ -30,6 +32,11 @@
     "second_hand": {
       "yes": "да",
       "only": "только б/у",
+      "no": "нет"      
+    },
+    "fee": {
+      "yes": "да",
+      "varies": "процент",
       "no": "нет"      
     }
   }

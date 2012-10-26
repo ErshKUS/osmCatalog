@@ -39,7 +39,7 @@
   },
   {
     "name": "shop-car_repair",
-    "parent": ["shop"],
+    "parent": ["service"],
     "tags": {"shop": "car_repair"},
     "moretags": {},
     "poi": true,
@@ -104,5 +104,19 @@
     },
     "poi": true,
     "type": ["node", "closeway"]
+  },
+  {
+    "name": "atm",
+    "parent": ["service"],
+    "tags": {"amenity": "atm"},
+    "moretags": {
+      "fee":{
+        "class": "fee",
+        "tag": "fee",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node"]
   }
 ]
