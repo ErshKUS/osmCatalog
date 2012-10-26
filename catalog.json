@@ -16,7 +16,7 @@
     "type": ["node", "closeway"]
   },
   {
-    "name": "shop-beauty",
+    "name": "beauty_salon",
     "parent": ["shop"],
     "tags": {"shop": "beauty"},
     "moretags": {},
@@ -24,7 +24,7 @@
     "type": ["node", "closeway"]
   },
   {
-    "name": "shop-books",
+    "name": "bookshop",
     "parent": ["shop"],
     "tags": {"shop": "books"},
     "moretags": {
@@ -46,7 +46,7 @@
     "type": ["node", "closeway"]
   },
   {
-    "name": "shop-confectionery",
+    "name": "confectionery",
     "parent": ["shop"],
     "tags": {"shop": "confectionery"},
     "moretags": {},
@@ -70,7 +70,7 @@
     "type": [""]
   },
   {
-    "name": "health-pharmacy",
+    "name": "pharmacy",
     "parent": ["health"],
     "tags": {"amenity": "pharmacy"},
     "moretags": {
@@ -92,7 +92,7 @@
     "type": [""]
   },
   {
-    "name": "service-bank",
+    "name": "bank",
     "parent": ["service"],
     "tags": {"amenity": "bank"},
     "moretags": {
