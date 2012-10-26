@@ -38,6 +38,38 @@
     "type": ["node", "closeway"]
   },
   {
+    "name": "alcohol",
+    "parent": ["shop"],
+    "tags": {"shop": "alcohol"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "closeway"]
+  },
+  {
+    "name": "bicycle",
+    "parent": ["shop"],
+    "tags": {"shop":"bicycle"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "closeway"]
+  },
+  {
+    "name": "convenience",
+    "parent": ["shop"],
+    "tags": {"shop":"convenience"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "closeway"]
+  },
+  {
+    "name": "mall",
+    "parent": ["shop"],
+    "tags": {"shop":"mall"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","closeway"]
+  },
+  {
     "name": "shop-car_repair",
     "parent": ["service"],
     "tags": {"shop": "car_repair"},
