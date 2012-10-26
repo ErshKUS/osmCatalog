@@ -12,13 +12,13 @@
     "car_repair": {"name": "Автосервис", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dconfectionery", "keywords": ""},
     "confectionery": {"name": "Кондитерская", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dconfectionery", "keywords": ""},
     "supermarket": {"name": "Супермаркет", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dsupermarket", "keywords": ""},
-    "health": {"name": "Здоровье", "description": "", "link": "", "keywords": ""},    
-    "pharmacy": {"name": "Аптека", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dpharmacy", "keywords": ""},    
-    "hospital": {"name": "Больница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dhospital", "keywords": ""},    
+    "health": {"name": "Здоровье", "description": "", "link": "", "keywords": ""},
+    "pharmacy": {"name": "Аптека", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dpharmacy", "keywords": ""},
+    "hospital": {"name": "Больница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dhospital", "keywords": ""},
     "service": {"name": "Услуги", "description": "", "link": "", "keywords": ""},
     "bank": {"name": "Банк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbank", "keywords": ""},
     "atm": {"name": "Банкомат", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Datm", "keywords": ""}
-  
+
   },
   "moretags": {
     "second_hand": {"name": "Продажа б/у"},
@@ -33,17 +33,17 @@
       "true": "да",
       "false": "нет",
       "yes": "да",
-      "no": "нет"      
+      "no": "нет"
     },
     "second_hand": {
       "yes": "да",
       "only": "только б/у",
-      "no": "нет"      
+      "no": "нет"
     },
     "fee": {
       "yes": "да",
       "varies": "процент",
-      "no": "нет"      
+      "no": "нет"
     }
   }
 }

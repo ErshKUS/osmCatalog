@@ -128,7 +128,7 @@
     },
     "poi": true,
     "type": ["node", "closeway"]
-  },  
+  },
   {
     "name": "service",
     "parent": [""],
