@@ -17,7 +17,9 @@
     "hospital": {"name": "Больница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dhospital", "keywords": ""},
     "service": {"name": "Услуги", "description": "", "link": "", "keywords": ""},
     "bank": {"name": "Банк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbank", "keywords": ""},
-    "atm": {"name": "Банкомат", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Datm", "keywords": ""}
+    "atm": {"name": "Банкомат", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Datm", "keywords": ""},
+    "cafe": {"name": "Кафе", "description": "", "link": "https://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcafe", "keywords": ""}
+    
 
   },
   "moretags": {

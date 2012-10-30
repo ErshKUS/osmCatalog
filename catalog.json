@@ -164,5 +164,13 @@
     },
     "poi": true,
     "type": ["node"]
+  },
+  {
+    "name": "cafe",
+    "parent": ["service"],
+    "tags": {"amenity": "cafe"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "closeway"]
   }
 ]
