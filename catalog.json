@@ -13,7 +13,7 @@
     "tags": {"shop": "bakery"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "closedway"]
+    "type": ["node", "area"]
   },
   {
     "name": "beauty_salon",
@@ -21,7 +21,7 @@
     "tags": {"shop": "beauty"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "closedway"]
+    "type": ["node", "area"]
   },
   {
     "name": "bookshop",
@@ -35,7 +35,7 @@
       }
     },
     "poi": true,
-    "type": ["node", "closedway"]
+    "type": ["node", "area"]
   },
   {
     "name": "alcohol",
@@ -43,7 +43,7 @@
     "tags": {"shop": "alcohol"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "closedway"]
+    "type": ["node", "area"]
   },
   {
     "name": "bicycle",
@@ -51,7 +51,7 @@
     "tags": {"shop":"bicycle"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "closedway"]
+    "type": ["node", "area"]
   },
   {
     "name": "convenience",
@@ -59,7 +59,7 @@
     "tags": {"shop":"convenience"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "closedway"]
+    "type": ["node", "area"]
   },
   {
     "name": "mall",
@@ -67,7 +67,7 @@
     "tags": {"shop":"mall"},
     "moretags":{},
     "poi": true,
-    "type": ["node","closedway"]
+    "type": ["node","area"]
   },
   {
     "name": "car_repair",
@@ -75,7 +75,7 @@
     "tags": {"shop": "car_repair"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "closedway"]
+    "type": ["node", "area"]
   },
   {
     "name": "confectionery",
@@ -83,7 +83,7 @@
     "tags": {"shop": "confectionery"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "closedway"]
+    "type": ["node", "area"]
   },
   {
     "name": "supermarket",
@@ -91,7 +91,7 @@
     "tags": {"shop": "supermarket"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "closedway"]
+    "type": ["node", "area"]
   },
   {
     "name": "health",
@@ -113,7 +113,7 @@
       }
     },
     "poi": true,
-    "type": ["node", "closedway"]
+    "type": ["node", "area"]
   },
   {
     "name": "hospital",
@@ -127,7 +127,7 @@
       }
     },
     "poi": true,
-    "type": ["node", "closedway"]
+    "type": ["node", "area"]
   },
   {
     "name": "service",
@@ -149,7 +149,7 @@
       }
     },
     "poi": true,
-    "type": ["node", "closedway"]
+    "type": ["node", "area"]
   },
   {
     "name": "atm",
@@ -171,6 +171,6 @@
     "tags": {"amenity": "cafe"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "closedway"]
+    "type": ["node", "area"]
   }
 ]
