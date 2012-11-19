@@ -15,11 +15,11 @@
     "health": {"name": "Здоровье", "description": "", "link": "", "keywords": ""},
     "pharmacy": {"name": "Аптека", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dpharmacy", "keywords": ""},
     "hospital": {"name": "Больница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dhospital", "keywords": ""},
-    "clinic": {"name": "Больница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dclinic", "keywords": ""}
-    "doctors": {"name": "Поликлиника", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddoctors", "keywords": ""}
-    "dentist": {"name": "Стоматология", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddentist", "keywords": ""}
-    "nursin_home": {"name": "Дом престарелых", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dnursing_home", "keywords": ""}
-    "veterinary": {"name": "Ветлечебница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dveterinary", "keywords": ""}
+    "clinic": {"name": "Больница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dclinic", "keywords": ""},
+    "doctors": {"name": "Поликлиника", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddoctors", "keywords": ""},
+    "dentist": {"name": "Стоматология", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddentist", "keywords": ""},
+    "nursin_home": {"name": "Дом престарелых", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dnursing_home", "keywords": ""},
+    "veterinary": {"name": "Ветлечебница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dveterinary", "keywords": ""},
     "service": {"name": "Услуги", "description": "", "link": "", "keywords": ""},
     "bank": {"name": "Банк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbank", "keywords": ""},
     "atm": {"name": "Банкомат", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Datm", "keywords": ""},
@@ -33,7 +33,7 @@
     "bicycle_rental": {"name": "Прокат велосипедов", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbicycle_rental", "keywords": ""},
     "bus_station": {"name": "Автобусная станция", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbus_station", "keywords": ""},
     "car_wash": {"name": "Автомойка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcar_wash", "keywords": ""},
-    "ev_charging": {"Зарядка электромобилей": "Ресторанный дворик", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dev_charging", "keywords": ""},
+    "ev_charging": {"name": "Зарядка электромобилей", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dev_charging", "keywords": ""},
     "fuel": {"name": "Заправка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dfuel", "keywords": ""},
     "burea_de_change": {"name": "Обмен валют", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dfood_court", "keywords": ""},
     "post_office": {"name": "Почта", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dfood_court", "keywords": ""},
