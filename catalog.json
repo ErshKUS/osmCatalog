@@ -517,9 +517,9 @@
     "type": ["node", "area"]
   },
   {
-    "name": "community_center",
+    "name": "community_centre",
     "parent": ["entertainment"],
-    "tags": {"amenity": "community_center"},
+    "tags": {"amenity": "community_centre"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
