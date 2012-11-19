@@ -306,102 +306,102 @@
     "moretags": {
       "fuel:diesel":{
         "class": "boolean",
-        "tag": "fuel:diesel",
+        "tag": "fuel_diesel",
         "type": "translate"
       },
       "fuel:HGV_diesel":{
         "class": "boolean",
-        "tag": "fuel:HGV_diesel",
+        "tag": "fuel_HGVdiesel",
         "type": "translate"
       },
       "fuel:biodiesel":{
         "class": "boolean",
-        "tag": "fuel:biodiesel",
+        "tag": "fuel_biodiesel",
         "type": "translate"
       },
       "fuel:octane_76":{
         "class": "boolean",
-        "tag": "fuel:octane_76",
+        "tag": "fuel_octane76",
         "type": "translate"
       },
       "fuel:octane_91":{
         "class": "boolean",
-        "tag": "fuel:octane_91",
+        "tag": "fuel_octane91",
         "type": "translate"
       },
       "fuel:octane_92":{
         "class": "boolean",
-        "tag": "fuel:octane_92",
+        "tag": "fuel_octane92",
         "type": "translate"
       },
       "fuel:octane_95":{
         "class": "boolean",
-        "tag": "fuel:octane_95",
+        "tag": "fuel_octane95",
         "type": "translate"
       },
       "fuel:octane_98":{
         "class": "boolean",
-        "tag": "fuel:octane_98",
+        "tag": "fuel_octane98",
         "type": "translate"
       },
       "fuel:octane_100":{
         "class": "boolean",
-        "tag": "fuel:octane_100",
+        "tag": "fuel_octane100",
         "type": "translate"
       },
       "fuel:1_25":{
         "class": "boolean",
-        "tag": "fuel:1_25",
+        "tag": "fuel_1_25",
         "type": "translate"
       },
       "fuel:1_50":{
         "class": "boolean",
-        "tag": "fuel:1_50",
+        "tag": "fuel_1_50",
         "type": "translate"
       },
       "fuel:ethanol":{
         "class": "boolean",
-        "tag": "fuel:ethanol",
+        "tag": "fuel_ethanol",
         "type": "translate"
       },
       "fuel:methanol":{
         "class": "boolean",
-        "tag": "fuel:methanol",
+        "tag": "fuel_methanol",
         "type": "translate"
       },
       "fuel:svo":{
         "class": "boolean",
-        "tag": "fuel:svo",
+        "tag": "fuel_svo",
         "type": "translate"
       },
       "fuel:e85":{
         "class": "boolean",
-        "tag": "fuel:e85",
+        "tag": "fuel_e85",
         "type": "translate"
       },
       "fuel:biogas":{
         "class": "boolean",
-        "tag": "fuel:biogas",
+        "tag": "fuel_biogas",
         "type": "translate"
       },
       "fuel:lpg":{
         "class": "boolean",
-        "tag": "fuel:lpg",
+        "tag": "fuel_lpg",
         "type": "translate"
       },
       "fuel:cng":{
         "class": "boolean",
-        "tag": "fuel:cng",
+        "tag": "fuel_cng",
         "type": "translate"
       },
       "fuel:LH2":{
         "class": "boolean",
-        "tag": "fuel:LH2",
+        "tag": "fuel_LH2",
         "type": "translate"
       },
       "fuel:electricity":{
         "class": "boolean",
-        "tag": "fuel:electricity",
+        "tag": "fuel_electricity",
         "type": "translate"
       }
     },
@@ -425,7 +425,8 @@
         "class": "ref",
         "tag": "ref",
         "type": "number"
-      },
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
