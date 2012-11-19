@@ -130,6 +130,52 @@
     "type": ["node", "area"]
   },
   {
+    "name": "clinic",
+    "parent": ["health"],
+    "tags": {"amenity": "clinic"},
+    "moretags": {
+      "emergency": {
+        "class": "boolean",
+        "tag": "emergency",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "doctors",
+    "parent": ["health"],
+    "tags": {"amenity": "doctors"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "dentist",
+    "parent": ["health"],
+    "tags": {"amenity": "dentist"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "nursing_home",
+    "parent": ["health"],
+    "tags": {"amenity": "nursing_home"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "veterinary",
+    "parent": ["health"],
+    "tags": {"amenity": "veterinary"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "service",
     "parent": [""],
     "tags": {},
@@ -169,6 +215,366 @@
     "name": "cafe",
     "parent": ["service"],
     "tags": {"amenity": "cafe"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "restaurant",
+    "parent": ["service"],
+    "tags": {"amenity": "restaurant"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "fast_food",
+    "parent": ["service"],
+    "tags": {"amenity": "fast_food"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "bar",
+    "parent": ["service"],
+    "tags": {"amenity": "bar"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "pub",
+    "parent": ["service"],
+    "tags": {"amenity": "pub"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "food_court",
+    "parent": ["service"],
+    "tags": {"amenity": "food_court"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "car_rental",
+    "parent": ["service"],
+    "tags": {"amenity": "car_rental"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "bicycle_rental",
+    "parent": ["service"],
+    "tags": {"amenity": "bicycle_rental"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "bus_station",
+    "parent": ["service"],
+    "tags": {"amenity": "bus_station"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "car_wash",
+    "parent": ["service"],
+    "tags": {"amenity": "car_wash"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "ev_charging",
+    "parent": ["service"],
+    "tags": {"amenity": "ev_chrging"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "fuel",
+    "parent": ["service"],
+    "tags": {"amenity": "fuel"},
+    "moretags": {
+      "fuel:diesel":{
+        "class": "boolean",
+        "tag": "fuel:diesel",
+        "type": "translate"
+      },
+      "fuel:HGV_diesel":{
+        "class": "boolean",
+        "tag": "fuel:HGV_diesel",
+        "type": "translate"
+      },
+      "fuel:biodiesel":{
+        "class": "boolean",
+        "tag": "fuel:biodiesel",
+        "type": "translate"
+      },
+      "fuel:octane_76":{
+        "class": "boolean",
+        "tag": "fuel:octane_76",
+        "type": "translate"
+      },
+      "fuel:octane_91":{
+        "class": "boolean",
+        "tag": "fuel:octane_91",
+        "type": "translate"
+      },
+      "fuel:octane_92":{
+        "class": "boolean",
+        "tag": "fuel:octane_92",
+        "type": "translate"
+      },
+      "fuel:octane_95":{
+        "class": "boolean",
+        "tag": "fuel:octane_95",
+        "type": "translate"
+      },
+      "fuel:octane_98":{
+        "class": "boolean",
+        "tag": "fuel:octane_98",
+        "type": "translate"
+      },
+      "fuel:octane_100":{
+        "class": "boolean",
+        "tag": "fuel:octane_100",
+        "type": "translate"
+      },
+      "fuel:1_25":{
+        "class": "boolean",
+        "tag": "fuel:1_25",
+        "type": "translate"
+      },
+      "fuel:1_50":{
+        "class": "boolean",
+        "tag": "fuel:1_50",
+        "type": "translate"
+      },
+      "fuel:ethanol":{
+        "class": "boolean",
+        "tag": "fuel:ethanol",
+        "type": "translate"
+      },
+      "fuel:methanol":{
+        "class": "boolean",
+        "tag": "fuel:methanol",
+        "type": "translate"
+      },
+      "fuel:svo":{
+        "class": "boolean",
+        "tag": "fuel:svo",
+        "type": "translate"
+      },
+      "fuel:e85":{
+        "class": "boolean",
+        "tag": "fuel:e85",
+        "type": "translate"
+      },
+      "fuel:biogas":{
+        "class": "boolean",
+        "tag": "fuel:biogas",
+        "type": "translate"
+      },
+      "fuel:lpg":{
+        "class": "boolean",
+        "tag": "fuel:lpg",
+        "type": "translate"
+      },
+      "fuel:cng":{
+        "class": "boolean",
+        "tag": "fuel:cng",
+        "type": "translate"
+      },
+      "fuel:LH2":{
+        "class": "boolean",
+        "tag": "fuel:LH2",
+        "type": "translate"
+      },
+      "fuel:electricity":{
+        "class": "boolean",
+        "tag": "fuel:electricity",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "bureau_de_change",
+    "parent": ["service"],
+    "tags": {"amenity": "bureau_de_change"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "post_office",
+    "parent": ["service"],
+    "tags": {"amenity": "post_office"},
+    "moretags": {
+      "ref":{
+        "class": "ref",
+        "tag": "ref",
+        "type": "number"
+      },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "education",
+    "parent": [""],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": [""]
+  },
+  {
+    "name": "school",
+    "parent": ["education"],
+    "tags": {"amenity": "school"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "kindergarten",
+    "parent": ["education"],
+    "tags": {"amenity": "kindergarten"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "library",
+    "parent": ["education"],
+    "tags": {"amenity": "library"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "college",
+    "parent": ["education"],
+    "tags": {"amenity": "college"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "university",
+    "parent": ["education"],
+    "tags": {"amenity": "university"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "entertainment",
+    "parent": [""],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": [""]
+  },
+  {
+    "name": "arts_centre",
+    "parent": ["entertainment"],
+    "tags": {"amenity": "arts_centre"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "cinema",
+    "parent": ["entertainment"],
+    "tags": {"amenity": "cinema"},
+    "moretags": {
+      "drive_in":{
+        "class": "boolean",
+        "tag": "drive_in",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "nightclub",
+    "parent": ["entertainment"],
+    "tags": {"amenity": "nightclub"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "community_center",
+    "parent": ["entertainment"],
+    "tags": {"amenity": "community_center"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "theatre",
+    "parent": ["entertainment"],
+    "tags": {"amenity": "theatre"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "religion",
+    "parent": [""],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": [""]
+  },
+  {
+    "name": "place_of_worship",
+    "parent": ["religion"],
+    "tags": {"amenity": "place_of_worship"},
+    "moretags": {
+      "religion": {
+        "class": "religion",
+        "tag": "religion",
+        "type": "translate"
+      },
+      "denomination": {
+        "class": "denomination",
+        "tag": "denomination",
+        "type": "translate"
+      },
+      "service_times": {
+        "class": "service_times",
+        "tag": "service_times",
+        "type": "period"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "democracy",
+    "parent": [""],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": [""]
+  },
+  {
+    "name": "police",
+    "parent": ["democracy"],
+    "tags": {"amenity": "police"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
