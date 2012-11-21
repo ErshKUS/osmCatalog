@@ -579,5 +579,157 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "office",
+    "parent": [""],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": [""]
+  },
+  {
+    "name": "company",
+    "parent": ["office"],
+    "tags": {"office": "company"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "government",
+    "parent": ["office"],
+    "tags": {"office": "government"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "insurance",
+    "parent": ["office"],
+    "tags": {"office": "insurance"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "estate_agent",
+    "parent": ["office"],
+    "tags": {"office": "estate_agent"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "lawyer",
+    "parent": ["office"],
+    "tags": {"office": "lawyer"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "telecommunication",
+    "parent": ["office"],
+    "tags": {"office": "telecommunication"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "travel_agent",
+    "parent": ["office"],
+    "tags": {"office": "travel_agent"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "ngo",
+    "parent": ["office"],
+    "tags": {"office": "ngo"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "administrative",
+    "parent": ["office"],
+    "tags": {"office": "administrative"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "accountant",
+    "parent": ["office"],
+    "tags": {"office": "accountant"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "employment_agency",
+    "parent": ["office"],
+    "tags": {"office": "employment_agency"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "employment_agency",
+    "parent": ["office"],
+    "tags": {"office": "employment_agency"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "research",
+    "parent": ["office"],
+    "tags": {"office": "research"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "it",
+    "parent": ["office"],
+    "tags": {"office": "it"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "newspaper",
+    "parent": ["office"],
+    "tags": {"office": "news_paper"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "architect",
+    "parent": ["office"],
+    "tags": {"office": "architect"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "advertising_agency",
+    "parent": ["office"],
+    "tags": {"office": "advertising_agency"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+    {
+    "name": "educational_institution",
+    "parent": ["office"],
+    "tags": {"office": "educational_institution"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]

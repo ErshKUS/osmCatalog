@@ -15,11 +15,11 @@
     "health": {"name": "Здоровье", "description": "", "link": "", "keywords": ""},
     "pharmacy": {"name": "Аптека", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dpharmacy", "keywords": ""},
     "hospital": {"name": "Больница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dhospital", "keywords": ""},
-    "clinic": {"name": "Больница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dclinic", "keywords": ""},
-    "doctors": {"name": "Поликлиника", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddoctors", "keywords": ""},
-    "dentist": {"name": "Стоматология", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddentist", "keywords": ""},
-    "nursin_home": {"name": "Дом престарелых", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dnursing_home", "keywords": ""},
-    "veterinary": {"name": "Ветлечебница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dveterinary", "keywords": ""},
+    "clinic": {"name": "Больница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dclinic", "keywords": ""}
+    "doctors": {"name": "Поликлиника", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddoctors", "keywords": ""}
+    "dentist": {"name": "Стоматология", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddentist", "keywords": ""}
+    "nursin_home": {"name": "Дом престарелых", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dnursing_home", "keywords": ""}
+    "veterinary": {"name": "Ветлечебница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dveterinary", "keywords": ""}
     "service": {"name": "Услуги", "description": "", "link": "", "keywords": ""},
     "bank": {"name": "Банк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbank", "keywords": ""},
     "atm": {"name": "Банкомат", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Datm", "keywords": ""},
@@ -33,7 +33,7 @@
     "bicycle_rental": {"name": "Прокат велосипедов", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbicycle_rental", "keywords": ""},
     "bus_station": {"name": "Автобусная станция", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbus_station", "keywords": ""},
     "car_wash": {"name": "Автомойка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcar_wash", "keywords": ""},
-    "ev_charging": {"name": "Зарядка электромобилей", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dev_charging", "keywords": ""},
+    "ev_charging": {"Зарядка электромобилей": "Ресторанный дворик", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dev_charging", "keywords": ""},
     "fuel": {"name": "Заправка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dfuel", "keywords": ""},
     "burea_de_change": {"name": "Обмен валют", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dfood_court", "keywords": ""},
     "post_office": {"name": "Почта", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dfood_court", "keywords": ""},
@@ -52,7 +52,25 @@
     "religion": {"name": "Религия", "description": "", "link": "", "keywords": ""},
     "place_of_worship": {"name": "Храм", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dplace_of_worship", "keywords": ""},
     "democracy": {"name": "Демократические институты", "description": "", "link": "", "keywords": ""},
-    "police": {"name": "Отделение полиции", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dpolice", "keywords": ""}
+    "police": {"name": "Отделение полиции", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dpolice", "keywords": ""},
+    "office": {"name": "Организации", "description": "", "link": "", "keywords": ""},
+    "company": {"name": "Фирма", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dcompany", "keywords": ""},
+    "government": {"name": "Гос. учреждение", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dgovernment", "keywords": ""},
+    "insurance": {"name": "Страховая компания", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dinsurance", "keywords": ""},
+    "estate_agent": {"name": "Жилищное агентство", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Destate_agent", "keywords": ""},
+    "lawyer": {"name": "Юридические услуги", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dlawyer", "keywords": ""},
+    "telecommunication": {"name": "Телекоммуникации", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dtelecommunication", "keywords": ""},
+    "travel_agent": {"name": "Турагентство", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dtravel_agent", "keywords": ""},
+    "ngo": {"name": "Негосударственная организация", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dngo", "keywords": ""},
+    "administrative": {"name": "Административное учреждение", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:office%3Dadministrative", "keywords": ""},
+    "accountant": {"name": "Бухгалтерские услуги", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Daccountant", "keywords": ""},
+    "employment_agency": {"name": "Биржа труда", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Demployment_agency", "keywords": ""},
+    "research": {"name": "Исследовательский центр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dresearch", "keywords": ""},
+    "it": {"name": "Информационные технологии", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:office%3Dit", "keywords": ""},
+    "newspaper": {"name": "Печатное издание", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dnewspaper", "keywords": ""},
+    "architect": {"name": "Архитектура", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Darchitect", "keywords": ""},
+    "advertising_agency": {"name": "Рекламное агентство", "description": "", "link": "", "keywords": ""},
+    "educational_institution": {"name": "Образовательное учреждение (администрация)", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Deducational_institution", "keywords": ""}
   },
   "moretags": {
     "second_hand": {"name": "Продажа б/у"},
