@@ -15,11 +15,11 @@
     "health": {"name": "Здоровье", "description": "", "link": "", "keywords": ""},
     "pharmacy": {"name": "Аптека", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dpharmacy", "keywords": ""},
     "hospital": {"name": "Больница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dhospital", "keywords": ""},
-    "clinic": {"name": "Больница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dclinic", "keywords": ""}
-    "doctors": {"name": "Поликлиника", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddoctors", "keywords": ""}
-    "dentist": {"name": "Стоматология", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddentist", "keywords": ""}
-    "nursin_home": {"name": "Дом престарелых", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dnursing_home", "keywords": ""}
-    "veterinary": {"name": "Ветлечебница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dveterinary", "keywords": ""}
+    "clinic": {"name": "Больница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dclinic", "keywords": ""},
+    "doctors": {"name": "Поликлиника", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddoctors", "keywords": ""},
+    "dentist": {"name": "Стоматология", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddentist", "keywords": ""},
+    "nursin_home": {"name": "Дом престарелых", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dnursing_home", "keywords": ""},
+    "veterinary": {"name": "Ветлечебница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dveterinary", "keywords": ""},
     "service": {"name": "Услуги", "description": "", "link": "", "keywords": ""},
     "bank": {"name": "Банк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbank", "keywords": ""},
     "atm": {"name": "Банкомат", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Datm", "keywords": ""},
