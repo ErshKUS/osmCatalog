@@ -294,7 +294,7 @@
   {
     "name": "ev_charging",
     "parent": ["service"],
-    "tags": {"amenity": "ev_chrging"},
+    "tags": {"amenity": "ev_charging"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
@@ -409,7 +409,7 @@
     "type": ["node", "area"]
   },
   {
-    "name": "bureau_de_change",
+    "name": "currencyexchange",
     "parent": ["service"],
     "tags": {"amenity": "bureau_de_change"},
     "moretags": {},
