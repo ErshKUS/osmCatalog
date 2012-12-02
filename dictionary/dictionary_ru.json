@@ -24,7 +24,7 @@
     "bank": {"name": "Банк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbank", "keywords": ""},
     "atm": {"name": "Банкомат", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Datm", "keywords": ""},
     "cafe": {"name": "Кафе", "description": "", "link": "https://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcafe", "keywords": ""},
-    "restaurant": {"name": "Рестаран", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Drestaurant", "keywords": ""},
+    "restaurant": {"name": "Ресторан", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Drestaurant", "keywords": ""},
     "fast_food": {"name": "Фаст-фуд (быстрое питание)", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dfast_food", "keywords": ""},
     "bar": {"name": "Бар", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbar", "keywords": ""},
     "pub": {"name": "Паб", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dpub", "keywords": ""},
