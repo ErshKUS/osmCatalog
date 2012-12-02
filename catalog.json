@@ -16,14 +16,6 @@
     "type": ["node", "area"]
   },
   {
-    "name": "beauty_salon",
-    "parent": ["shop"],
-    "tags": {"shop": "beauty"},
-    "moretags": {},
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
     "name": "bookshop",
     "parent": ["shop"],
     "tags": {"shop": "books"},
@@ -89,6 +81,38 @@
     "name": "supermarket",
     "parent": ["shop"],
     "tags": {"shop": "supermarket"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "department_store",
+    "parent": ["shop"],
+    "tags": {"shop": "department_store"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "electronics",
+    "parent": ["shop"],
+    "tags": {"shop": "electronics"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "car",
+    "parent": ["shop"],
+    "tags": {"shop": "car"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "car_parts",
+    "parent": ["shop"],
+    "tags": {"shop": "car_parts"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
@@ -176,6 +200,62 @@
     "type": ["node", "area"]
   },
   {
+    "name": "food",
+    "parent": [""],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": [""]
+  },
+  {
+    "name": "cafe",
+    "parent": ["food"],
+    "tags": {"amenity": "cafe"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "restaurant",
+    "parent": ["food"],
+    "tags": {"amenity": "restaurant"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "fast_food",
+    "parent": ["food"],
+    "tags": {"amenity": "fast_food"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "bar",
+    "parent": ["food"],
+    "tags": {"amenity": "bar"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "pub",
+    "parent": ["food"],
+    "tags": {"amenity": "pub"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "food_court",
+    "parent": ["food"],
+    "tags": {"amenity": "food_court"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "service",
     "parent": [""],
     "tags": {},
@@ -210,54 +290,6 @@
     },
     "poi": true,
     "type": ["node"]
-  },
-  {
-    "name": "cafe",
-    "parent": ["service"],
-    "tags": {"amenity": "cafe"},
-    "moretags": {},
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
-    "name": "restaurant",
-    "parent": ["service"],
-    "tags": {"amenity": "restaurant"},
-    "moretags": {},
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
-    "name": "fast_food",
-    "parent": ["service"],
-    "tags": {"amenity": "fast_food"},
-    "moretags": {},
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
-    "name": "bar",
-    "parent": ["service"],
-    "tags": {"amenity": "bar"},
-    "moretags": {},
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
-    "name": "pub",
-    "parent": ["service"],
-    "tags": {"amenity": "pub"},
-    "moretags": {},
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
-    "name": "food_court",
-    "parent": ["service"],
-    "tags": {"amenity": "food_court"},
-    "moretags": {},
-    "poi": true,
-    "type": ["node", "area"]
   },
   {
     "name": "car_rental",
@@ -431,6 +463,22 @@
     "type": ["node", "area"]
   },
   {
+    "name": "beauty_salon",
+    "parent": ["servise"],
+    "tags": {"shop": "beauty"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "hairdresser",
+    "parent": ["servise"],
+    "tags": {"shop": "hairdresser"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "education",
     "parent": [""],
     "tags": {},
@@ -581,6 +629,75 @@
     "type": ["node", "area"]
   },
   {
+    "name": "sport",
+    "parent": [""],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": [""]
+  },
+  {
+    "name": "stadium",
+    "parent": ["sport"],
+    "tags": {"leisure": "stadium"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "sports_centre",
+    "parent": ["sport"],
+    "tags": {"leisure": "sports_centre"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "tourism",
+    "parent": [""],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": [""]
+  },
+  {
+    "name": "museum",
+    "parent": ["tourism"],
+    "tags": {"tourism": "museum"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "attraction",
+    "parent": ["tourism"],
+    "tags": {"tourism": "attraction"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "hotel",
+    "parent": ["tourism"],
+    "tags": {
+      "tourism": "hotel",
+      "tourism": "motel",
+      "tourism": "guest_house",
+      "tourism": "alpine_hut"
+      },
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "hostel",
+    "parent": ["tourism"],
+    "tags": {"tourism": "hostel"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "office",
     "parent": [""],
     "tags": {},
@@ -599,7 +716,10 @@
   {
     "name": "government",
     "parent": ["office"],
-    "tags": {"office": "government"},
+    "tags": {
+      "office": "government",
+      "amenity":"public_building"
+    },
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
@@ -655,7 +775,10 @@
   {
     "name": "administrative",
     "parent": ["office"],
-    "tags": {"office": "administrative"},
+    "tags": {
+      "office": "administrative",
+      "amenity": "townhall"
+    },
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
