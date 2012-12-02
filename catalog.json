@@ -62,12 +62,537 @@
     "type": ["node","area"]
   },
   {
-    "name": "car_repair",
-    "parent": ["service"],
-    "tags": {"shop": "car_repair"},
-    "moretags": {},
+    "name": "anime",
+    "parent": ["shop"],
+    "tags": {"shop":"anime"},
+    "moretags":{
+      "anime_video":{
+        "class": "boolean",
+        "tag": "anime:video",
+        "type": "translate"
+      },
+      "anime_manga":{
+        "class": "boolean",
+        "tag": "anime:manga",
+        "type": "translate"
+      },
+      "anime_costume":{
+        "class": "boolean",
+        "tag": "anime:costume",
+        "type": "translate"
+      },
+      "anime_gift":{
+        "class": "boolean",
+        "tag": "anime:gift",
+        "type": "translate"
+      }
+    },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node","area"]
+  },
+  {
+    "name": "antiques",
+    "parent": ["shop"],
+    "tags": {"shop":"antiques"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "art",
+    "parent": ["shop"],
+    "tags": {"shop":"art"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "bag",
+    "parent": ["shop"],
+    "tags": {"shop":"bag"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "baby_goods",
+    "parent": ["shop"],
+    "tags": {"shop":"baby_goods"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "bathroom_furnishing",
+    "parent": ["shop"],
+    "tags": {"shop":"bathroom_furnishing"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "bed",
+    "parent": ["shop"],
+    "tags": {"shop":"bed"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "boutique",
+    "parent": ["shop"],
+    "tags": {"shop":"boutique"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "beverages",
+    "parent": ["shop"],
+    "tags": {"shop":"beverages"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "butcher",
+    "parent": ["shop"],
+    "tags": {"shop":"butcher"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "carpet",
+    "parent": ["shop"],
+    "tags": {"shop":"carpet"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "charity",
+    "parent": ["shop"],
+    "tags": {"shop":"charity"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "chemist",
+    "parent": ["shop"],
+    "tags": {"shop":"chemist"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "clothes",
+    "parent": ["shop"],
+    "tags": {"shop":"clothes"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "shoes",
+    "parent": ["shop"],
+    "tags": {"shop":"shoes"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "computer",
+    "parent": ["shop"],
+    "tags": {"shop":"computer"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "copyshop",
+    "parent": ["shop"],
+    "tags": {"shop":"copyshop"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "curtain",
+    "parent": ["shop"],
+    "tags": {"shop":"curtain"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "fabric",
+    "parent": ["shop"],
+    "tags": {"shop":"fabric"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "deli",
+    "parent": ["shop"],
+    "tags": {"shop":"deli"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "dive",
+    "parent": ["shop"],
+    "tags": {"shop":"dive"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "doityourself",
+    "parent": ["shop"],
+    "tags": {"shop":"doityourself"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "erotic",
+    "parent": ["shop"],
+    "tags": {"shop":"erotic"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "farm",
+    "parent": ["shop"],
+    "tags": {"shop":"farm"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "florist",
+    "parent": ["shop"],
+    "tags": {"shop":"florist"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "frame",
+    "parent": ["shop"],
+    "tags": {"shop":"frame"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "funeral_directors",
+    "parent": ["shop"],
+    "tags": {"shop":"funeral_directors"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "furniture",
+    "parent": ["shop"],
+    "tags": {"shop":"furniture"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "garden_centre",
+    "parent": ["shop"],
+    "tags": {"shop":"garden_centre"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "gas",
+    "parent": ["shop"],
+    "tags": {"shop":"gas"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "gift",
+    "parent": ["shop"],
+    "tags": {"shop":"gift"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "glaziery",
+    "parent": ["shop"],
+    "tags": {"shop":"glaziery"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "greengrocer",
+    "parent": ["shop"],
+    "tags": {"shop":"greengrocer"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "hardware",
+    "parent": ["shop"],
+    "tags": {"shop":"hardware"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "hearing_aids",
+    "parent": ["shop"],
+    "tags": {"shop":"hearing_aids"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "herbalist",
+    "parent": ["shop"],
+    "tags": {"shop":"herbalist"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "hifi",
+    "parent": ["shop"],
+    "tags": {"shop":"hifi"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "hunting",
+    "parent": ["shop"],
+    "tags": {"shop":"hunting"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "interior_decoration",
+    "parent": ["shop"],
+    "tags": {"shop":"interior_decoration"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "jewelry",
+    "parent": ["shop"],
+    "tags": {"shop":"jewelry"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "kiosk",
+    "parent": ["shop"],
+    "tags": {"shop":"kiosk"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "kitchen",
+    "parent": ["shop"],
+    "tags": {"shop":"kitchen"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "mobile_phone",
+    "parent": ["shop"],
+    "tags": {"shop":"mobile_phone"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "motorcycle",
+    "parent": ["shop"],
+    "tags": {"shop":"motorcycle"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "musical_instrument",
+    "parent": ["shop"],
+    "tags": {"shop":"musical_instrument"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "newsagent",
+    "parent": ["shop"],
+    "tags": {"shop":"newsagent"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "optician",
+    "parent": ["shop"],
+    "tags": {"shop":"optician"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "organic",
+    "parent": ["shop"],
+    "tags": {"shop":"organic"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "outdoor",
+    "parent": ["shop"],
+    "tags": {"shop":"outdoor"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "paint",
+    "parent": ["shop"],
+    "tags": {"shop":"paint"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "pet",
+    "parent": ["shop"],
+    "tags": {"shop":"pet"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "radiotechnics",
+    "parent": ["shop"],
+    "tags": {"shop":"radiotechnics"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "seafood",
+    "parent": ["shop"],
+    "tags": {"shop":"seafood"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "second_hand",
+    "parent": ["shop"],
+    "tags": {"shop":"second_hand"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "sports",
+    "parent": ["shop"],
+    "tags": {"shop":"sports"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "stationery",
+    "parent": ["shop"],
+    "tags": {"shop":"stationery"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "ticket",
+    "parent": ["shop"],
+    "tags": {"shop":"ticket"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "tobacco",
+    "parent": ["shop"],
+    "tags": {"shop":"tobacco"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "toys",
+    "parent": ["shop"],
+    "tags": {"shop":"toys"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "trade",
+    "parent": ["shop"],
+    "tags": {"shop":"trade"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "vacuum_cleaner",
+    "parent": ["shop"],
+    "tags": {"shop":"vacuum_cleaner"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "variety_store",
+    "parent": ["shop"],
+    "tags": {"shop":"variety_store"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "video",
+    "parent": ["shop"],
+    "tags": {"shop":"video"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "window_blind",
+    "parent": ["shop"],
+    "tags": {"shop":"window_blind"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
   },
   {
     "name": "confectionery",
@@ -264,6 +789,14 @@
     "type": [""]
   },
   {
+    "name": "car_repair",
+    "parent": ["service"],
+    "tags": {"shop": "car_repair"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "bank",
     "parent": ["service"],
     "tags": {"amenity": "bank"},
@@ -290,6 +823,22 @@
     },
     "poi": true,
     "type": ["node"]
+  },
+  {
+    "name": "money_lender",
+    "parent": ["shop"],
+    "tags": {"shop":"money_lender"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "pawnbroker",
+    "parent": ["shop"],
+    "tags": {"shop":"pawnbroker"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
   },
   {
     "name": "car_rental",
@@ -477,6 +1026,38 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "massage",
+    "parent": ["servise"],
+    "tags": {"shop":"massage"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "tattoo",
+    "parent": ["servise"],
+    "tags": {"shop":"tattoo"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "dry_cleaning",
+    "parent": ["service"],
+    "tags": {"shop":"dry_cleaning"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "laundry",
+    "parent": ["shop"],
+    "tags": {"shop":"laundry"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
   },
   {
     "name": "education",
@@ -759,7 +1340,10 @@
   {
     "name": "travel_agent",
     "parent": ["office"],
-    "tags": {"office": "travel_agent"},
+    "tags": {
+      "office": "travel_agent",
+      "shop": "travel_agency"
+    },
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
