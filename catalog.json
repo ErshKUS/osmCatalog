@@ -275,6 +275,14 @@
     "type": ["node","area"]
   },
   {
+    "name": "fishing",
+    "parent": ["shop"],
+    "tags": {"shop":"fishing"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
     "name": "florist",
     "parent": ["shop"],
     "tags": {"shop":"florist"},
@@ -679,23 +687,12 @@
     "type": ["node", "area"]
   },
   {
-    "name": "clinic",
-    "parent": ["health"],
-    "tags": {"amenity": "clinic"},
-    "moretags": {
-      "emergency": {
-        "class": "boolean",
-        "tag": "emergency",
-        "type": "translate"
-      }
-    },
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
     "name": "doctors",
     "parent": ["health"],
-    "tags": {"amenity": "doctors"},
+    "tags": {
+      "amenity": "doctors",
+      "amenity": "clinic"
+    },
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
@@ -736,7 +733,57 @@
     "name": "cafe",
     "parent": ["food"],
     "tags": {"amenity": "cafe"},
-    "moretags": {},
+    "moretags": {
+      "smoking": {
+        "class": "smoking",
+        "tag": "smoking",
+        "type": "translate"
+      },
+      "cuisine": {
+        "class": "cuisine",
+        "tag": "cuisine",
+        "type": "translate"
+      },
+      "internet_access": {
+        "class": "internet_access",
+        "tag": "internet_access",
+        "type": "translate"
+      },
+      "drive_in": {
+        "class": "boolean",
+        "tag": "drive_in",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "biergarten",
+    "parent": ["food"],
+    "tags": {"amenity": "biergarten"},
+    "moretags": {
+      "smoking": {
+        "class": "smoking",
+        "tag": "smoking",
+        "type": "translate"
+      },
+      "cuisine": {
+        "class": "cuisine",
+        "tag": "cuisine",
+        "type": "translate"
+      },
+      "internet_access": {
+        "class": "internet_access",
+        "tag": "internet_access",
+        "type": "translate"
+      },
+      "drive_in": {
+        "class": "boolean",
+        "tag": "drive_in",
+        "type": "translate"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
@@ -744,7 +791,33 @@
     "name": "restaurant",
     "parent": ["food"],
     "tags": {"amenity": "restaurant"},
-    "moretags": {},
+    "moretags": {
+      "smoking": {
+        "class": "smoking",
+        "tag": "smoking",
+        "type": "translate"
+      },
+      "stars": {
+        "class": "stars",
+        "tag": "stars",
+        "type": "translate"
+      },
+      "cuisine": {
+        "class": "cuisine",
+        "tag": "cuisine",
+        "type": "translate"
+      },
+      "internet_access": {
+        "class": "internet_access",
+        "tag": "internet_access",
+        "type": "translate"
+      },
+      "drive_in": {
+        "class": "boolean",
+        "tag": "drive_in",
+        "type": "translate"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
@@ -752,7 +825,28 @@
     "name": "fast_food",
     "parent": ["food"],
     "tags": {"amenity": "fast_food"},
-    "moretags": {},
+    "moretags": {
+      "smoking": {
+        "class": "smoking",
+        "tag": "smoking",
+        "type": "translate"
+      },
+      "cuisine": {
+        "class": "cuisine",
+        "tag": "cuisine",
+        "type": "translate"
+      },
+      "internet_access": {
+        "class": "internet_access",
+        "tag": "internet_access",
+        "type": "translate"
+      },
+      "drive_in": {
+        "class": "boolean",
+        "tag": "drive_in",
+        "type": "translate"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
@@ -760,7 +854,28 @@
     "name": "bar",
     "parent": ["food"],
     "tags": {"amenity": "bar"},
-    "moretags": {},
+    "moretags": {
+      "smoking": {
+        "class": "smoking",
+        "tag": "smoking",
+        "type": "translate"
+      },
+      "cuisine": {
+        "class": "cuisine",
+        "tag": "cuisine",
+        "type": "translate"
+      },
+      "internet_access": {
+        "class": "internet_access",
+        "tag": "internet_access",
+        "type": "translate"
+      },
+      "drive_in": {
+        "class": "boolean",
+        "tag": "drive_in",
+        "type": "translate"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
@@ -768,7 +883,28 @@
     "name": "pub",
     "parent": ["food"],
     "tags": {"amenity": "pub"},
-    "moretags": {},
+    "moretags": {
+      "smoking": {
+        "class": "smoking",
+        "tag": "smoking",
+        "type": "translate"
+      },
+      "cuisine": {
+        "class": "cuisine",
+        "tag": "cuisine",
+        "type": "translate"
+      },
+      "internet_access": {
+        "class": "internet_access",
+        "tag": "internet_access",
+        "type": "translate"
+      },
+      "drive_in": {
+        "class": "boolean",
+        "tag": "drive_in",
+        "type": "translate"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
@@ -776,7 +912,28 @@
     "name": "food_court",
     "parent": ["food"],
     "tags": {"amenity": "food_court"},
-    "moretags": {},
+    "moretags": {
+      "smoking": {
+        "class": "smoking",
+        "tag": "smoking",
+        "type": "translate"
+      },
+      "cuisine": {
+        "class": "cuisine",
+        "tag": "cuisine",
+        "type": "translate"
+      },
+      "internet_access": {
+        "class": "internet_access",
+        "tag": "internet_access",
+        "type": "translate"
+      },
+      "drive_in": {
+        "class": "boolean",
+        "tag": "drive_in",
+        "type": "translate"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
@@ -852,6 +1009,17 @@
     "name": "bicycle_rental",
     "parent": ["service"],
     "tags": {"amenity": "bicycle_rental"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "tailor",
+    "parent": ["service"],
+    "tags": {
+      "craft": "tailor",
+      "shop": "tailor"
+    },
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
@@ -1221,7 +1389,13 @@
     "name": "stadium",
     "parent": ["sport"],
     "tags": {"leisure": "stadium"},
-    "moretags": {},
+    "moretags": {
+      "sport": {
+        "class": "sport",
+        "tag": "sport",
+        "type": "translate"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
@@ -1229,7 +1403,13 @@
     "name": "sports_centre",
     "parent": ["sport"],
     "tags": {"leisure": "sports_centre"},
-    "moretags": {},
+    "moretags": {
+      "sport": {
+        "class": "sport",
+        "tag": "sport",
+        "type": "translate"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
@@ -1266,7 +1446,23 @@
       "tourism": "guest_house",
       "tourism": "alpine_hut"
       },
-    "moretags": {},
+    "moretags": {
+      "smoking": {
+        "class": "smoking",
+        "tag": "smoking",
+        "type": "translate"
+      },
+      "stars": {
+        "class": "stars",
+        "tag": "stars",
+        "type": "translate"
+      },
+      "internet_access": {
+        "class": "internet_access",
+        "tag": "internet_access",
+        "type": "translate"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
@@ -1308,7 +1504,10 @@
   {
     "name": "insurance",
     "parent": ["office"],
-    "tags": {"office": "insurance"},
+    "tags": {
+      "office": "insurance",
+      "shop": "insurance"
+    },
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
