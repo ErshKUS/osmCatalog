@@ -935,7 +935,7 @@
     "type": ["node", "area"]
   },
   {
-    "name": "service",
+    "name": "finance",
     "parent": [""],
     "tags": {},
     "moretags": {},
@@ -943,16 +943,8 @@
     "type": [""]
   },
   {
-    "name": "car_repair",
-    "parent": ["service"],
-    "tags": {"shop": "car_repair"},
-    "moretags": {},
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
     "name": "bank",
-    "parent": ["service"],
+    "parent": ["finance"],
     "tags": {"amenity": "bank"},
     "moretags": {
       "atm": {
@@ -966,7 +958,7 @@
   },
   {
     "name": "atm",
-    "parent": ["service"],
+    "parent": ["finance"],
     "tags": {"amenity": "atm"},
     "moretags": {
       "fee":{
@@ -980,7 +972,7 @@
   },
   {
     "name": "money_lender",
-    "parent": ["shop"],
+    "parent": ["finance"],
     "tags": {"shop":"money_lender"},
     "moretags":{},
     "poi": true,
@@ -988,8 +980,86 @@
   },
   {
     "name": "pawnbroker",
-    "parent": ["shop"],
+    "parent": ["finance"],
     "tags": {"shop":"pawnbroker"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "currencyexchange",
+    "parent": ["service"],
+    "tags": {"amenity": "bureau_de_change"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "service",
+    "parent": [""],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": [""]
+  },
+  {
+    "name": "post_office",
+    "parent": ["service"],
+    "tags": {"amenity": "post_office"},
+    "moretags": {
+      "ref":{
+        "class": "ref",
+        "tag": "ref",
+        "type": "number"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "beauty_salon",
+    "parent": ["servise"],
+    "tags": {"shop": "beauty"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "hairdresser",
+    "parent": ["servise"],
+    "tags": {"shop": "hairdresser"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "massage",
+    "parent": ["servise"],
+    "tags": {"shop":"massage"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "tattoo",
+    "parent": ["servise"],
+    "tags": {"shop":"tattoo"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "dry_cleaning",
+    "parent": ["service"],
+    "tags": {"shop":"dry_cleaning"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "laundry",
+    "parent": ["shop"],
+    "tags": {"shop":"laundry"},
     "moretags":{},
     "poi": true,
     "type": ["node","area"]
@@ -1019,8 +1089,24 @@
     "type": ["node", "area"]
   },
   {
+    "name": "transport",
+    "parent": [""],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": [""]
+  },
+  {
+    "name": "car_repair",
+    "parent": ["transport"],
+    "tags": {"shop": "car_repair"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "bus_station",
-    "parent": ["service"],
+    "parent": ["transport"],
     "tags": {"amenity": "bus_station"},
     "moretags": {},
     "poi": true,
@@ -1028,23 +1114,15 @@
   },
   {
     "name": "car_wash",
-    "parent": ["service"],
+    "parent": ["transport"],
     "tags": {"amenity": "car_wash"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
   },
   {
-    "name": "ev_charging",
-    "parent": ["service"],
-    "tags": {"amenity": "ev_charging"},
-    "moretags": {},
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
     "name": "fuel",
-    "parent": ["service"],
+    "parent": ["transport"],
     "tags": {"amenity": "fuel"},
     "moretags": {
       "fuel_diesel":{
@@ -1152,74 +1230,12 @@
     "type": ["node", "area"]
   },
   {
-    "name": "currencyexchange",
+    "name": "ev_charging",
     "parent": ["service"],
-    "tags": {"amenity": "bureau_de_change"},
+    "tags": {"amenity": "ev_charging"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
-  },
-  {
-    "name": "post_office",
-    "parent": ["service"],
-    "tags": {"amenity": "post_office"},
-    "moretags": {
-      "ref":{
-        "class": "ref",
-        "tag": "ref",
-        "type": "number"
-      }
-    },
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
-    "name": "beauty_salon",
-    "parent": ["servise"],
-    "tags": {"shop": "beauty"},
-    "moretags": {},
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
-    "name": "hairdresser",
-    "parent": ["servise"],
-    "tags": {"shop": "hairdresser"},
-    "moretags": {},
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
-    "name": "massage",
-    "parent": ["servise"],
-    "tags": {"shop":"massage"},
-    "moretags":{},
-    "poi": true,
-    "type": ["node","area"]
-  },
-  {
-    "name": "tattoo",
-    "parent": ["servise"],
-    "tags": {"shop":"tattoo"},
-    "moretags":{},
-    "poi": true,
-    "type": ["node","area"]
-  },
-  {
-    "name": "dry_cleaning",
-    "parent": ["service"],
-    "tags": {"shop":"dry_cleaning"},
-    "moretags":{},
-    "poi": true,
-    "type": ["node","area"]
-  },
-  {
-    "name": "laundry",
-    "parent": ["shop"],
-    "tags": {"shop":"laundry"},
-    "moretags":{},
-    "poi": true,
-    "type": ["node","area"]
   },
   {
     "name": "education",
@@ -1368,6 +1384,20 @@
     "parent": ["democracy"],
     "tags": {"amenity": "police"},
     "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "embassy",
+    "parent": ["democracy"],
+    "tags": {"amenity": "embassy"},
+    "moretags": {
+      "country": {
+        "class": "country",
+        "tag": "country",
+        "type": "translate"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
