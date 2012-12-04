@@ -689,10 +689,7 @@
   {
     "name": "doctors",
     "parent": ["health"],
-    "tags": {
-      "amenity": "doctors",
-      "amenity": "clinic"
-    },
+    "tags": { "amenity": "doctors"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
@@ -1493,10 +1490,7 @@
   {
     "name": "government",
     "parent": ["office"],
-    "tags": {
-      "office": "government",
-      "amenity":"public_building"
-    },
+    "tags": {"amenity":"public_building"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
@@ -1504,10 +1498,7 @@
   {
     "name": "insurance",
     "parent": ["office"],
-    "tags": {
-      "office": "insurance",
-      "shop": "insurance"
-    },
+    "tags": {"office": "insurance"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
@@ -1539,10 +1530,7 @@
   {
     "name": "travel_agent",
     "parent": ["office"],
-    "tags": {
-      "office": "travel_agent",
-      "shop": "travel_agency"
-    },
+    "tags": {"office": "travel_agent"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
@@ -1558,10 +1546,7 @@
   {
     "name": "administrative",
     "parent": ["office"],
-    "tags": {
-      "office": "administrative",
-      "amenity": "townhall"
-    },
+    "tags": {"amenity": "townhall"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
