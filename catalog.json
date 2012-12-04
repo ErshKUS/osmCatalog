@@ -523,6 +523,14 @@
     "type": ["node","area"]
   },
   {
+    "name": "ship_chandler",
+    "parent": ["shop"],
+    "tags": {"shop":"ship_chandler"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
     "name": "sports",
     "parent": ["shop"],
     "tags": {"shop":"sports"},
@@ -1388,6 +1396,22 @@
     "type": ["node", "area"]
   },
   {
+    "name": "courthouse",
+    "parent": ["democracy"],
+    "tags": {"amenity": "courthouse"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "prison",
+    "parent": ["democracy"],
+    "tags": {"amenity": "prison"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "embassy",
     "parent": ["democracy"],
     "tags": {"amenity": "embassy"},
@@ -1457,6 +1481,14 @@
     "name": "attraction",
     "parent": ["tourism"],
     "tags": {"tourism": "attraction"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "information",
+    "parent": ["tourism"],
+    "tags": {"tourism": "information"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
