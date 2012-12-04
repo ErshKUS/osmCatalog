@@ -1013,10 +1013,7 @@
   {
     "name": "tailor",
     "parent": ["service"],
-    "tags": {
-      "craft": "tailor",
-      "shop": "tailor"
-    },
+    "tags": {"craft": "tailor"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
@@ -1437,12 +1434,7 @@
   {
     "name": "hotel",
     "parent": ["tourism"],
-    "tags": {
-      "tourism": "hotel",
-      "tourism": "motel",
-      "tourism": "guest_house",
-      "tourism": "alpine_hut"
-      },
+    "tags": {"tourism": "hotel"},
     "moretags": {
       "smoking": {
         "class": "smoking",
