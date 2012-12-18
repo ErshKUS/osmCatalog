@@ -8,8 +8,16 @@
     "type": [""]
   },
   {
-    "name": "bakery",
+    "name": "shop_food",
     "parent": ["shop"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": [""]
+  },
+  {
+    "name": "bakery",
+    "parent": ["shop_food"],
     "tags": {"shop": "bakery"},
     "moretags": {},
     "poi": true,
@@ -31,7 +39,7 @@
   },
   {
     "name": "alcohol",
-    "parent": ["shop"],
+    "parent": ["shop_food"],
     "tags": {"shop": "alcohol"},
     "moretags": {},
     "poi": true,
@@ -47,7 +55,7 @@
   },
   {
     "name": "convenience",
-    "parent": ["shop"],
+    "parent": ["shop_food"],
     "tags": {"shop":"convenience"},
     "moretags": {},
     "poi": true,
@@ -55,7 +63,7 @@
   },
   {
     "name": "mall",
-    "parent": ["shop"],
+    "parent": ["shop","shop_food"],
     "tags": {"shop":"mall"},
     "moretags":{},
     "poi": true,
@@ -148,7 +156,7 @@
   },
   {
     "name": "beverages",
-    "parent": ["shop"],
+    "parent": ["shop_food"],
     "tags": {"shop":"beverages"},
     "moretags":{},
     "poi": true,
@@ -156,7 +164,7 @@
   },
   {
     "name": "butcher",
-    "parent": ["shop"],
+    "parent": ["shop_food"],
     "tags": {"shop":"butcher"},
     "moretags":{},
     "poi": true,
@@ -236,7 +244,7 @@
   },
   {
     "name": "deli",
-    "parent": ["shop"],
+    "parent": ["shop_food"],
     "tags": {"shop":"deli"},
     "moretags":{},
     "poi": true,
@@ -268,7 +276,7 @@
   },
   {
     "name": "farm",
-    "parent": ["shop"],
+    "parent": ["shop_food"],
     "tags": {"shop":"farm"},
     "moretags":{},
     "poi": true,
@@ -348,7 +356,7 @@
   },
   {
     "name": "greengrocer",
-    "parent": ["shop"],
+    "parent": ["shop_food"],
     "tags": {"shop":"greengrocer"},
     "moretags":{},
     "poi": true,
@@ -508,7 +516,7 @@
   },
   {
     "name": "seafood",
-    "parent": ["shop"],
+    "parent": ["shop_food"],
     "tags": {"shop":"seafood"},
     "moretags":{},
     "poi": true,
@@ -612,7 +620,7 @@
   },
   {
     "name": "confectionery",
-    "parent": ["shop"],
+    "parent": ["shop_food"],
     "tags": {"shop": "confectionery"},
     "moretags": {},
     "poi": true,
@@ -620,7 +628,7 @@
   },
   {
     "name": "supermarket",
-    "parent": ["shop"],
+    "parent": ["shop","shop_food"],
     "tags": {"shop": "supermarket"},
     "moretags": {},
     "poi": true,
@@ -628,7 +636,7 @@
   },
   {
     "name": "department_store",
-    "parent": ["shop"],
+    "parent": ["shop","shop_food"],
     "tags": {"shop": "department_store"},
     "moretags": {},
     "poi": true,
@@ -996,8 +1004,32 @@
   },
   {
     "name": "currencyexchange",
-    "parent": ["service"],
+    "parent": ["finance","service"],
     "tags": {"amenity": "bureau_de_change"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "driving_school",
+    "parent": ["service","education"],
+    "tags": {"amenity": "driving_school"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "craft_computer",
+    "parent": ["service","education"],
+    "tags": {"amenity": "driving_school"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "driving_school",
+    "parent": ["service","education"],
+    "tags": {"amenity": "driving_school"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
@@ -1066,7 +1098,7 @@
   },
   {
     "name": "laundry",
-    "parent": ["shop"],
+    "parent": ["service"],
     "tags": {"shop":"laundry"},
     "moretags":{},
     "poi": true,
@@ -1105,14 +1137,6 @@
     "type": [""]
   },
   {
-    "name": "car_repair",
-    "parent": ["transport"],
-    "tags": {"shop": "car_repair"},
-    "moretags": {},
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
     "name": "bus_station",
     "parent": ["transport"],
     "tags": {"amenity": "bus_station"},
@@ -1120,6 +1144,80 @@
     "poi": true,
     "type": ["node", "area"]
   },
+  {
+    "name": "subway_entrance",
+    "parent": ["transport"],
+    "tags": {"railway": "subway_entrance"},
+    "moretags": {
+      "bicycle": {
+        "class": "bicycle",
+        "tag": "bicycle",
+        "type": "translate"
+      },
+      "wheelchair": {
+        "class": "wheelchair",
+        "tag": "wheelchair"'
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "public_transport_platform",
+    "parent": ["transport"],
+    "tags": {"public_transport": "platform"},
+    "moretags": {
+      "bus": {
+        "class": "boolean",
+        "tag": "bus",
+        "type": "translate"
+      },
+      "tram": {
+        "class": "boolean",
+        "tag": "tram",
+        "type": "translate"
+      },
+      "trolleybus": {
+        "class": "boolean",
+        "tag": "trolleybus",
+        "type": "translate"
+      },
+      "bench": {
+        "class": "boolean",
+        "tag": "bench",
+        "type": "translate"
+      },
+      "shelter": {
+        "class": "boolean",
+        "tag": "shelter",
+        "type": "translate"
+      },
+      "bin": {
+        "class": "boolean",
+        "tag": "bin",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "railway_station",
+    "parent": ["transport"],
+    "tags": {"railway": "station"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "car_repair",
+    "parent": ["transport"],
+    "tags": {"shop": "car_repair"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
   {
     "name": "car_wash",
     "parent": ["transport"],
@@ -1607,7 +1705,7 @@
   },
   {
     "name": "accountant",
-    "parent": ["office"],
+    "parent": ["office", "finance"],
     "tags": {"office": "accountant"},
     "moretags": {},
     "poi": true,
