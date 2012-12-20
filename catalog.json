@@ -347,7 +347,7 @@
     "type": ["node","area"]
   },
   {
-    "name": "glaziery",
+    "name": "glaziery_shop",
     "parent": ["shop"],
     "tags": {"shop":"glaziery"},
     "moretags":{},
@@ -467,7 +467,7 @@
     "type": ["node","area"]
   },
   {
-    "name": "optician",
+    "name": "optician_shop",
     "parent": ["shop"],
     "tags": {"shop":"optician"},
     "moretags":{},
@@ -1124,6 +1124,406 @@
     "name": "tailor",
     "parent": ["service"],
     "tags": {"craft": "tailor"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "craft",
+    "parent": [""],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": [""]
+  },  
+  {
+    "name": "agricultural_engines",
+    "parent": ["craft"],
+    "tags": {"craft": "agricultural_engines"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "basket_maker",
+    "parent": ["craft"],
+    "tags": {"craft": "basket_maker"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "beekeeper",
+    "parent": ["craft"],
+    "tags": {"craft": "beekeeper"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "blacksmith",
+    "parent": ["craft"],
+    "tags": {"craft": "blacksmith"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "brewery",
+    "parent": ["craft"],
+    "tags": {"craft": "brewery"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "boatbuilder",
+    "parent": ["craft"],
+    "tags": {"craft": "boatbuilder"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "bonfires",
+    "parent": ["craft"],
+    "tags": {"craft": "bonfires"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "bookbinder",
+    "parent": ["craft"],
+    "tags": {"craft": "bookbinder"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "carpenter",
+    "parent": ["craft"],
+    "tags": {"craft": "carpenter"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "carpet_layer",
+    "parent": ["craft"],
+    "tags": {"craft": "carpet_layer"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "caterer",
+    "parent": ["craft"],
+    "tags": {"craft": "caterer"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "clockmaker",
+    "parent": ["craft"],
+    "tags": {"craft": "clockmaker"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "dressmaker",
+    "parent": ["craft"],
+    "tags": {"craft": "dressmaker"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "electrician",
+    "parent": ["craft"],
+    "tags": {"craft": "electrician"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "gardener",
+    "parent": ["craft"],
+    "tags": {"craft": "gardener"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "glaziery_craft",
+    "parent": ["craft"],
+    "tags": {"craft": "glaziery"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "handicraft",
+    "parent": ["craft"],
+    "tags": {"craft": "handicraft"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "hvac",
+    "parent": ["craft"],
+    "tags": {"craft": "hvac"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "insulation",
+    "parent": ["craft"],
+    "tags": {"craft": "insulation"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "jeweller",
+    "parent": ["craft"],
+    "tags": {"craft": "jeweller"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "locksmith",
+    "parent": ["craft"],
+    "tags": {"craft": "locksmith"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "key_cutter",
+    "parent": ["craft"],
+    "tags": {"craft": "key_cutter"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "metal_construction",
+    "parent": ["craft"],
+    "tags": {"craft": "metal_construction"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "optician_craft",
+    "parent": ["craft"],
+    "tags": {"craft": "optician"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "painter",
+    "parent": ["craft"],
+    "tags": {"craft": "painter"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "parquet_layer",
+    "parent": ["craft"],
+    "tags": {"craft": "parquet_layer"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "photographer",
+    "parent": ["craft"],
+    "tags": {"craft": "photographer"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "photographic_laboratory",
+    "parent": ["craft"],
+    "tags": {"craft": "photographic_laboratory"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "plasterer",
+    "parent": ["craft"],
+    "tags": {"craft": "plasterer"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "plumber",
+    "parent": ["craft"],
+    "tags": {"craft": "plumber"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "pottery",
+    "parent": ["craft"],
+    "tags": {"craft": "pottery"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "rigger",
+    "parent": ["craft"],
+    "tags": {"craft": "rigger"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "roofer",
+    "parent": ["craft"],
+    "tags": {"craft": "roofer"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "saddler",
+    "parent": ["craft"],
+    "tags": {"craft": "saddler"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "sailmaker",
+    "parent": ["craft"],
+    "tags": {"craft": "sailmaker"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "sawmill",
+    "parent": ["craft"],
+    "tags": {"craft": "sawmill"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "scaffolder",
+    "parent": ["craft"],
+    "tags": {"craft": "scaffolder"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "sculptor",
+    "parent": ["craft"],
+    "tags": {"craft": "sculptor"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "shoemaker",
+    "parent": ["craft"],
+    "tags": {"craft": "shoemaker"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "stand_builder",
+    "parent": ["craft"],
+    "tags": {"craft": "stand_builder"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "stonemason",
+    "parent": ["craft"],
+    "tags": {"craft": "stonemason"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "sun_protection",
+    "parent": ["craft"],
+    "tags": {"craft": "sun_protection"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "sweep",
+    "parent": ["craft"],
+    "tags": {"craft": "sweep"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "tailor",
+    "parent": ["craft"],
+    "tags": {"craft": "tailor"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "tiler",
+    "parent": ["craft"],
+    "tags": {"craft": "tiler"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "tinsmith",
+    "parent": ["craft"],
+    "tags": {"craft": "tinsmith"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "upholsterer",
+    "parent": ["craft"],
+    "tags": {"craft": "upholsterer"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "watchmaker",
+    "parent": ["craft"],
+    "tags": {"craft": "watchmaker"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },  
+  {
+    "name": "window_construction",
+    "parent": ["craft"],
+    "tags": {"craft": "window_construction"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
