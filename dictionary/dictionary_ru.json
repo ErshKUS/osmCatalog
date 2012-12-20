@@ -38,7 +38,7 @@
     "butcher": {"name": "Мясная лавка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbutcher", "keywords": ""},
     "cafe": {"name": "Кафе", "description": "", "link": "https://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcafe", "keywords": ""},
     "car": {"name": "Автосалон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcar", "keywords": ""},
-    "car": {"name": "Автосалон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcar", "keywords": ""},
+    "car_parts": {"name": "Автозапчасти", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcar_parts", "keywords": ""},
     "car_rental": {"name": "Прокат автомобилей", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcar_rental", "keywords": ""},
     "car_repair": {"name": "Автосервис", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dconfectionery", "keywords": ""},
     "car_wash": {"name": "Автомойка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcar_wash", "keywords": ""},
