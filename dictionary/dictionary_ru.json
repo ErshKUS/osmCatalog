@@ -196,7 +196,6 @@
     "subway_entrance": {"name": "Вход в метро", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:railway%3Dsubway_entrance", "keywords": ""},
     "sun_protection": {"name": "Изготовление навесов, жалюзи", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dsun_protection", "keywords": ""},
     "supermarket": {"name": "Супермаркет", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dsupermarket", "keywords": ""},
-    "supermarket": {"name": "Супермаркет", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dsupermarket", "keywords": ""},
     "sweep": {"name": "Трубочист", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dsweep", "keywords": ""},
     "tailor": {"name": "Ателье", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dtailor", "keywords": ""},
     "tattoo": {"name": "Тату салон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dtattoo", "keywords": ""},
