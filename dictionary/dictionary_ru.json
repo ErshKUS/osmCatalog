@@ -193,6 +193,7 @@
     "stand_builder": {"name": "Возведение палаток и лотков", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dstand_builder", "keywords": ""},
     "stationery": {"name": "Канцелярские товары", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dstationery", "keywords": ""},
     "stonemason": {"name": "Камнетёс", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dstonemason", "keywords": ""},
+    "studio": {"name": "Студия звукозаписи, телестудия", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dstudio", "keywords": ""},
     "subway_entrance": {"name": "Вход в метро", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:railway%3Dsubway_entrance", "keywords": ""},
     "sun_protection": {"name": "Изготовление навесов, жалюзи", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dsun_protection", "keywords": ""},
     "supermarket": {"name": "Супермаркет", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dsupermarket", "keywords": ""},
