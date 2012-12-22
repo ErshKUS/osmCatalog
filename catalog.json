@@ -2166,5 +2166,13 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "studio",
+    "parent": ["office"],
+    "tags": {"amenity": "studio"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]
