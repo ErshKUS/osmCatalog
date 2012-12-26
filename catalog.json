@@ -1058,7 +1058,7 @@
   },
   {
     "name": "beauty_salon",
-    "parent": ["servise"],
+    "parent": ["service"],
     "tags": {"shop": "beauty"},
     "moretags": {},
     "poi": true,
@@ -1066,7 +1066,7 @@
   },
   {
     "name": "hairdresser",
-    "parent": ["servise"],
+    "parent": ["service"],
     "tags": {"shop": "hairdresser"},
     "moretags": {},
     "poi": true,
@@ -1074,7 +1074,7 @@
   },
   {
     "name": "massage",
-    "parent": ["servise"],
+    "parent": ["service"],
     "tags": {"shop":"massage"},
     "moretags":{},
     "poi": true,
@@ -1082,7 +1082,7 @@
   },
   {
     "name": "tattoo",
-    "parent": ["servise"],
+    "parent": ["service"],
     "tags": {"shop":"tattoo"},
     "moretags":{},
     "poi": true,
