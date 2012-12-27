@@ -2159,7 +2159,7 @@
     "poi": true,
     "type": ["node", "area"]
   },
-    {
+  {
     "name": "educational_institution",
     "parent": ["office"],
     "tags": {"office": "educational_institution"},
@@ -2174,5 +2174,13 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
-  }
+  },
+  {
+    "name": "toilets",
+    "parent": ["service"],
+    "tags": {"amenity": "toilets"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
 ]
