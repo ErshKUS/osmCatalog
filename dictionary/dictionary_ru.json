@@ -205,6 +205,7 @@
     "tiler": {"name": "Плиточные работы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dtiler", "keywords": ""},
     "tinsmith": {"name": "Жестянщик, лудильщик", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dtinsmith", "keywords": ""},
     "tobacco": {"name": "Табачный магазин", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dtobacco", "keywords": ""},
+    "toilets": {"name": "Общественный туалет", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dtoilets", "keywords": ""},
     "tourism": {"name": "Туризм", "description": "", "link": "", "keywords": ""},
     "toys": {"name": "Детский мир", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dtoys", "keywords": ""},
     "trade": {"name": "Оптовый склад", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dtrade", "keywords": ""},
