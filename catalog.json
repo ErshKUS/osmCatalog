@@ -1020,8 +1020,8 @@
   },
   {
     "name": "craft_computer",
-    "parent": ["service","education"],
-    "tags": {"amenity": "driving_school"},
+    "parent": ["craft","service"],
+    "tags": {"craft": "computer"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
