@@ -1556,7 +1556,7 @@
       },
       "wheelchair": {
         "class": "wheelchair",
-        "tag": "wheelchair"'
+        "tag": "wheelchair",
         "type": "translate"
       }
     },
@@ -2182,5 +2182,5 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
-  },
+  }
 ]
