@@ -1027,14 +1027,6 @@
     "type": ["node", "area"]
   },
   {
-    "name": "driving_school",
-    "parent": ["service","education"],
-    "tags": {"amenity": "driving_school"},
-    "moretags": {},
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
     "name": "service",
     "parent": [""],
     "tags": {},
@@ -1116,14 +1108,6 @@
     "name": "bicycle_rental",
     "parent": ["service"],
     "tags": {"amenity": "bicycle_rental"},
-    "moretags": {},
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
-    "name": "tailor",
-    "parent": ["service"],
-    "tags": {"craft": "tailor"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
@@ -1479,10 +1463,10 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
-  },  
+  },
   {
     "name": "tailor",
-    "parent": ["craft"],
+    "parent": ["craft","service"],
     "tags": {"craft": "tailor"},
     "moretags": {},
     "poi": true,
