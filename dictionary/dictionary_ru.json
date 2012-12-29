@@ -60,6 +60,7 @@
     "copyshop": {"name": "Типография", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dcopyshop", "keywords": ""},
     "courthouse": {"name": "Суд", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=courthouse", "keywords": ""},
     "craft": {"name": "Ремонт и мелкое производство", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dcurtain", "keywords": ""},
+    "craft_computer": {"name": "Ремонт компьютеров и оргтехники", "description": "", "link": "", "keywords": ""},
     "curtain": {"name": "Шторы, портьеры", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dcurtain", "keywords": ""},
     "currencyexchange": {"name": "Обмен валют", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbureau_de_change", "keywords": ""},
     "fabric": {"name": "Ткани", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dfabric", "keywords": ""},
