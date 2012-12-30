@@ -2056,6 +2056,14 @@
     "type": ["node", "area"]
   },
   {
+    "name": "notary",
+    "parent": ["lawyer"],
+    "tags": {"office": "lawyer", "lawyer": "notary" },
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "telecommunication",
     "parent": ["office"],
     "tags": {"office": "telecommunication"},
