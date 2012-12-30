@@ -143,6 +143,7 @@
     "newspaper": {"name": "Печатное издание", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dnewspaper", "keywords": ""},
     "ngo": {"name": "Негосударственная организация", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dngo", "keywords": ""},
     "nightclub": {"name": "Ночной клуб", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dnightclub", "keywords": ""},
+    "notary": {"name": "Нотариус", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dlawyer", "keywords": ""},
     "nursing_home": {"name": "Дом престарелых", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dnursing_home", "keywords": ""},
     "office": {"name": "Организации", "description": "", "link": "", "keywords": ""},
     "optician_craft": {"name": "Изготовление, подгонка очков, линз", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Doptician", "keywords": ""},
