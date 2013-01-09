@@ -6,7 +6,7 @@ var dictionary = JSON.parse(fs.readFileSync('dictionary/dictionary_ru.json')); /
 
 var errors = 0;
 
-// Load entries into by-name hash
+// Load entries into by-name hash, do basic name checks along the way
 var entry_by_name = {};
 for (var entry in catalog) {
 	if (typeof catalog[entry].name !== 'string') {
@@ -60,6 +60,22 @@ for (var entry in entry_by_name) {
 					errors++;
 				}
 			}
+		}
+	}
+
+	// Check moretags
+	for (var moretag in entry_by_name[entry].moretags) {
+		if (typeof entry_by_name[entry].moretags[moretag]['class'] === 'undefined') {
+			console.log(entry_by_name[entry].name + ', moretag ' + moretag + ': no class');
+			errors++;
+		}
+		if (typeof entry_by_name[entry].moretags[moretag]['tag'] === 'undefined') {
+			console.log(entry_by_name[entry].name + ', moretag ' + moretag + ': no tag');
+			errors++;
+		}
+		if (typeof entry_by_name[entry].moretags[moretag]['type'] === 'undefined') {
+			console.log(entry_by_name[entry].name + ', moretag ' + moretag + ': no type');
+			errors++;
 		}
 	}
 }
