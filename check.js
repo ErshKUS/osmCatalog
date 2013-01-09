@@ -14,6 +14,11 @@ for (var entry in catalog) {
 		errors++;
 	}
 
+	if (!catalog[entry].name.match(/^[a-z0-9_]+$/)) {
+		console.log('Invalid name: ' + catalog[entry].name);
+		errors++;
+	}
+
 	if (typeof entry_by_name[catalog[entry].name] !== 'undefined') {
 		console.log('Duplicate name: ' + catalog[entry].name);
 		errors++;
