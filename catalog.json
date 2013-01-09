@@ -2073,7 +2073,7 @@
   },
   {
     "name": "travel_agent",
-    "parent": ["office"],
+    "parent": ["office", "tourism"],
     "tags": {"office": "travel_agent"},
     "moretags": {},
     "poi": true,
