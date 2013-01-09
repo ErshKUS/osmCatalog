@@ -27,6 +27,7 @@ for (var entry in catalog) {
 	entry_by_name[catalog[entry].name] = catalog[entry];
 }
 
+var used_moretags = {};
 for (var entry in entry_by_name) {
 	// Check parent connectivity
 	for (var parent in entry_by_name[entry].parent) {
@@ -52,6 +53,7 @@ for (var entry in entry_by_name) {
 		errors++;
 	} else {
 		for (var moretag in entry_by_name[entry].moretags) {
+			used_moretags[moretag] = 1;
 			if (entry_by_name[entry].moretags[moretag].type === 'translate') {
 				if (typeof dictionary.moretags[moretag] !== 'object') {
 					console.log(entry_by_name[entry].name + ': no translation for moretag ' + moretag);
@@ -59,6 +61,20 @@ for (var entry in entry_by_name) {
 				}
 			}
 		}
+	}
+}
+
+// Check dictionary
+for (var entry in dictionary.catalog) {
+	if (typeof entry_by_name[entry] === 'undefined') {
+		console.log(entry + ': name found in dictionary, but not in the catalog');
+		errors++;
+	}
+}
+for (var entry in dictionary.moretags) {
+	if (typeof used_moretags[entry] === 'undefined') {
+		console.log(entry + ': moretag found in dictionary, but not in the catalog');
+		errors++;
 	}
 }
 
