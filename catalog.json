@@ -1,11 +1,11 @@
 [
   {
     "name": "shop",
-    "parent": [""],
+    "parent": [],
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": [""]
+    "type": []
   },
   {
     "name": "shop_food",
@@ -13,7 +13,7 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": [""]
+    "type": []
   },
   {
     "name": "bakery",
@@ -668,11 +668,11 @@
   },
   {
     "name": "health",
-    "parent": [""],
+    "parent": [],
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": [""]
+    "type": []
   },
   {
     "name": "pharmacy",
@@ -736,11 +736,11 @@
   },
   {
     "name": "food",
-    "parent": [""],
+    "parent": [],
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": [""]
+    "type": []
   },
   {
     "name": "cafe",
@@ -952,11 +952,11 @@
   },
   {
     "name": "finance",
-    "parent": [""],
+    "parent": [],
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": [""]
+    "type": []
   },
   {
     "name": "bank",
@@ -1028,11 +1028,11 @@
   },
   {
     "name": "service",
-    "parent": [""],
+    "parent": [],
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": [""]
+    "type": []
   },
   {
     "name": "post_office",
@@ -1114,11 +1114,11 @@
   },
   {
     "name": "craft",
-    "parent": [""],
+    "parent": [],
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": [""]
+    "type": []
   },  
   {
     "name": "agricultural_engines",
@@ -1514,11 +1514,11 @@
   },
   {
     "name": "transport",
-    "parent": [""],
+    "parent": [],
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": [""]
+    "type": []
   },
   {
     "name": "bus_station",
@@ -1729,11 +1729,11 @@
   },
   {
     "name": "education",
-    "parent": [""],
+    "parent": [],
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": [""]
+    "type": []
   },
   {
     "name": "school",
@@ -1777,11 +1777,11 @@
   },
   {
     "name": "entertainment",
-    "parent": [""],
+    "parent": [],
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": [""]
+    "type": []
   },
   {
     "name": "arts_centre",
@@ -1831,11 +1831,11 @@
   },
   {
     "name": "religion",
-    "parent": [""],
+    "parent": [],
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": [""]
+    "type": []
   },
   {
     "name": "place_of_worship",
@@ -1863,11 +1863,11 @@
   },
   {
     "name": "democracy",
-    "parent": [""],
+    "parent": [],
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": [""]
+    "type": []
   },
   {
     "name": "police",
@@ -1909,11 +1909,11 @@
   },
   {
     "name": "sport",
-    "parent": [""],
+    "parent": [],
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": [""]
+    "type": []
   },
   {
     "name": "stadium",
@@ -1945,11 +1945,11 @@
   },
   {
     "name": "tourism",
-    "parent": [""],
+    "parent": [],
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": [""]
+    "type": []
   },
   {
     "name": "museum",
@@ -2009,11 +2009,11 @@
   },
   {
     "name": "office",
-    "parent": [""],
+    "parent": [],
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": [""]
+    "type": []
   },
   {
     "name": "company",
