@@ -240,7 +240,8 @@
     "dispensing": {"name": "Изготовление лекарства по рецепту"},
     "drive_in": {"name": "Обслуживание не выходя из машины"},
     "emergency": {"name": "Является скорой помощью"},
-    "fee": {"name": "Наличие комиссии"},
+    "fee": {"name": "Наличие платы"},
+    "comission": {"name": "Наличие комиссии"},
     "fuel_diesel": {"name": "Дизельное топливо"},
     "fuel_HGVdiesel": {"name": "LKW дизель"},
     "fuel_biodiesel": {"name": "Биодизель"},
@@ -580,7 +581,7 @@
       "russian_orthodox": "Старообрядчество",
       "pentecostal": "Пятидесятничество"
     },
-    "fee": {
+    "comission": {
       "no": "нет",
       "time_subscription": "временный абонемент",
       "varies": "процент",
