@@ -31,8 +31,6 @@ var used_moretags = {};
 for (var entry in entry_by_name) {
 	// Check parent connectivity
 	for (var parent in entry_by_name[entry].parent) {
-		if (entry_by_name[entry].parent[parent] === '')
-			continue;
 		if (typeof entry_by_name[entry_by_name[entry].parent[parent]] !== 'object') {
 			console.log(entry_by_name[entry].name + ': parent not found: ' + entry_by_name[entry].parent[parent]);
 			errors++;
@@ -41,7 +39,7 @@ for (var entry in entry_by_name) {
 
 	// Check type
 	for (var type in entry_by_name[entry].type) {
-		if (entry_by_name[entry].type[type] !== 'node' && entry_by_name[entry].type[type] !== 'area' && entry_by_name[entry].type[type] !== '') {
+		if (entry_by_name[entry].type[type] !== 'node' && entry_by_name[entry].type[type] !== 'area') {
 			console.log(entry_by_name[entry].name + ': unknown type: ' + entry_by_name[entry].type[type]);
 			errors++;
 		}
