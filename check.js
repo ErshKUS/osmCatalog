@@ -6,11 +6,16 @@ var dictionary = JSON.parse(fs.readFileSync('dictionary/dictionary_ru.json')); /
 
 var errors = 0;
 
-// Load entries into by-name hash
+// Load entries into by-name hash, do basic name checks along the way
 var entry_by_name = {};
 for (var entry in catalog) {
 	if (typeof catalog[entry].name !== 'string') {
 		console.log('Entry with no name: ' + catalog.entry);
+		errors++;
+	}
+
+	if (!catalog[entry].name.match(/^[a-z0-9_]+$/)) {
+		console.log('Invalid name: ' + catalog[entry].name);
 		errors++;
 	}
 
@@ -22,6 +27,7 @@ for (var entry in catalog) {
 	entry_by_name[catalog[entry].name] = catalog[entry];
 }
 
+var used_moretags = {};
 for (var entry in entry_by_name) {
 	// Check parent connectivity
 	for (var parent in entry_by_name[entry].parent) {
@@ -47,6 +53,7 @@ for (var entry in entry_by_name) {
 		errors++;
 	} else {
 		for (var moretag in entry_by_name[entry].moretags) {
+			used_moretags[moretag] = 1;
 			if (entry_by_name[entry].moretags[moretag].type === 'translate') {
 				if (typeof dictionary.moretags[moretag] !== 'object') {
 					console.log(entry_by_name[entry].name + ': no translation for moretag ' + moretag);
@@ -54,6 +61,36 @@ for (var entry in entry_by_name) {
 				}
 			}
 		}
+	}
+
+	// Check moretags
+	for (var moretag in entry_by_name[entry].moretags) {
+		if (typeof entry_by_name[entry].moretags[moretag]['class'] === 'undefined') {
+			console.log(entry_by_name[entry].name + ', moretag ' + moretag + ': no class');
+			errors++;
+		}
+		if (typeof entry_by_name[entry].moretags[moretag]['tag'] === 'undefined') {
+			console.log(entry_by_name[entry].name + ', moretag ' + moretag + ': no tag');
+			errors++;
+		}
+		if (typeof entry_by_name[entry].moretags[moretag]['type'] === 'undefined') {
+			console.log(entry_by_name[entry].name + ', moretag ' + moretag + ': no type');
+			errors++;
+		}
+	}
+}
+
+// Check dictionary
+for (var entry in dictionary.catalog) {
+	if (typeof entry_by_name[entry] === 'undefined') {
+		console.log(entry + ': name found in dictionary, but not in the catalog');
+		errors++;
+	}
+}
+for (var entry in dictionary.moretags) {
+	if (typeof used_moretags[entry] === 'undefined') {
+		console.log(entry + ': moretag found in dictionary, but not in the catalog');
+		errors++;
 	}
 }
 
