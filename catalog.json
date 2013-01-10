@@ -977,8 +977,8 @@
     "parent": ["finance"],
     "tags": {"amenity": "atm"},
     "moretags": {
-      "fee":{
-        "class": "fee",
+      "comission":{
+        "class": "comission",
         "tag": "fee",
         "type": "translate"
       }
@@ -2171,7 +2171,13 @@
     "name": "toilets",
     "parent": ["service"],
     "tags": {"amenity": "toilets"},
-    "moretags": {},
+    "moretags": {
+      "fee":{
+        "class": "boolean",
+        "tag": "fee",
+        "type": "translate"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   }
