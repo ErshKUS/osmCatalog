@@ -158,7 +158,7 @@
     "pharmacy": {"name": "Аптека", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dpharmacy", "keywords": ""},
     "photographer": {"name": "Фотограф", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dphotographer", "keywords": ""},
     "photographic_laboratory": {"name": "Фотолаборатория", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dphotographic_laboratory", "keywords": ""},
-    "place_of_worship": {"name": "Храм", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dplace_of_worship", "keywords": ""},
+    "place_of_worship": {"name": "Храм, церковь", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dplace_of_worship", "keywords": ""},
     "plasterer": {"name": "Штукатурные работы, изготовление лепнины", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dplasterer", "keywords": ""},
     "plumber": {"name": "Сантехник", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dplumber", "keywords": ""},
     "police": {"name": "Отделение полиции", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dpolice", "keywords": ""},
