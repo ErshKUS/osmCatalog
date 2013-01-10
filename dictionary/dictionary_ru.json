@@ -34,7 +34,7 @@
     "bookshop": {"name": "Книжный", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbooks", "keywords": ""},
     "boutique": {"name": "Бутик", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dboutique", "keywords": ""},
     "brewery": {"name": "Пивоварня", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dbrewery", "keywords": ""},
-    "bus_station": {"name": "Автобусная станция", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbus_station", "keywords": ""},
+    "bus_station": {"name": "Автовокзал", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbus_station", "keywords": ""},
     "butcher": {"name": "Мясная лавка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbutcher", "keywords": ""},
     "cafe": {"name": "Кафе", "description": "", "link": "https://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcafe", "keywords": ""},
     "car": {"name": "Автосалон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcar", "keywords": ""},
