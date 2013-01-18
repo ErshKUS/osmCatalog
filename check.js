@@ -95,5 +95,16 @@ for (var entry in dictionary.moretags) {
 }
 
 console.log(errors + ' error(s)');
+console.log('');
+
+// POIs without icons
+var pois_without_icons = [];
+for (var entry in entry_by_name) {
+	if (entry_by_name[entry].poi && !fs.existsSync('poi_marker/' + entry + '.png'))
+		pois_without_icons.push(entry);
+}
+pois_without_icons.sort();
+
+console.log(pois_without_icons.length + ' POI(s) without icons: ' + pois_without_icons.join(', '));
 
 process.exit(errors);
