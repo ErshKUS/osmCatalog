@@ -37,6 +37,7 @@
     "bus_station": {"name": "Автовокзал", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbus_station", "keywords": ""},
     "butcher": {"name": "Мясная лавка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbutcher", "keywords": ""},
     "cafe": {"name": "Кафе", "description": "", "link": "https://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcafe", "keywords": ""},
+    "camp_site": {"name": "Место для лагеря", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:tourism%3Dcamp_site", "keywords": ""},
     "car": {"name": "Автосалон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcar", "keywords": ""},
     "car_parts": {"name": "Автозапчасти", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcar_parts", "keywords": ""},
     "car_rental": {"name": "Прокат автомобилей", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcar_rental", "keywords": ""},
@@ -158,6 +159,7 @@
     "pharmacy": {"name": "Аптека", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dpharmacy", "keywords": ""},
     "photographer": {"name": "Фотограф", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dphotographer", "keywords": ""},
     "photographic_laboratory": {"name": "Фотолаборатория", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dphotographic_laboratory", "keywords": ""},
+    "picnic_site": {"name": "Место для пикника", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:tourism%3Dpicnic_site", "keywords": ""},
     "place_of_worship": {"name": "Храм, церковь", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dplace_of_worship", "keywords": ""},
     "plasterer": {"name": "Штукатурные работы, изготовление лепнины", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dplasterer", "keywords": ""},
     "plumber": {"name": "Сантехник", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dplumber", "keywords": ""},
@@ -220,6 +222,7 @@
     "variety_store": {"name": "Всё по одной цене", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dvariety_store", "keywords": ""},
     "veterinary": {"name": "Ветлечебница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dveterinary", "keywords": ""},
     "video": {"name": "Продажа, прокат DVD", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dvideo", "keywords": ""},
+    "viewpoint": {"name": "Вид", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:tourism%3Dviewpoint", "keywords": ""},
     "watchmaker": {"name": "Часовщик", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dwatchmaker", "keywords": ""},
     "window_blind": {"name": "Жалюзи, ставни, маркизы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dwindow_blind", "keywords": ""},
     "window_construction": {"name": "Изготовление окон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dwindow_construction", "keywords": ""}
