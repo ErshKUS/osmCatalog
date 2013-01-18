@@ -2180,5 +2180,29 @@
     },
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "viewpoint",
+    "parent": ["tourism"],
+    "tags": {"tourism": "viewpoint"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "camp_site",
+    "parent": ["tourism"],
+    "tags": {"tourism": "camp_site"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "picnic_site",
+    "parent": ["tourism"],
+    "tags": {"tourism": "picnic_site"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]
