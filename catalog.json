@@ -308,7 +308,7 @@
   },
   {
     "name": "funeral_directors",
-    "parent": ["shop"],
+    "parent": ["service"],
     "tags": {"shop":"funeral_directors"},
     "moretags":{},
     "poi": true,
@@ -730,6 +730,14 @@
     "name": "veterinary",
     "parent": ["health"],
     "tags": {"amenity": "veterinary"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "mortuary",
+    "parent": ["health"],
+    "tags": {"amenity": "mortuary"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
@@ -1721,7 +1729,7 @@
   },
   {
     "name": "ev_charging",
-    "parent": ["service"],
+    "parent": ["transport", "service"],
     "tags": {"amenity": "ev_charging"},
     "moretags": {},
     "poi": true,
@@ -1894,6 +1902,14 @@
     "type": ["node", "area"]
   },
   {
+    "name": "register_office",
+    "parent": ["democracy"],
+    "tags": {"amenity": "register_office"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "embassy",
     "parent": ["democracy"],
     "tags": {"amenity": "embassy"},
@@ -1971,6 +1987,102 @@
     "name": "information",
     "parent": ["tourism"],
     "tags": {"tourism": "information"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "memorial",
+    "parent": ["tourism"],
+    "tags": {"historic": "memorial"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "archaeological_site",
+    "parent": ["tourism"],
+    "tags": {"historic": "archaeological_site"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "battlefield",
+    "parent": ["tourism"],
+    "tags": {"historic": "battlefield"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "boundary_stone",
+    "parent": ["tourism"],
+    "tags": {"historic": "boundary_stone"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "castle",
+    "parent": ["tourism"],
+    "tags": {"historic": "castle"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "city_gate",
+    "parent": ["tourism"],
+    "tags": {"historic": "city_gate"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "fort",
+    "parent": ["tourism"],
+    "tags": {"historic": "fort"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "ruins",
+    "parent": ["tourism"],
+    "tags": {"historic": "ruins"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "rune_stone",
+    "parent": ["tourism"],
+    "tags": {"historic": "rune_stone"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "wreck",
+    "parent": ["tourism"],
+    "tags": {"historic": "wreck"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "ship",
+    "parent": ["tourism"],
+    "tags": {"historic": "ship"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "monument",
+    "parent": ["tourism"],
+    "tags": {"historic": "monument"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
