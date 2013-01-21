@@ -1559,7 +1559,90 @@
     "name": "railway_station",
     "parent": ["transport"],
     "tags": {"railway": "station"},
-    "moretags": {},
+    "moretags": {
+      "ticket_office": {
+        "class": "boolean",
+        "tag": "ticket_office",
+        "type": "translate"
+      },
+      "disused": {
+        "class": "boolean",
+        "tag": "disused",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "railway_halt",
+    "parent": ["transport"],
+    "tags": {"railway": "halt"},
+    "moretags": {
+      "ticket_office": {
+        "class": "boolean",
+        "tag": "ticket_office",
+        "type": "translate"
+      },
+      "disused": {
+        "class": "boolean",
+        "tag": "disused",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "bus_stop",
+    "parent": ["transport"],
+    "tags": {"highway": "bus_stop"},
+    "moretags": {
+      "bench": {
+        "class": "boolean",
+        "tag": "bench",
+        "type": "translate"
+      },
+      "shelter": {
+        "class": "boolean",
+        "tag": "shelter",
+        "type": "translate"
+      },
+      "bin": {
+        "class": "boolean",
+        "tag": "bin",
+        "type": "translate"
+      },
+      "route_ref": {
+        "class": "route_ref",
+        "tag": "route_ref",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "tram_stop",
+    "parent": ["transport"],
+    "tags": {"railway": "tram_stop"},
+    "moretags": {
+      "bench": {
+        "class": "boolean",
+        "tag": "bench",
+        "type": "translate"
+      },
+      "shelter": {
+        "class": "boolean",
+        "tag": "shelter",
+        "type": "translate"
+      },
+      "bin": {
+        "class": "boolean",
+        "tag": "bin",
+        "type": "translate"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
