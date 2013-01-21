@@ -63,7 +63,7 @@
     "computer": {"name": "Компьютеры, оргтехника", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcomputer", "keywords": ""},
     "confectionery": {"name": "Кондитерская", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dconfectionery", "keywords": ""},
     "convenience": {"name": "Магазин", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dconvenience", "keywords": ""},
-    "copyshop": {"name": "Ксерокопия, типография", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcopyshop", "keywords": ""},
+    "copyshop": {"name": "Ксерокопия, полиграфия", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcopyshop", "keywords": ""},
     "courthouse": {"name": "Суд", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=courthouse", "keywords": ""},
     "craft": {"name": "Ремонт и мелкое производство", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dcurtain", "keywords": ""},
     "craft_computer": {"name": "Ремонт компьютеров и оргтехники", "description": "", "link": "", "keywords": ""},
