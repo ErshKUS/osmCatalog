@@ -177,7 +177,6 @@
     "pottery": {"name": "Гончарная мастерская", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dpottery", "keywords": ""},
     "prison": {"name": "Тюрьма", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dprison", "keywords": ""},
     "pub": {"name": "Паб", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dpub", "keywords": ""},
-    "public_transport_platform": {"name": "Остановка общественного транспорта", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:public_transport%3Dplatform", "keywords": ""},
     "radiotechnics": {"name": "Радиодетали", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dradiotechnics", "keywords": ""},
     "railway_station": {"name": "Ж/д станция", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:railway%3Dstation", "keywords": ""},
     "register_office": {"name": "ЗАГС", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dregister_office", "keywords": ""},

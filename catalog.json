@@ -1556,45 +1556,6 @@
     "type": ["node", "area"]
   },
   {
-    "name": "public_transport_platform",
-    "parent": ["transport"],
-    "tags": {"public_transport": "platform"},
-    "moretags": {
-      "bus": {
-        "class": "boolean",
-        "tag": "bus",
-        "type": "translate"
-      },
-      "tram": {
-        "class": "boolean",
-        "tag": "tram",
-        "type": "translate"
-      },
-      "trolleybus": {
-        "class": "boolean",
-        "tag": "trolleybus",
-        "type": "translate"
-      },
-      "bench": {
-        "class": "boolean",
-        "tag": "bench",
-        "type": "translate"
-      },
-      "shelter": {
-        "class": "boolean",
-        "tag": "shelter",
-        "type": "translate"
-      },
-      "bin": {
-        "class": "boolean",
-        "tag": "bin",
-        "type": "translate"
-      }
-    },
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
     "name": "railway_station",
     "parent": ["transport"],
     "tags": {"railway": "station"},
