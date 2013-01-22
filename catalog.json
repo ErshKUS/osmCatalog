@@ -2373,6 +2373,20 @@
     "type": ["node"]
   },
   {
+    "name": "volcano",
+    "parent": ["natural", "tourism"],
+    "tags": {"natural": "volcano"},
+    "moretags": {
+      "ele": {
+        "class": "ele",
+        "tag": "ele",
+        "type": "number"
+      }
+    },
+    "poi": true,
+    "type": ["node"]
+  },
+  {
     "name": "spring",
     "parent": ["natural", "tourism"],
     "tags": {"natural": "spring"},

@@ -241,6 +241,7 @@
     "veterinary": {"name": "Ветлечебница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dveterinary", "keywords": ""},
     "video": {"name": "Продажа, прокат DVD", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dvideo", "keywords": ""},
     "viewpoint": {"name": "Вид", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:tourism%3Dviewpoint", "keywords": ""},
+    "volcano": {"name": "Вулкан", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:natural%3Dvolcano", "keywords": ""},
     "watchmaker": {"name": "Часовщик", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dwatchmaker", "keywords": ""},
     "window_blind": {"name": "Жалюзи, ставни, маркизы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dwindow_blind", "keywords": ""},
     "window_construction": {"name": "Изготовление окон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dwindow_construction", "keywords": ""},
