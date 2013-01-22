@@ -1616,7 +1616,7 @@
       "route_ref": {
         "class": "route_ref",
         "tag": "route_ref",
-        "type": "translate"
+        "type": "number"
       }
     },
     "poi": true,
