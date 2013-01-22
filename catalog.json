@@ -2316,5 +2316,68 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "natural",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "cave_entrance",
+    "parent": ["natural", "tourism"],
+    "tags": {"natural": "cave_entrance"},
+    "moretags": {
+      "fee": {
+        "class": "boolean",
+        "tag": "fee",
+        "type": "translate"
+      },
+      "ele": {
+        "class": "ele",
+        "tag": "ele",
+        "type": "number"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "peak",
+    "parent": ["natural", "tourism"],
+    "tags": {"natural": "peak"},
+    "moretags": {
+      "ele": {
+        "class": "ele",
+        "tag": "ele",
+        "type": "number"
+      }
+    },
+    "poi": true,
+    "type": ["node"]
+  },
+  {
+    "name": "saddle",
+    "parent": ["natural", "tourism"],
+    "tags": {"natural": "saddle"},
+    "moretags": {
+      "ele": {
+        "class": "ele",
+        "tag": "ele",
+        "type": "number"
+      }
+    },
+    "poi": true,
+    "type": ["node"]
+  },
+  {
+    "name": "spring",
+    "parent": ["natural", "tourism"],
+    "tags": {"natural": "spring"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node"]
   }
 ]
