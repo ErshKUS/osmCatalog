@@ -64,16 +64,32 @@ for (var entry in entry_by_name) {
 
 	// Check moretags
 	for (var moretag in entry_by_name[entry].moretags) {
+		var skip = false;
 		if (typeof entry_by_name[entry].moretags[moretag]['class'] === 'undefined') {
 			console.log('ERROR[7]: ' + entry_by_name[entry].name + ', moretag ' + moretag + ': no class');
 			errors++;
+			skip = true;
 		}
 		if (typeof entry_by_name[entry].moretags[moretag]['tag'] === 'undefined') {
 			console.log('ERROR[8]: ' + entry_by_name[entry].name + ', moretag ' + moretag + ': no tag');
 			errors++;
+			skip = true;
 		}
 		if (typeof entry_by_name[entry].moretags[moretag]['type'] === 'undefined') {
 			console.log('ERROR[9]: ' + entry_by_name[entry].name + ', moretag ' + moretag + ': no type');
+			errors++;
+			skip = true;
+		}
+
+		if (skip)
+			continue;
+
+		if (typeof dictionary.moretags[moretag] === 'undefined') {
+			console.log('ERROR[10]: ' + entry_by_name[entry].name + ', moretag ' + moretag + ': no translation');
+			errors++;
+		}
+		if (entry_by_name[entry].moretags[moretag]['type'] == 'translate' && typeof dictionary['class'][entry_by_name[entry].moretags[moretag]['class']] === 'undefined') {
+			console.log('ERROR[11]: ' + entry_by_name[entry].name + ', class ' + entry_by_name[entry].moretags[moretag]['class'] + ': no translation');
 			errors++;
 		}
 	}
