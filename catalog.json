@@ -1556,25 +1556,77 @@
     "type": ["node", "area"]
   },
   {
-    "name": "public_transport_platform",
+    "name": "railway_station",
     "parent": ["transport"],
-    "tags": {"public_transport": "platform"},
+    "tags": {"railway": "station"},
     "moretags": {
-      "bus": {
+      "ticket_office": {
         "class": "boolean",
-        "tag": "bus",
+        "tag": "ticket_office",
         "type": "translate"
       },
-      "tram": {
+      "disused": {
         "class": "boolean",
-        "tag": "tram",
+        "tag": "disused",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "railway_halt",
+    "parent": ["transport"],
+    "tags": {"railway": "halt"},
+    "moretags": {
+      "ticket_office": {
+        "class": "boolean",
+        "tag": "ticket_office",
         "type": "translate"
       },
-      "trolleybus": {
+      "disused": {
         "class": "boolean",
-        "tag": "trolleybus",
+        "tag": "disused",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "bus_stop",
+    "parent": ["transport"],
+    "tags": {"highway": "bus_stop"},
+    "moretags": {
+      "bench": {
+        "class": "boolean",
+        "tag": "bench",
         "type": "translate"
       },
+      "shelter": {
+        "class": "boolean",
+        "tag": "shelter",
+        "type": "translate"
+      },
+      "bin": {
+        "class": "boolean",
+        "tag": "bin",
+        "type": "translate"
+      },
+      "route_ref": {
+        "class": "route_ref",
+        "tag": "route_ref",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "tram_stop",
+    "parent": ["transport"],
+    "tags": {"railway": "tram_stop"},
+    "moretags": {
       "bench": {
         "class": "boolean",
         "tag": "bench",
@@ -1591,14 +1643,6 @@
         "type": "translate"
       }
     },
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
-    "name": "railway_station",
-    "parent": ["transport"],
-    "tags": {"railway": "station"},
-    "moretags": {},
     "poi": true,
     "type": ["node", "area"]
   },
