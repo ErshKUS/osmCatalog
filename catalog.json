@@ -1047,8 +1047,8 @@
     "parent": ["service"],
     "tags": {"amenity": "post_office"},
     "moretags": {
-      "ref":{
-        "class": "ref",
+      "postal_ref":{
+        "class": "postal_ref",
         "tag": "ref",
         "type": "number"
       }

@@ -291,7 +291,7 @@
     "fuel_electricity": {"name": "Электроподзарядка"},
     "internet_access": {"name": "Доступ в интернет"},
     "religion": {"name": "Религия"},
-    "ref": {"name": "Номер отделения"},
+    "postal_ref": {"name": "Номер отделения"},
     "route_ref": {"name": "Номера маршрутов"},
     "sport": {"name": "Виды спорта"},
     "stars": {"name": "Звёзды"},
