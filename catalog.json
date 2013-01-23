@@ -2437,5 +2437,210 @@
     "moretags": {},
     "poi": true,
     "type": ["node"]
+  },
+  {
+    "name": "beach_resort",
+    "parent": ["entertainment"],
+    "tags": {"leisure": "beach_resort"},
+    "moretags": {
+      "fee": {
+        "class": "boolean",
+        "tag": "fee",
+        "type": "translate"
+      },
+      "surface": {
+        "class": "surface",
+        "tag": "surface",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "dance",
+    "parent": ["entertainment"],
+    "tags": {"leisure": "dance"},
+    "moretags": {
+      "fee": {
+        "class": "boolean",
+        "tag": "fee",
+        "type": "translate"
+      },
+      "covered": {
+        "class": "boolean",
+        "tag": "covered",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "dog_park",
+    "parent": ["entertainment"],
+    "tags": {"leisure": "dog_park"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "fishing",
+    "parent": ["entertainment"],
+    "tags": {"leisure": "fishing"},
+    "moretags": {
+      "fee": {
+        "class": "boolean",
+        "tag": "fee",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "golf_course",
+    "parent": ["entertainment"],
+    "tags": {"leisure": "golf_course"},
+    "moretags": {
+      "fee": {
+        "class": "boolean",
+        "tag": "fee",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "ice_rink",
+    "parent": ["entertainment"],
+    "tags": {"leisure": "ice_rink"},
+    "moretags": {
+      "fee": {
+        "class": "boolean",
+        "tag": "fee",
+        "type": "translate"
+      },
+      "covered": {
+        "class": "boolean",
+        "tag": "covered",
+        "type": "translate"
+      },
+      "seasonal": {
+        "class": "boolean",
+        "tag": "seasonal",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "marina",
+    "parent": ["entertainment"],
+    "tags": {"leisure": "marina"},
+    "moretags": {
+      "ship_capacity": {
+        "class": "ship_capacity",
+        "tag": "capacity",
+        "type": "number"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "miniature_golf",
+    "parent": ["entertainment"],
+    "tags": {"leisure": "miniature_golf"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "pitch",
+    "parent": ["entertainment"],
+    "tags": {"leisure": "pitch"},
+    "moretags": {
+      "fee": {
+        "class": "boolean",
+        "tag": "fee",
+        "type": "translate"
+      },
+      "covered": {
+        "class": "boolean",
+        "tag": "covered",
+        "type": "translate"
+      },
+      "seasonal": {
+        "class": "boolean",
+        "tag": "seasonal",
+        "type": "translate"
+      },
+      "sport": {
+        "class": "sport",
+        "tag": "sport",
+        "type": "translate"
+      },
+      "surface": {
+        "class": "surface",
+        "tag": "surface",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "playground",
+    "parent": ["entertainment"],
+    "tags": {"leisure": "playground"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "swimming_pool",
+    "parent": ["entertainment"],
+    "tags": {"leisure": "swimming_pool"},
+    "moretags": {
+      "covered": {
+        "class": "boolean",
+        "tag": "covered",
+        "type": "translate"
+      },
+      "seasonal": {
+        "class": "boolean",
+        "tag": "seasonal",
+        "type": "translate"
+      },
+      "sport": {
+        "class": "sport",
+        "tag": "sport",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "water_park",
+    "parent": ["entertainment"],
+    "tags": {"leisure": "water_park"},
+    "moretags": {
+      "covered": {
+        "class": "boolean",
+        "tag": "covered",
+        "type": "translate"
+      },
+      "seasonal": {
+        "class": "boolean",
+        "tag": "seasonal",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]
