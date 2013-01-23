@@ -90,7 +90,7 @@
     "electronics": {"name": "Электроника", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Delectronics", "keywords": ""},
     "embassy": {"name": "Посольство", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dembassy", "keywords": ""},
     "employment_agency": {"name": "Биржа труда", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Demployment_agency", "keywords": ""},
-    "entertainment": {"name": "Развлечения", "description": "", "link": "", "keywords": ""},
+    "entertainment": {"name": "Развлечения, отдых", "description": "", "link": "", "keywords": ""},
     "erotic": {"name": "Секс-шоп", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Derotic", "keywords": ""},
     "estate_agent": {"name": "Жилищное агентство", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Destate_agent", "keywords": ""},
     "ev_charging": {"name": "Зарядка электромобилей", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dev_charging", "keywords": ""},
