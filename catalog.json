@@ -2658,5 +2658,13 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "telephone",
+    "parent": ["service"],
+    "tags": {"amenity": "telephone"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]
