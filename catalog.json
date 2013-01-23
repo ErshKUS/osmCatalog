@@ -2650,5 +2650,13 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "marketplace",
+    "parent": ["shop"],
+    "tags": {"amenity": "marketplace"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]

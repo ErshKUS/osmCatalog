@@ -149,6 +149,7 @@
     "locksmith": {"name": "Слесарные работы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dlocksmith", "keywords": ""},
     "mall": {"name": "Торговый центр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dmall", "keywords": ""},
     "marina": {"name": "Пристань, яхт-клуб", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:leisure%3Dmarina", "keywords": ""},
+    "marketplace": {"name": "Рынок, базар", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dmarketplace", "keywords": ""},
     "massage": {"name": "Массажный салон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dmassage", "keywords": ""},
     "memorial": {"name": "Мемориал, памятник", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:historic%3Dmemorial", "keywords": ""},
     "metal_construction": {"name": "Металлоконструкции", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dmetal_construction", "keywords": ""},
