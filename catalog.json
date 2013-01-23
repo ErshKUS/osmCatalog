@@ -2286,7 +2286,7 @@
   {
     "name": "newspaper",
     "parent": ["office"],
-    "tags": {"office": "news_paper"},
+    "tags": {"office": "newspaper"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
