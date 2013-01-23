@@ -2642,5 +2642,13 @@
     },
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "cosmetics",
+    "parent": ["shop"],
+    "tags": {"shop": "cosmetics"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]
