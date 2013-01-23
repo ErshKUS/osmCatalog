@@ -1047,8 +1047,8 @@
     "parent": ["service"],
     "tags": {"amenity": "post_office"},
     "moretags": {
-      "ref":{
-        "class": "ref",
+      "postal_ref":{
+        "class": "postal_ref",
         "tag": "ref",
         "type": "number"
       }
@@ -1616,7 +1616,7 @@
       "route_ref": {
         "class": "route_ref",
         "tag": "route_ref",
-        "type": "translate"
+        "type": "number"
       }
     },
     "poi": true,
