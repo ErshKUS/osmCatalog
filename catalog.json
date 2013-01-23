@@ -283,7 +283,7 @@
     "type": ["node","area"]
   },
   {
-    "name": "fishing",
+    "name": "fishing_shop",
     "parent": ["shop"],
     "tags": {"shop":"fishing"},
     "moretags":{},

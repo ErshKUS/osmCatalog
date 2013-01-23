@@ -95,7 +95,7 @@
     "farm": {"name": "Фермерские продукты", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dfarm", "keywords": ""},
     "fast_food": {"name": "Фастфуд (быстрое питание)", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dfast_food", "keywords": ""},
     "finance": {"name": "Финансы", "description": "", "link": "", "keywords": ""},
-    "fishing": {"name": "Рыболов", "description": "", "link": "", "keywords": ""},
+    "fishing_shop": {"name": "Рыболов", "description": "", "link": "", "keywords": ""},
     "florist": {"name": "Цветы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dflorist", "keywords": ""},
     "food": {"name": "Еда", "description": "", "link": "", "keywords": ""},
     "food_court": {"name": "Ресторанный дворик", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dfood_court", "keywords": ""},
