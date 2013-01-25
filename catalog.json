@@ -2666,5 +2666,13 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "ferry_terminal",
+    "parent": ["transport"],
+    "tags": {"amenity": "ferry_terminal"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]

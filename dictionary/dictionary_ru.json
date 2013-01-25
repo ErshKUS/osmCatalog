@@ -98,6 +98,7 @@
     "fabric": {"name": "Ткани", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dfabric", "keywords": ""},
     "farm": {"name": "Фермерские продукты", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dfarm", "keywords": ""},
     "fast_food": {"name": "Фастфуд (быстрое питание)", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dfast_food", "keywords": ""},
+    "ferry_terminal": {"name": "Причал парома", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dferry_terminal", "keywords": ""},
     "finance": {"name": "Финансы", "description": "", "link": "", "keywords": ""},
     "fishing": {"name": "Место для рыбалки", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dfishing", "keywords": ""},
     "fishing_shop": {"name": "Рыболов", "description": "", "link": "", "keywords": ""},
