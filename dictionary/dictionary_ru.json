@@ -306,6 +306,7 @@
     "fuel_octane95": {"name": "Бензин АИ-95"},
     "fuel_octane98": {"name": "Бензин АИ-98"},
     "fuel_svo": {"name": "Биотопливо"},
+    "information_type": {"name": "Тип стенда"},
     "internet_access": {"name": "Доступ в интернет"},
     "postal_ref": {"name": "Номер отделения"},
     "religion": {"name": "Религия"},
@@ -636,6 +637,16 @@
       "time_subscription": "временный абонемент",
       "varies": "процент",
       "yes": "да"
+    },
+    "information_type": {
+      "audioguide": "Аудиогид",
+      "board": "Щит",
+      "guidepost": "Указатель направления",
+      "map": "Карта",
+      "office": "Офис",
+      "tactile_map": "Тактильная карта",
+      "tactile_model": "Тактильная модель",
+      "terminal": "Терминал"
     },
     "internet_access": {
       "no": "Нет",

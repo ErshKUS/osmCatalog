@@ -2031,7 +2031,13 @@
     "name": "information",
     "parent": ["tourism"],
     "tags": {"tourism": "information"},
-    "moretags": {},
+    "moretags": {
+      "information_type": {
+        "class": "information_type",
+        "tag": "information",
+        "type": "translate"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
