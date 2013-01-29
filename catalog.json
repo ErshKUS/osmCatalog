@@ -636,7 +636,7 @@
   },
   {
     "name": "department_store",
-    "parent": ["shop","shop_food"],
+    "parent": ["shop"],
     "tags": {"shop": "department_store"},
     "moretags": {},
     "poi": true,
