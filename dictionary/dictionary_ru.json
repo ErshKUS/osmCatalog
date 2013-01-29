@@ -230,6 +230,7 @@
     "shop": {"name": "Магазины", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Key:shop", "keywords": ""},
     "shop_food": {"name": "Продукты", "description": "", "link": "", "keywords": ""},
     "slipway": {"name": "Слип", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dslipway", "keywords": ""},
+    "social_facility": {"name": "Социальное учреждение", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dsocial_facility", "keywords": ""},
     "sport": {"name": "Спорт", "description": "", "link": "", "keywords": ""},
     "sports": {"name": "Спорттовары", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dsports", "keywords": ""},
     "sports_centre": {"name": "Спортивный центр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dsports_centre", "keywords": ""},
@@ -329,6 +330,8 @@
     "shelter": {"name": "Навес"},
     "ship_capacity": {"name": "Количество лодко-мест"},
     "smoking": {"name": "Курение"},
+    "social_facility_for": {"name": "Целевая группа"},
+    "social_facility_type": {"name": "Тип"},
     "sport": {"name": "Виды спорта"},
     "stars": {"name": "Звёзды"},
     "surface": {"name": "Поверхность"},
@@ -699,6 +702,31 @@
       "dedicated": "Заведение предназначено для курильщиков",
       "no": "Запрещено",
       "yes": "Разрешено"
+    },
+    "social_facility_for": {
+      "abused": "жертвы насилия",
+      "child": "дети",
+      "disabled": "инвалиды",
+      "diseased": "больные конкретными заболеваниями",
+      "drug_addicted": "наркозависимые",
+      "homeless": "бездомные",
+      "juvenile": "подростки",
+      "mental_health": "люди с психическими проблемами",
+      "migrant": "мигранты, беженцы",
+      "orphan": "сироты",
+      "senior": "пожилые",
+      "underprivileged": "малообеспеченные",
+      "unemployed": "безработные",
+      "victim": "жертвы преступности"
+    },
+    "social_facility_type": {
+      "group_home": "учреждение группового проживания",
+      "assisted_living": "учреждение группового проживания",
+      "shelter": "учреждение временного проживания (ночлега)",
+      "ambulatory_care": "учреждение, занимающееся поддержкой на дому",
+      "outreach": "учреждение без проживания, занимающееся предоставлением социальных услуг на бесплатной основе",
+      "workshop": "учреждение без проживания, обеспечивающее работой людей с проблемами, реабилитационный центр",
+      "food_bank": "учреждение без проживания, занимающееся раздачей пищевых рационов или готовых блюд"
     },
     "sport": {
       "10pin": "10-кегельный боулинг (обычный)",

@@ -727,6 +727,25 @@
     "type": ["node", "area"]
   },
   {
+    "name": "social_facility",
+    "parent": ["democracy"],
+    "tags": {"amenity": "social_facility"},
+    "moretags": {
+      "social_facility_type": {
+        "class": "social_facility_type",
+        "tag": "social_facility",
+        "type": "translate"
+      },
+      "social_facility_for": {
+        "class": "social_facility_for",
+        "tag": "social_facility:for",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "veterinary",
     "parent": ["health"],
     "tags": {"amenity": "veterinary"},
