@@ -336,6 +336,12 @@
       "no": "нет",
       "yes": "да"
     },
+    "comission": {
+      "no": "нет",
+      "time_subscription": "временный абонемент",
+      "varies": "процент",
+      "yes": "да"
+    },
     "country": {
       "AD": "Андорра",
       "AE": "Объединённые Арабские Эмираты",
@@ -631,12 +637,6 @@
       "orthodox": "Православие",
       "pentecostal": "Пятидесятничество",
       "russian_orthodox": "Старообрядчество"
-    },
-    "comission": {
-      "no": "нет",
-      "time_subscription": "временный абонемент",
-      "varies": "процент",
-      "yes": "да"
     },
     "information_type": {
       "audioguide": "Аудиогид",
