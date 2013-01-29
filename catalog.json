@@ -2395,7 +2395,7 @@
     "tags": {"natural": "cave_entrance"},
     "moretags": {
       "fee": {
-        "class": "boolean",
+        "class": "fee",
         "tag": "fee",
         "type": "translate"
       },
@@ -2464,7 +2464,7 @@
     "tags": {"leisure": "beach_resort"},
     "moretags": {
       "fee": {
-        "class": "boolean",
+        "class": "fee",
         "tag": "fee",
         "type": "translate"
       },
@@ -2483,7 +2483,7 @@
     "tags": {"leisure": "dance"},
     "moretags": {
       "fee": {
-        "class": "boolean",
+        "class": "fee",
         "tag": "fee",
         "type": "translate"
       },
@@ -2510,7 +2510,7 @@
     "tags": {"leisure": "fishing"},
     "moretags": {
       "fee": {
-        "class": "boolean",
+        "class": "fee",
         "tag": "fee",
         "type": "translate"
       }
@@ -2524,7 +2524,7 @@
     "tags": {"leisure": "golf_course"},
     "moretags": {
       "fee": {
-        "class": "boolean",
+        "class": "fee",
         "tag": "fee",
         "type": "translate"
       }
@@ -2538,7 +2538,7 @@
     "tags": {"leisure": "ice_rink"},
     "moretags": {
       "fee": {
-        "class": "boolean",
+        "class": "fee",
         "tag": "fee",
         "type": "translate"
       },
@@ -2584,7 +2584,7 @@
     "tags": {"leisure": "pitch"},
     "moretags": {
       "fee": {
-        "class": "boolean",
+        "class": "fee",
         "tag": "fee",
         "type": "translate"
       },
