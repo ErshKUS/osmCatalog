@@ -2753,5 +2753,29 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "airport",
+    "parent": ["transport"],
+    "tags": {"aeroway": "aerodrome"},
+    "moretags": {
+      "ele": {
+        "class": "ele",
+        "tag": "ele",
+        "type": "number"
+      },
+      "iata": {
+        "class": "iata",
+        "tag": "iata",
+        "type": "number"
+      },
+      "icao": {
+        "class": "icao",
+        "tag": "icao",
+        "type": "number"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]
