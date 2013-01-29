@@ -40,7 +40,7 @@ for (var entry in entry_by_name) {
 
 	// Check type
 	for (var type in entry_by_name[entry].type) {
-		if (entry_by_name[entry].type[type] !== 'node' && entry_by_name[entry].type[type] !== 'area') {
+		if (entry_by_name[entry].type[type] !== 'node' && entry_by_name[entry].type[type] !== 'area' && entry_by_name[entry].type[type] !== 'way' && entry_by_name[entry].type[type] !== 'relation') {
 			console.log('ERROR[5]: ' + entry_by_name[entry].name + ': unknown type: ' + entry_by_name[entry].type[type]);
 			errors++;
 		}
