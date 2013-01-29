@@ -638,6 +638,10 @@
       "pentecostal": "Пятидесятничество",
       "russian_orthodox": "Старообрядчество"
     },
+    "fee": {
+      "no": "бесплатный",
+      "yes": "платный"
+    },
     "information_type": {
       "audioguide": "Аудиогид",
       "board": "Щит",

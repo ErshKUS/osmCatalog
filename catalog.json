@@ -2335,7 +2335,7 @@
     "tags": {"amenity": "toilets"},
     "moretags": {
       "fee":{
-        "class": "boolean",
+        "class": "fee",
         "tag": "fee",
         "type": "translate"
       }
