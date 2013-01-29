@@ -2686,5 +2686,24 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "cemetery",
+    "parent": ["religion"],
+    "tags": {"landuse": "cemetery"},
+    "moretags": {
+      "religion": {
+        "class": "religion",
+        "tag": "religion",
+        "type": "translate"
+      },
+      "denomination": {
+        "class": "denomination",
+        "tag": "denomination",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]
