@@ -2737,5 +2737,13 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "park",
+    "parent": ["entertainment"],
+    "tags": {"leisure": "park"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]
