@@ -223,6 +223,7 @@
     "seafood": {"name": "Морепродукты", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dseafood", "keywords": ""},
     "second_hand": {"name": "Секонд-хенд", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dsecond_hand", "keywords": ""},
     "service": {"name": "Услуги", "description": "", "link": "", "keywords": ""},
+    "shelter": {"name": "Укрытие от непогоды", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dshelter", "keywords": ""},
     "ship": {"name": "Судно (музей)", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:historic%3Dship", "keywords": ""},
     "ship_chandler": {"name": "Яхты, запчасти, оснастка", "description": "", "link": "", "keywords": ""},
     "shoemaker": {"name": "Обувная мастерская", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dshoemaker", "keywords": ""},

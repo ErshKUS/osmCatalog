@@ -2804,5 +2804,19 @@
     },
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "shelter",
+    "parent": ["tourism"],
+    "tags": {"amenity": "shelter"},
+    "moretags": {
+      "bench": {
+        "class": "boolean",
+        "tag": "bench",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]
