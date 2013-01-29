@@ -2085,6 +2085,30 @@
     "type": ["node", "area"]
   },
   {
+    "name": "artwork",
+    "parent": ["tourism"],
+    "tags": {"tourism": "artwork"},
+    "moretags": {
+      "artwork_type": {
+        "class": "artwork_type",
+        "tag": "artwork_type",
+        "type": "translate"
+      },
+      "artist_name": {
+        "class": "artist_name",
+        "tag": "artist_name",
+        "type": "number"
+      },
+      "start_date": {
+        "class": "start_date",
+        "tag": "start_date",
+        "type": "number"
+      }
+    },
+    "poi": true,
+    "type": ["node", "way", "area"]
+  },
+  {
     "name": "archaeological_site",
     "parent": ["tourism"],
     "tags": {"historic": "archaeological_site"},
