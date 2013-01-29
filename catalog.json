@@ -1922,8 +1922,16 @@
     "type": []
   },
   {
+    "name": "emergency",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
     "name": "police",
-    "parent": ["democracy"],
+    "parent": ["democracy", "emergency"],
     "tags": {"amenity": "police"},
     "moretags": {},
     "poi": true,
@@ -2703,6 +2711,30 @@
         "type": "translate"
       }
     },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "fire_station",
+    "parent": ["emergency"],
+    "tags": {"amenity": "fire_station"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "emergency_phone",
+    "parent": ["emergency"],
+    "tags": {"emergency": "phone"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "ambulance_station",
+    "parent": ["emergency", "health"],
+    "tags": {"emergency": "ambulance_station"},
+    "moretags": {},
     "poi": true,
     "type": ["node", "area"]
   }
