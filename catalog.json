@@ -2558,7 +2558,7 @@
   },
   {
     "name": "marina",
-    "parent": ["entertainment", "sport"],
+    "parent": ["sport", "entertainment"],
     "tags": {"leisure": "marina"},
     "moretags": {
       "ship_capacity": {
@@ -2572,7 +2572,7 @@
   },
   {
     "name": "miniature_golf",
-    "parent": ["entertainment"],
+    "parent": ["entertainment", "sport"],
     "tags": {"leisure": "miniature_golf"},
     "moretags": {},
     "poi": true,
