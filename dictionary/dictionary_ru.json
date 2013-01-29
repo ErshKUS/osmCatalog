@@ -279,6 +279,7 @@
     "country": {"name": "Страна"},
     "covered": {"name": "Крытый"},
     "cuisine": {"name": "Кухня"},
+    "date": {"name": "Дата"},
     "denomination": {"name": "Конфессия"},
     "dispensing": {"name": "Изготовление лекарства по рецепту"},
     "disused": {"name": "Не используется"},
