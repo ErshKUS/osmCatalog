@@ -2512,7 +2512,7 @@
   },
   {
     "name": "golf_course",
-    "parent": ["entertainment"],
+    "parent": ["sport", "entertainment"],
     "tags": {"leisure": "golf_course"},
     "moretags": {
       "fee": {
@@ -2526,7 +2526,7 @@
   },
   {
     "name": "ice_rink",
-    "parent": ["entertainment"],
+    "parent": ["sport", "entertainment"],
     "tags": {"leisure": "ice_rink"},
     "moretags": {
       "fee": {
@@ -2550,7 +2550,7 @@
   },
   {
     "name": "marina",
-    "parent": ["entertainment"],
+    "parent": ["entertainment", "sport"],
     "tags": {"leisure": "marina"},
     "moretags": {
       "ship_capacity": {
@@ -2572,7 +2572,7 @@
   },
   {
     "name": "pitch",
-    "parent": ["entertainment"],
+    "parent": ["sport", "entertainment"],
     "tags": {"leisure": "pitch"},
     "moretags": {
       "fee": {
@@ -2614,7 +2614,7 @@
   },
   {
     "name": "swimming_pool",
-    "parent": ["entertainment"],
+    "parent": ["sport", "entertainment"],
     "tags": {"leisure": "swimming_pool"},
     "moretags": {
       "covered": {
