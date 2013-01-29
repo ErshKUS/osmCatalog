@@ -2571,6 +2571,14 @@
     "type": ["node", "area"]
   },
   {
+    "name": "slipway",
+    "parent": ["entertainment", "sport", "transport"],
+    "tags": {"leisure": "slipway"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "miniature_golf",
     "parent": ["entertainment", "sport"],
     "tags": {"leisure": "miniature_golf"},
