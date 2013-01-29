@@ -218,6 +218,7 @@
     "saddle": {"name": "Горный перевал", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:natural%3Dsaddle", "keywords": ""},
     "saddler": {"name": "Пошив и ремонт автокресел", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dsaddler", "keywords": ""},
     "sailmaker": {"name": "Пошив и ремонт парусов", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dsailmaker", "keywords": ""},
+    "sauna": {"name": "Баня, сауна", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dsauna", "keywords": ""},
     "sawmill": {"name": "Пилорама", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dsawmill", "keywords": ""},
     "scaffolder": {"name": "Возведение строительных лесов", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dscaffolder", "keywords": ""},
     "school": {"name": "Школа", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dschool", "keywords": ""},

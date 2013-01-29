@@ -2864,5 +2864,13 @@
     "moretags": {},
     "poi": true,
     "type": ["node"]
+  },
+  {
+    "name": "sauna",
+    "parent": ["service", "entertainment"],
+    "tags": {"amenity": "sauna"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]
