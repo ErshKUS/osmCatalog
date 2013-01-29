@@ -2502,6 +2502,20 @@
     "type": ["node"]
   },
   {
+    "name": "waterfall",
+    "parent": ["natural", "tourism"],
+    "tags": {"natural": "waterfall"},
+    "moretags": {
+      "height": {
+        "class": "height",
+        "tag": "height",
+        "type": "number"
+      }
+    },
+    "poi": true,
+    "type": ["node"]
+  },
+  {
     "name": "spring",
     "parent": ["natural", "tourism"],
     "tags": {"natural": "spring"},
