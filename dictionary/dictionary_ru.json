@@ -57,7 +57,7 @@
     "charity": {"name": "Благотворительный", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcharity", "keywords": ""},
     "chemist": {"name": "Бытовая химия, косметика", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dchemist", "keywords": ""},
     "cinema": {"name": "Кино", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcinema", "keywords": ""},
-    "city_gate": {"name": "Въездные ворота", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:historic%3Dcity_gate", "keywords": ""},
+    "city_gate": {"name": "Городские ворота", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:historic%3Dcity_gate", "keywords": ""},
     "clockmaker": {"name": "Часовая мастерская", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dclockmaker", "keywords": ""},
     "clothes": {"name": "Одежда", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dclothes", "keywords": ""},
     "college": {"name": "Колледж", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcollege", "keywords": ""},
