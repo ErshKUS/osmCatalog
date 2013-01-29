@@ -87,6 +87,7 @@
     "dog_park": {"name": "Площадка для выгула собак", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:leisure%3Ddog_park", "keywords": ""},
     "doityourself": {"name": "Инструменты и стройматериалы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Ddoityourself", "keywords": ""},
     "dressmaker": {"name": "Пошив, ремонт одежды", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Ddressmaker", "keywords": ""},
+    "drinking_water": {"name": "Питьевая вода", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Ddrinking_water", "keywords": ""},
     "driving_school": {"name": "Автошкола", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Proposed_features/driving_school", "keywords": ""},
     "dry_cleaning": {"name": "Химчистка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Ddry_cleaning", "keywords": ""},
     "education": {"name": "Образование", "description": "", "link": "", "keywords": ""},

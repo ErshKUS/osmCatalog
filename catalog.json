@@ -2842,5 +2842,13 @@
     },
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "drinking_water",
+    "parent": ["tourism"],
+    "tags": {"amenity": "drinking_water"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node"]
   }
 ]
