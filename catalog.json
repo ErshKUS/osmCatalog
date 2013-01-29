@@ -1057,6 +1057,14 @@
     "type": ["node", "area"]
   },
   {
+    "name": "post_box",
+    "parent": ["service"],
+    "tags": {"amenity": "post_box"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "beauty_salon",
     "parent": ["service"],
     "tags": {"shop": "beauty"},

@@ -197,6 +197,7 @@
     "playground": {"name": "Детская площадка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:leisure%3Dplayground", "keywords": ""},
     "plumber": {"name": "Сантехник", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dplumber", "keywords": ""},
     "police": {"name": "Отделение полиции", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dpolice", "keywords": ""},
+    "post_box": {"name": "Почтовый ящик", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dpost_box", "keywords": ""},
     "post_office": {"name": "Почта", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dpost_office", "keywords": ""},
     "pottery": {"name": "Гончарная мастерская", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dpottery", "keywords": ""},
     "prison": {"name": "Тюрьма", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dprison", "keywords": ""},
