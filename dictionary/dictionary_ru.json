@@ -207,6 +207,7 @@
     "radiotechnics": {"name": "Радиодетали", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dradiotechnics", "keywords": ""},
     "railway_halt": {"name": "Ж/д платформа", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:railway%3Dhalt", "keywords": ""},
     "railway_station": {"name": "Ж/д станция", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:railway%3Dstation", "keywords": ""},
+    "subway_station": {"name": "Станция метро", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:railway%3Dstation", "keywords": ""},
     "register_office": {"name": "ЗАГС", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dregister_office", "keywords": ""},
     "religion": {"name": "Религия", "description": "", "link": "", "keywords": ""},
     "research": {"name": "Исследовательский центр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dresearch", "keywords": ""},

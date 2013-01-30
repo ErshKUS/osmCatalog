@@ -1621,6 +1621,14 @@
     "type": ["node", "area"]
   },
   {
+    "name": "subway_station",
+    "parent": ["transport"],
+    "tags": {"railway": "station", "station": "subway"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "bus_stop",
     "parent": ["transport"],
     "tags": {"highway": "bus_stop"},
