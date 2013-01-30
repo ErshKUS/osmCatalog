@@ -2316,7 +2316,15 @@
   },
   {
     "name": "administrative",
-    "parent": ["office"],
+    "parent": ["office", "administrative"],
+    "tags": {"office": "administrative"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "town_hall",
+    "parent": ["administrative", "office"],
     "tags": {"amenity": "townhall"},
     "moretags": {},
     "poi": true,
