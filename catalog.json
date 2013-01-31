@@ -2324,7 +2324,7 @@
   },
   {
     "name": "administrative",
-    "parent": ["office", "administrative"],
+    "parent": ["office"],
     "tags": {"office": "administrative"},
     "moretags": {},
     "poi": true,
