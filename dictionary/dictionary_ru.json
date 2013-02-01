@@ -262,7 +262,7 @@
     "toilets": {"name": "Туалет", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dtoilets", "keywords": ""},
     "tourism": {"name": "Туризм", "description": "", "link": "", "keywords": ""},
     "town_hall": {"name": "Администрация нас.пункта", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dtownhall", "keywords": ""},
-    "toys": {"name": "Магазин игрушек", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dtoys", "keywords": ""},
+    "toys": {"name": "Игрушки", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dtoys", "keywords": ""},
     "trade": {"name": "Оптовый склад", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dtrade", "keywords": ""},
     "tram_stop": {"name": "Остановка трамвая", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:railway%3Dtram_stop", "keywords": ""},
     "transport": {"name": "Транспорт", "description": "", "link": "", "keywords": ""},
