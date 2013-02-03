@@ -317,7 +317,7 @@
     "fuel_e85": {"name": "Е85"},
     "fuel_electricity": {"name": "Электроподзарядка"},
     "fuel_ethanol": {"name": "Этанол"},
-    "fuel_lpg": {"name": "Сжиженый газ (LPG)"},
+    "fuel_lpg": {"name": "Сжиженный газ (LPG)"},
     "fuel_methanol": {"name": "Метанол"},
     "fuel_octane100": {"name": "Бензин АИ-100"},
     "fuel_octane76": {"name": "Бензин АИ-76"},
@@ -354,7 +354,7 @@
   "class": {
     "artwork_type": {
       "architecture": "архитектурный объект",
-      "mosaic": "мозайка",
+      "mosaic": "мозаика",
       "mural": "фреска",
       "painting": "живопись",
       "sculpture": "скульптура",
