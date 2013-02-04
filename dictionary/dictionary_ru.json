@@ -334,7 +334,7 @@
     "postal_ref": {"name": "Номер отделения"},
     "religion": {"name": "Религия"},
     "route_ref": {"name": "Номера маршрутов"},
-    "seasonal": {"name": "Работает не круглый год"},
+    "seasonal": {"name": "Сезонный"},
     "second_hand": {"name": "Продажа б/у"},
     "service_times": {"name": "Время проведения служб"},
     "shelter": {"name": "Навес"},
