@@ -2632,6 +2632,11 @@
         "class": "boolean",
         "tag": "seasonal",
         "type": "translate"
+      },
+      "sport": {
+        "class": "sport",
+        "tag": "sport",
+        "type": "translate"
       }
     },
     "poi": true,
