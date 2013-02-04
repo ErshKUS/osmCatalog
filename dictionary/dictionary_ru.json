@@ -668,9 +668,10 @@
       "catholic": "Римская католическая церковь",
       "greek_orthodox": "Греческое православие",
       "lutheran": "Лютеранство",
+      "old_believers": "Старообрядчество",
       "orthodox": "Православие",
       "pentecostal": "Пятидесятничество",
-      "russian_orthodox": "Старообрядчество"
+      "russian_orthodox": "Православие"
     },
     "fee": {
       "no": "бесплатный",
