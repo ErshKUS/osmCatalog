@@ -331,6 +331,8 @@
     "icao": {"name": "Код ICAO"},
     "information_type": {"name": "Тип стенда"},
     "internet_access": {"name": "Доступ в интернет"},
+    "internet_access_fee": {"name": "Плата за доступ в интернет"},
+    "internet_access_operator": {"name": "Оператор доступа в интернет"},
     "open_date": {"name": "Дата открытия"},
     "postal_ref": {"name": "Номер отделения"},
     "religion": {"name": "Религия"},

@@ -789,6 +789,16 @@
         "tag": "internet_access",
         "type": "translate"
       },
+      "internet_access_operator": {
+        "class": "internet_access_operator",
+        "tag": "internet_access:operator",
+        "type": "number"
+      },
+      "internet_access_fee": {
+        "class": "internet_access_fee",
+        "tag": "internet_access:fee",
+        "type": "boolean"
+      },
       "drive_in": {
         "class": "boolean",
         "tag": "drive_in",
@@ -817,6 +827,16 @@
         "class": "internet_access",
         "tag": "internet_access",
         "type": "translate"
+      },
+      "internet_access_operator": {
+        "class": "internet_access_operator",
+        "tag": "internet_access:operator",
+        "type": "number"
+      },
+      "internet_access_fee": {
+        "class": "internet_access_fee",
+        "tag": "internet_access:fee",
+        "type": "boolean"
       },
       "drive_in": {
         "class": "boolean",
@@ -852,6 +872,16 @@
         "tag": "internet_access",
         "type": "translate"
       },
+      "internet_access_operator": {
+        "class": "internet_access_operator",
+        "tag": "internet_access:operator",
+        "type": "number"
+      },
+      "internet_access_fee": {
+        "class": "internet_access_fee",
+        "tag": "internet_access:fee",
+        "type": "boolean"
+      },
       "drive_in": {
         "class": "boolean",
         "tag": "drive_in",
@@ -880,6 +910,16 @@
         "class": "internet_access",
         "tag": "internet_access",
         "type": "translate"
+      },
+      "internet_access_operator": {
+        "class": "internet_access_operator",
+        "tag": "internet_access:operator",
+        "type": "number"
+      },
+      "internet_access_fee": {
+        "class": "internet_access_fee",
+        "tag": "internet_access:fee",
+        "type": "boolean"
       },
       "drive_in": {
         "class": "boolean",
@@ -910,6 +950,16 @@
         "tag": "internet_access",
         "type": "translate"
       },
+      "internet_access_operator": {
+        "class": "internet_access_operator",
+        "tag": "internet_access:operator",
+        "type": "number"
+      },
+      "internet_access_fee": {
+        "class": "internet_access_fee",
+        "tag": "internet_access:fee",
+        "type": "boolean"
+      },
       "drive_in": {
         "class": "boolean",
         "tag": "drive_in",
@@ -939,6 +989,16 @@
         "tag": "internet_access",
         "type": "translate"
       },
+      "internet_access_operator": {
+        "class": "internet_access_operator",
+        "tag": "internet_access:operator",
+        "type": "number"
+      },
+      "internet_access_fee": {
+        "class": "internet_access_fee",
+        "tag": "internet_access:fee",
+        "type": "boolean"
+      },
       "drive_in": {
         "class": "boolean",
         "tag": "drive_in",
@@ -967,6 +1027,16 @@
         "class": "internet_access",
         "tag": "internet_access",
         "type": "translate"
+      },
+      "internet_access_operator": {
+        "class": "internet_access_operator",
+        "tag": "internet_access:operator",
+        "type": "number"
+      },
+      "internet_access_fee": {
+        "class": "internet_access_fee",
+        "tag": "internet_access:fee",
+        "type": "boolean"
       },
       "drive_in": {
         "class": "boolean",
@@ -2234,6 +2304,16 @@
         "class": "internet_access",
         "tag": "internet_access",
         "type": "translate"
+      },
+      "internet_access_operator": {
+        "class": "internet_access_operator",
+        "tag": "internet_access:operator",
+        "type": "number"
+      },
+      "internet_access_fee": {
+        "class": "internet_access_fee",
+        "tag": "internet_access:fee",
+        "type": "boolean"
       }
     },
     "poi": true,
