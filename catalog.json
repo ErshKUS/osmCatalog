@@ -1577,6 +1577,11 @@
         "class": "wheelchair",
         "tag": "wheelchair",
         "type": "translate"
+      },
+      "open_date": {
+        "class": "open_date",
+        "tag": "start_date",
+        "type": "number"
       }
     },
     "poi": true,
@@ -2107,8 +2112,8 @@
         "tag": "artist_name",
         "type": "number"
       },
-      "start_date": {
-        "class": "start_date",
+      "setup_date": {
+        "class": "setup_date",
         "tag": "start_date",
         "type": "number"
       }
