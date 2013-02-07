@@ -2978,5 +2978,13 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "zoo",
+    "parent": ["tourism", "entertainment"],
+    "tags": {"tourism": "zoo"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]

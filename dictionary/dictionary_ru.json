@@ -280,7 +280,8 @@
     "waterfall": {"name": "Водопад", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:waterway%3Dwaterfall", "keywords": ""},
     "window_blind": {"name": "Жалюзи, ставни, маркизы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dwindow_blind", "keywords": ""},
     "window_construction": {"name": "Изготовление окон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dwindow_construction", "keywords": ""},
-    "wreck": {"name": "Место кораблекрушения", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:historic%3Dwreck", "keywords": ""}
+    "wreck": {"name": "Место кораблекрушения", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:historic%3Dwreck", "keywords": ""},
+    "zoo": {"name": "Зоопарк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:tourism%3Dzoo", "keywords": ""}
   },
   "moretags": {
     "anime_costume": {"name": "Костюмы для косплея"},
