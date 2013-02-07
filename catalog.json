@@ -2986,5 +2986,29 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "bicycle_parking",
+    "parent": ["transport"],
+    "tags": {"amenity": "bicycle_parking"},
+    "moretags": {
+      "fee":{
+        "class": "fee",
+        "tag": "fee",
+        "type": "translate"
+      },
+      "covered": {
+        "class": "boolean",
+        "tag": "covered",
+        "type": "translate"
+      },
+      "bicycle_capacity": {
+        "class": "bicycle_capacity",
+        "tag": "capacity",
+        "type": "number"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]
