@@ -790,7 +790,6 @@
         "type": "translate"
       },
       "internet_access_operator": {
-        "class": "internet_access_operator",
         "tag": "internet_access:operator",
         "type": "number"
       },
@@ -829,7 +828,6 @@
         "type": "translate"
       },
       "internet_access_operator": {
-        "class": "internet_access_operator",
         "tag": "internet_access:operator",
         "type": "number"
       },
@@ -873,7 +871,6 @@
         "type": "translate"
       },
       "internet_access_operator": {
-        "class": "internet_access_operator",
         "tag": "internet_access:operator",
         "type": "number"
       },
@@ -912,7 +909,6 @@
         "type": "translate"
       },
       "internet_access_operator": {
-        "class": "internet_access_operator",
         "tag": "internet_access:operator",
         "type": "number"
       },
@@ -951,7 +947,6 @@
         "type": "translate"
       },
       "internet_access_operator": {
-        "class": "internet_access_operator",
         "tag": "internet_access:operator",
         "type": "number"
       },
@@ -990,7 +985,6 @@
         "type": "translate"
       },
       "internet_access_operator": {
-        "class": "internet_access_operator",
         "tag": "internet_access:operator",
         "type": "number"
       },
@@ -1029,7 +1023,6 @@
         "type": "translate"
       },
       "internet_access_operator": {
-        "class": "internet_access_operator",
         "tag": "internet_access:operator",
         "type": "number"
       },
@@ -1137,7 +1130,6 @@
     "tags": {"amenity": "post_office"},
     "moretags": {
       "postal_ref":{
-        "class": "postal_ref",
         "tag": "ref",
         "type": "number"
       }
@@ -1649,7 +1641,6 @@
         "type": "translate"
       },
       "open_date": {
-        "class": "open_date",
         "tag": "start_date",
         "type": "number"
       }
@@ -1724,7 +1715,6 @@
         "type": "translate"
       },
       "route_ref": {
-        "class": "route_ref",
         "tag": "route_ref",
         "type": "number"
       }
@@ -2015,7 +2005,6 @@
         "type": "translate"
       },
       "service_times": {
-        "class": "service_times",
         "tag": "service_times",
         "type": "period"
       }
@@ -2178,12 +2167,10 @@
         "type": "translate"
       },
       "artist_name": {
-        "class": "artist_name",
         "tag": "artist_name",
         "type": "number"
       },
       "setup_date": {
-        "class": "setup_date",
         "tag": "start_date",
         "type": "number"
       }
@@ -2205,7 +2192,6 @@
     "tags": {"historic": "battlefield"},
     "moretags": {
       "date": {
-        "class": "date",
         "tag": "date",
         "type": "number"
       }
@@ -2306,7 +2292,6 @@
         "type": "translate"
       },
       "internet_access_operator": {
-        "class": "internet_access_operator",
         "tag": "internet_access:operator",
         "type": "number"
       },
@@ -2552,7 +2537,6 @@
         "type": "translate"
       },
       "ele": {
-        "class": "ele",
         "tag": "ele",
         "type": "number"
       }
@@ -2566,7 +2550,6 @@
     "tags": {"natural": "peak"},
     "moretags": {
       "ele": {
-        "class": "ele",
         "tag": "ele",
         "type": "number"
       }
@@ -2580,7 +2563,6 @@
     "tags": {"natural": "saddle"},
     "moretags": {
       "ele": {
-        "class": "ele",
         "tag": "ele",
         "type": "number"
       }
@@ -2594,7 +2576,6 @@
     "tags": {"natural": "volcano"},
     "moretags": {
       "ele": {
-        "class": "ele",
         "tag": "ele",
         "type": "number"
       }
@@ -2608,7 +2589,6 @@
     "tags": {"natural": "waterfall"},
     "moretags": {
       "height": {
-        "class": "height",
         "tag": "height",
         "type": "number"
       }
@@ -2733,7 +2713,6 @@
     "tags": {"leisure": "marina"},
     "moretags": {
       "ship_capacity": {
-        "class": "ship_capacity",
         "tag": "capacity",
         "type": "number"
       }
@@ -2931,17 +2910,14 @@
     "tags": {"aeroway": "aerodrome"},
     "moretags": {
       "ele": {
-        "class": "ele",
         "tag": "ele",
         "type": "number"
       },
       "iata": {
-        "class": "iata",
         "tag": "iata",
         "type": "number"
       },
       "icao": {
-        "class": "icao",
         "tag": "icao",
         "type": "number"
       }
@@ -3003,7 +2979,6 @@
         "type": "translate"
       },
       "bicycle_capacity": {
-        "class": "bicycle_capacity",
         "tag": "capacity",
         "type": "number"
       }
