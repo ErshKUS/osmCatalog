@@ -795,9 +795,9 @@
         "type": "number"
       },
       "internet_access_fee": {
-        "class": "internet_access_fee",
+        "class": "boolean",
         "tag": "internet_access:fee",
-        "type": "boolean"
+        "type": "translate"
       },
       "drive_in": {
         "class": "boolean",
@@ -834,9 +834,9 @@
         "type": "number"
       },
       "internet_access_fee": {
-        "class": "internet_access_fee",
+        "class": "boolean",
         "tag": "internet_access:fee",
-        "type": "boolean"
+        "type": "translate"
       },
       "drive_in": {
         "class": "boolean",
@@ -878,9 +878,9 @@
         "type": "number"
       },
       "internet_access_fee": {
-        "class": "internet_access_fee",
+        "class": "boolean",
         "tag": "internet_access:fee",
-        "type": "boolean"
+        "type": "translate"
       },
       "drive_in": {
         "class": "boolean",
@@ -917,9 +917,9 @@
         "type": "number"
       },
       "internet_access_fee": {
-        "class": "internet_access_fee",
+        "class": "boolean",
         "tag": "internet_access:fee",
-        "type": "boolean"
+        "type": "translate"
       },
       "drive_in": {
         "class": "boolean",
@@ -956,9 +956,9 @@
         "type": "number"
       },
       "internet_access_fee": {
-        "class": "internet_access_fee",
+        "class": "boolean",
         "tag": "internet_access:fee",
-        "type": "boolean"
+        "type": "translate"
       },
       "drive_in": {
         "class": "boolean",
@@ -995,9 +995,9 @@
         "type": "number"
       },
       "internet_access_fee": {
-        "class": "internet_access_fee",
+        "class": "boolean",
         "tag": "internet_access:fee",
-        "type": "boolean"
+        "type": "translate"
       },
       "drive_in": {
         "class": "boolean",
@@ -1034,9 +1034,9 @@
         "type": "number"
       },
       "internet_access_fee": {
-        "class": "internet_access_fee",
+        "class": "boolean",
         "tag": "internet_access:fee",
-        "type": "boolean"
+        "type": "translate"
       },
       "drive_in": {
         "class": "boolean",
@@ -2311,9 +2311,9 @@
         "type": "number"
       },
       "internet_access_fee": {
-        "class": "internet_access_fee",
+        "class": "boolean",
         "tag": "internet_access:fee",
-        "type": "boolean"
+        "type": "translate"
       }
     },
     "poi": true,
