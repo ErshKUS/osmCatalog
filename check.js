@@ -65,8 +65,11 @@ for (var entry in entry_by_name) {
 	// Check moretags
 	for (var moretag in entry_by_name[entry].moretags) {
 		var skip = false;
-		if (typeof entry_by_name[entry].moretags[moretag]['class'] === 'undefined') {
-			console.log('ERROR[7]: ' + entry_by_name[entry].name + ', moretag ' + moretag + ': no class');
+		var type = entry_by_name[entry].moretags[moretag]['type'];
+
+		// Required fields
+		if (type === 'undefined') {
+			console.log('ERROR[9]: ' + entry_by_name[entry].name + ', moretag ' + moretag + ': no type');
 			errors++;
 			skip = true;
 		}
@@ -75,27 +78,36 @@ for (var entry in entry_by_name) {
 			errors++;
 			skip = true;
 		}
-		if (typeof entry_by_name[entry].moretags[moretag]['type'] === 'undefined') {
-			console.log('ERROR[9]: ' + entry_by_name[entry].name + ', moretag ' + moretag + ': no type');
-			errors++;
-			skip = true;
-		}
 
 		if (skip)
 			continue;
 
-		if (typeof dictionary.moretags[moretag] === 'undefined') {
-			console.log('ERROR[10]: ' + entry_by_name[entry].name + ', moretag ' + moretag + ': no translation');
-			errors++;
-		}
-		var type = entry_by_name[entry].moretags[moretag]['type'];
+		// Check type
 		if (type !== 'translate' && type !== 'number' && type !== 'period' && type !== 'namelang') {
 			console.log('ERROR[12]: ' + entry_by_name[entry].name + ', moretag ' + moretag + ': unknown type: ' + type);
 			errors++;
 		}
-		if (type === 'translate' && typeof dictionary['class'][entry_by_name[entry].moretags[moretag]['class']] === 'undefined') {
-			console.log('ERROR[11]: ' + entry_by_name[entry].name + ', class ' + entry_by_name[entry].moretags[moretag]['class'] + ': no translation');
+
+		// Moretag must be defined in dictionary
+		if (typeof dictionary.moretags[moretag] === 'undefined') {
+			console.log('ERROR[10]: ' + entry_by_name[entry].name + ', moretag ' + moretag + ': no translation');
 			errors++;
+		}
+
+		// type=translate requires class, and it must be defined in dictionary
+		if (type === 'translate') {
+			if (typeof entry_by_name[entry].moretags[moretag]['class'] === 'undefined') {
+				console.log('ERROR[7]: ' + entry_by_name[entry].name + ', moretag ' + moretag + ': no class (required for type=translate)');
+				errors++;
+			} else if (typeof dictionary['class'][entry_by_name[entry].moretags[moretag]['class']] === 'undefined') {
+				console.log('ERROR[11]: ' + entry_by_name[entry].name + ', moretag ' + moretag + ', class ' + entry_by_name[entry].moretags[moretag]['class'] + ': no translation');
+				errors++;
+			}
+		} else {
+			if (typeof entry_by_name[entry].moretags[moretag]['class'] !== 'undefined') {
+				console.log('ERROR[13]: ' + entry_by_name[entry].name + ', moretag ' + moretag + ', class ' + entry_by_name[entry].moretags[moretag]['class'] + ': class should only be defiend for type=translate');
+				errors++;
+			}
 		}
 	}
 }
