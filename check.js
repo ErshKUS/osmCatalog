@@ -88,7 +88,12 @@ for (var entry in entry_by_name) {
 			console.log('ERROR[10]: ' + entry_by_name[entry].name + ', moretag ' + moretag + ': no translation');
 			errors++;
 		}
-		if (entry_by_name[entry].moretags[moretag]['type'] == 'translate' && typeof dictionary['class'][entry_by_name[entry].moretags[moretag]['class']] === 'undefined') {
+		var type = entry_by_name[entry].moretags[moretag]['type'];
+		if (type !== 'translate' && type !== 'number' && type !== 'period' && type !== 'namelang') {
+			console.log('ERROR[12]: ' + entry_by_name[entry].name + ', moretag ' + moretag + ': unknown type: ' + type);
+			errors++;
+		}
+		if (type === 'translate' && typeof dictionary['class'][entry_by_name[entry].moretags[moretag]['class']] === 'undefined') {
 			console.log('ERROR[11]: ' + entry_by_name[entry].name + ', class ' + entry_by_name[entry].moretags[moretag]['class'] + ': no translation');
 			errors++;
 		}
