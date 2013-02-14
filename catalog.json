@@ -1928,7 +1928,7 @@
     "type": ["node", "area"]
   },
   {
-    "name": "entertainment",
+    "name": "sport_and_entertainment",
     "parent": [],
     "tags": {},
     "moretags": {},
@@ -1937,7 +1937,7 @@
   },
   {
     "name": "arts_centre",
-    "parent": ["culture", "entertainment"],
+    "parent": ["culture"],
     "tags": {"amenity": "arts_centre"},
     "moretags": {},
     "poi": true,
@@ -1945,7 +1945,7 @@
   },
   {
     "name": "cinema",
-    "parent": ["culture", "entertainment"],
+    "parent": ["culture"],
     "tags": {"amenity": "cinema"},
     "moretags": {
       "drive_in":{
@@ -1959,7 +1959,7 @@
   },
   {
     "name": "nightclub",
-    "parent": ["entertainment"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"amenity": "nightclub"},
     "moretags": {},
     "poi": true,
@@ -1967,7 +1967,7 @@
   },
   {
     "name": "community_centre",
-    "parent": ["entertainment"],
+    "parent": ["culture"],
     "tags": {"amenity": "community_centre"},
     "moretags": {},
     "poi": true,
@@ -1975,7 +1975,7 @@
   },
   {
     "name": "theatre",
-    "parent": ["culture", "entertainment"],
+    "parent": ["culture"],
     "tags": {"amenity": "theatre"},
     "moretags": {},
     "poi": true,
@@ -2075,16 +2075,8 @@
     "type": ["node", "area"]
   },
   {
-    "name": "sport",
-    "parent": [],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
-  },
-  {
     "name": "stadium",
-    "parent": ["sport"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "stadium"},
     "moretags": {
       "sport": {
@@ -2098,7 +2090,7 @@
   },
   {
     "name": "sports_centre",
-    "parent": ["sport"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "sports_centre"},
     "moretags": {
       "sport": {
@@ -2136,7 +2128,7 @@
   },
   {
     "name": "culture",
-    "parent": ["tourism"],
+    "parent": [],
     "tags": {},
     "moretags": {},
     "poi": false,
@@ -2630,7 +2622,7 @@
   },
   {
     "name": "beach_resort",
-    "parent": ["entertainment"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "beach_resort"},
     "moretags": {
       "fee": {
@@ -2649,7 +2641,7 @@
   },
   {
     "name": "dance",
-    "parent": ["entertainment"],
+    "parent": ["sport_and_entertainment", "culture"],
     "tags": {"leisure": "dance"},
     "moretags": {
       "fee": {
@@ -2668,7 +2660,7 @@
   },
   {
     "name": "dog_park",
-    "parent": ["entertainment"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "dog_park"},
     "moretags": {},
     "poi": true,
@@ -2676,7 +2668,7 @@
   },
   {
     "name": "fishing",
-    "parent": ["entertainment", "sport"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "fishing"},
     "moretags": {
       "fee": {
@@ -2690,7 +2682,7 @@
   },
   {
     "name": "golf_course",
-    "parent": ["sport", "entertainment"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "golf_course"},
     "moretags": {
       "fee": {
@@ -2704,7 +2696,7 @@
   },
   {
     "name": "ice_rink",
-    "parent": ["sport", "entertainment"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "ice_rink"},
     "moretags": {
       "fee": {
@@ -2733,7 +2725,7 @@
   },
   {
     "name": "marina",
-    "parent": ["sport", "entertainment"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "marina"},
     "moretags": {
       "ship_capacity": {
@@ -2746,7 +2738,7 @@
   },
   {
     "name": "slipway",
-    "parent": ["entertainment", "sport", "transport"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "slipway"},
     "moretags": {},
     "poi": true,
@@ -2754,7 +2746,7 @@
   },
   {
     "name": "miniature_golf",
-    "parent": ["entertainment", "sport"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "miniature_golf"},
     "moretags": {},
     "poi": true,
@@ -2762,7 +2754,7 @@
   },
   {
     "name": "pitch",
-    "parent": ["sport"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "pitch"},
     "moretags": {
       "fee": {
@@ -2796,7 +2788,7 @@
   },
   {
     "name": "running_track",
-    "parent": ["sport"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "track", "sport": "running"},
     "moretags": {
       "fee": {
@@ -2830,7 +2822,7 @@
   },
   {
     "name": "bicycle_track",
-    "parent": ["sport"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "track", "sport": "cycling"},
     "moretags": {
       "fee": {
@@ -2864,7 +2856,7 @@
   },
   {
     "name": "horse_track",
-    "parent": ["sport"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "track", "sport": "horse_racing"},
     "moretags": {
       "fee": {
@@ -2898,7 +2890,7 @@
   },
   {
     "name": "raceway",
-    "parent": ["sport"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"highway": "raceway"},
     "moretags": {
       "fee": {
@@ -2932,7 +2924,7 @@
   },
   {
     "name": "playground",
-    "parent": ["entertainment"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "playground"},
     "moretags": {},
     "poi": true,
@@ -2940,7 +2932,7 @@
   },
   {
     "name": "swimming_pool",
-    "parent": ["sport", "entertainment"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "swimming_pool"},
     "moretags": {
       "covered": {
@@ -2964,7 +2956,7 @@
   },
   {
     "name": "water_park",
-    "parent": ["entertainment"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "water_park"},
     "moretags": {
       "covered": {
@@ -3058,7 +3050,7 @@
   },
   {
     "name": "park",
-    "parent": ["entertainment"],
+    "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "park"},
     "moretags": {},
     "poi": true,
@@ -3109,7 +3101,7 @@
   },
   {
     "name": "sauna",
-    "parent": ["service", "entertainment"],
+    "parent": ["service", "sport_and_entertainment"],
     "tags": {"amenity": "sauna"},
     "moretags": {},
     "poi": true,
@@ -3117,7 +3109,7 @@
   },
   {
     "name": "zoo",
-    "parent": ["tourism", "entertainment"],
+    "parent": ["sights", "culture"],
     "tags": {"tourism": "zoo"},
     "moretags": {},
     "poi": true,
