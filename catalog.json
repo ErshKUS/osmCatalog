@@ -2512,7 +2512,7 @@
   },
   {
     "name": "viewpoint",
-    "parent": ["tourism"],
+    "parent": ["tourism", "sights"],
     "tags": {"tourism": "viewpoint"},
     "moretags": {},
     "poi": true,
