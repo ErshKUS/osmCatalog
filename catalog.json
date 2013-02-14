@@ -2738,7 +2738,7 @@
   },
   {
     "name": "pitch",
-    "parent": ["sport", "entertainment"],
+    "parent": ["sport"],
     "tags": {"leisure": "pitch"},
     "moretags": {
       "fee": {
