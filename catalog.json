@@ -2771,6 +2771,142 @@
     "type": ["node", "area"]
   },
   {
+    "name": "running_track",
+    "parent": ["sport"],
+    "tags": {"leisure": "track", "sport": "running"},
+    "moretags": {
+      "fee": {
+        "class": "fee",
+        "tag": "fee",
+        "type": "translate"
+      },
+      "covered": {
+        "class": "boolean",
+        "tag": "covered",
+        "type": "translate"
+      },
+      "seasonal": {
+        "class": "boolean",
+        "tag": "seasonal",
+        "type": "translate"
+      },
+      "sport": {
+        "class": "sport",
+        "tag": "sport",
+        "type": "translate"
+      },
+      "surface": {
+        "class": "surface",
+        "tag": "surface",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "way", "area"]
+  },
+  {
+    "name": "bicycle_track",
+    "parent": ["sport"],
+    "tags": {"leisure": "track", "sport": "cycling"},
+    "moretags": {
+      "fee": {
+        "class": "fee",
+        "tag": "fee",
+        "type": "translate"
+      },
+      "covered": {
+        "class": "boolean",
+        "tag": "covered",
+        "type": "translate"
+      },
+      "seasonal": {
+        "class": "boolean",
+        "tag": "seasonal",
+        "type": "translate"
+      },
+      "sport": {
+        "class": "sport",
+        "tag": "sport",
+        "type": "translate"
+      },
+      "surface": {
+        "class": "surface",
+        "tag": "surface",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "way", "area"]
+  },
+  {
+    "name": "horse_track",
+    "parent": ["sport"],
+    "tags": {"leisure": "track", "sport": "horse_racing"},
+    "moretags": {
+      "fee": {
+        "class": "fee",
+        "tag": "fee",
+        "type": "translate"
+      },
+      "covered": {
+        "class": "boolean",
+        "tag": "covered",
+        "type": "translate"
+      },
+      "seasonal": {
+        "class": "boolean",
+        "tag": "seasonal",
+        "type": "translate"
+      },
+      "sport": {
+        "class": "sport",
+        "tag": "sport",
+        "type": "translate"
+      },
+      "surface": {
+        "class": "surface",
+        "tag": "surface",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "way", "area"]
+  },
+  {
+    "name": "raceway",
+    "parent": ["sport"],
+    "tags": {"highway": "raceway"},
+    "moretags": {
+      "fee": {
+        "class": "fee",
+        "tag": "fee",
+        "type": "translate"
+      },
+      "covered": {
+        "class": "boolean",
+        "tag": "covered",
+        "type": "translate"
+      },
+      "seasonal": {
+        "class": "boolean",
+        "tag": "seasonal",
+        "type": "translate"
+      },
+      "sport": {
+        "class": "sport",
+        "tag": "sport",
+        "type": "translate"
+      },
+      "surface": {
+        "class": "surface",
+        "tag": "surface",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["way"]
+  },
+  {
     "name": "playground",
     "parent": ["entertainment"],
     "tags": {"leisure": "playground"},
