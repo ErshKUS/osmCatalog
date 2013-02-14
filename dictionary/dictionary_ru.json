@@ -159,6 +159,7 @@
     "lawyer": {"name": "Юридические услуги", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dlawyer", "keywords": ""},
     "library": {"name": "Библиотека", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dlibrary", "keywords": ""},
     "locksmith": {"name": "Слесарные работы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dlocksmith", "keywords": ""},
+    "lodging": {"name": "Проживание", "description": "", "link": "", "keywords": ""},
     "mall": {"name": "Торговый центр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dmall", "keywords": ""},
     "marina": {"name": "Пристань, яхт-клуб", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:leisure%3Dmarina", "keywords": ""},
     "marketplace": {"name": "Рынок, базар", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dmarketplace", "keywords": ""},

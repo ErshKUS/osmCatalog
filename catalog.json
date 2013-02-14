@@ -2111,6 +2111,14 @@
     "type": ["node", "area"]
   },
   {
+    "name": "lodging",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
     "name": "tourism",
     "parent": [],
     "tags": {},
@@ -2273,7 +2281,7 @@
   },
   {
     "name": "hotel",
-    "parent": ["tourism"],
+    "parent": ["lodging"],
     "tags": {"tourism": "hotel"},
     "moretags": {
       "smoking": {
@@ -2306,7 +2314,7 @@
   },
   {
     "name": "hostel",
-    "parent": ["tourism"],
+    "parent": ["lodging"],
     "tags": {"tourism": "hostel"},
     "moretags": {},
     "poi": true,
