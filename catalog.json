@@ -16,6 +16,142 @@
     "type": []
   },
   {
+    "name": "health",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "food",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "finance",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "service",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "craft",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "transport",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "education",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "sport_and_entertainment",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "religion",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "democracy",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "emergency",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "tourism",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "sights",
+    "parent": ["tourism"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "lodging",
+    "parent": ["tourism"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "culture",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "office",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "natural",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
     "name": "bakery",
     "parent": ["shop_food"],
     "tags": {"shop": "bakery"},
@@ -667,14 +803,6 @@
     "type": ["node", "area"]
   },
   {
-    "name": "health",
-    "parent": [],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
-  },
-  {
     "name": "pharmacy",
     "parent": ["health"],
     "tags": {"amenity": "pharmacy"},
@@ -760,14 +888,6 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
-  },
-  {
-    "name": "food",
-    "parent": [],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
   },
   {
     "name": "cafe",
@@ -1041,14 +1161,6 @@
     "type": ["node", "area"]
   },
   {
-    "name": "finance",
-    "parent": [],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
-  },
-  {
     "name": "bank",
     "parent": ["finance"],
     "tags": {"amenity": "bank"},
@@ -1115,14 +1227,6 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
-  },
-  {
-    "name": "service",
-    "parent": [],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
   },
   {
     "name": "post_office",
@@ -1208,14 +1312,6 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
-  },
-  {
-    "name": "craft",
-    "parent": [],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
   },
   {
     "name": "agricultural_engines",
@@ -1610,14 +1706,6 @@
     "type": ["node", "area"]
   },
   {
-    "name": "transport",
-    "parent": [],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
-  },
-  {
     "name": "bus_station",
     "parent": ["transport"],
     "tags": {"amenity": "bus_station"},
@@ -1880,14 +1968,6 @@
     "type": ["node", "area"]
   },
   {
-    "name": "education",
-    "parent": [],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
-  },
-  {
     "name": "school",
     "parent": ["education"],
     "tags": {"amenity": "school"},
@@ -1926,14 +2006,6 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
-  },
-  {
-    "name": "sport_and_entertainment",
-    "parent": [],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
   },
   {
     "name": "arts_centre",
@@ -1982,14 +2054,6 @@
     "type": ["node", "area"]
   },
   {
-    "name": "religion",
-    "parent": [],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
-  },
-  {
     "name": "place_of_worship",
     "parent": ["religion"],
     "tags": {"amenity": "place_of_worship"},
@@ -2011,22 +2075,6 @@
     },
     "poi": true,
     "type": ["node", "area"]
-  },
-  {
-    "name": "democracy",
-    "parent": [],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
-  },
-  {
-    "name": "emergency",
-    "parent": [],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
   },
   {
     "name": "police",
@@ -2101,38 +2149,6 @@
     },
     "poi": true,
     "type": ["node", "area"]
-  },
-  {
-    "name": "tourism",
-    "parent": [],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
-  },
-  {
-    "name": "lodging",
-    "parent": ["tourism"],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
-  },
-  {
-    "name": "sights",
-    "parent": ["tourism"],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
-  },
-  {
-    "name": "culture",
-    "parent": [],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
   },
   {
     "name": "museum",
@@ -2327,14 +2343,6 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
-  },
-  {
-    "name": "office",
-    "parent": [],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
   },
   {
     "name": "company",
@@ -2533,14 +2541,6 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
-  },
-  {
-    "name": "natural",
-    "parent": [],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
   },
   {
     "name": "cave_entrance",
