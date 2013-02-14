@@ -239,6 +239,7 @@
     "shoes": {"name": "Обувь", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dshoes", "keywords": ""},
     "shop": {"name": "Магазины", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Key:shop", "keywords": ""},
     "shop_food": {"name": "Продукты", "description": "", "link": "", "keywords": ""},
+    "sights": {"name": "Достопримечательности", "description": "", "link": "", "keywords": ""},
     "slipway": {"name": "Слип", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dslipway", "keywords": ""},
     "social_facility": {"name": "Социальное учреждение", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dsocial_facility", "keywords": ""},
     "sport": {"name": "Спорт", "description": "", "link": "", "keywords": ""},

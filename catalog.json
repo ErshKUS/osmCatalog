@@ -2111,7 +2111,7 @@
     "type": ["node", "area"]
   },
   {
-    "name": "lodging",
+    "name": "tourism",
     "parent": [],
     "tags": {},
     "moretags": {},
@@ -2119,8 +2119,16 @@
     "type": []
   },
   {
-    "name": "tourism",
-    "parent": [],
+    "name": "lodging",
+    "parent": ["tourism"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "sights",
+    "parent": ["tourism"],
     "tags": {},
     "moretags": {},
     "poi": false,
@@ -2136,7 +2144,7 @@
   },
   {
     "name": "attraction",
-    "parent": ["tourism"],
+    "parent": ["sights"],
     "tags": {"tourism": "attraction"},
     "moretags": {},
     "poi": true,
@@ -2158,7 +2166,7 @@
   },
   {
     "name": "memorial",
-    "parent": ["tourism"],
+    "parent": ["sights"],
     "tags": {"historic": "memorial"},
     "moretags": {},
     "poi": true,
@@ -2166,7 +2174,7 @@
   },
   {
     "name": "artwork",
-    "parent": ["tourism"],
+    "parent": ["sights"],
     "tags": {"tourism": "artwork"},
     "moretags": {
       "artwork_type": {
@@ -2188,7 +2196,7 @@
   },
   {
     "name": "archaeological_site",
-    "parent": ["tourism"],
+    "parent": ["sights"],
     "tags": {"historic": "archaeological_site"},
     "moretags": {},
     "poi": true,
@@ -2196,7 +2204,7 @@
   },
   {
     "name": "battlefield",
-    "parent": ["tourism"],
+    "parent": ["sights"],
     "tags": {"historic": "battlefield"},
     "moretags": {
       "date": {
@@ -2209,7 +2217,7 @@
   },
   {
     "name": "boundary_stone",
-    "parent": ["tourism"],
+    "parent": ["sights"],
     "tags": {"historic": "boundary_stone"},
     "moretags": {},
     "poi": true,
@@ -2217,7 +2225,7 @@
   },
   {
     "name": "castle",
-    "parent": ["tourism"],
+    "parent": ["sights"],
     "tags": {"historic": "castle"},
     "moretags": {},
     "poi": true,
@@ -2225,7 +2233,7 @@
   },
   {
     "name": "city_gate",
-    "parent": ["tourism"],
+    "parent": ["sights"],
     "tags": {"historic": "city_gate"},
     "moretags": {},
     "poi": true,
@@ -2233,7 +2241,7 @@
   },
   {
     "name": "fort",
-    "parent": ["tourism"],
+    "parent": ["sights"],
     "tags": {"historic": "fort"},
     "moretags": {},
     "poi": true,
@@ -2241,7 +2249,7 @@
   },
   {
     "name": "ruins",
-    "parent": ["tourism"],
+    "parent": ["sights"],
     "tags": {"historic": "ruins"},
     "moretags": {},
     "poi": true,
@@ -2249,7 +2257,7 @@
   },
   {
     "name": "rune_stone",
-    "parent": ["tourism"],
+    "parent": ["sights"],
     "tags": {"historic": "rune_stone"},
     "moretags": {},
     "poi": true,
@@ -2257,7 +2265,7 @@
   },
   {
     "name": "wreck",
-    "parent": ["tourism"],
+    "parent": ["sights"],
     "tags": {"historic": "wreck"},
     "moretags": {},
     "poi": true,
@@ -2265,7 +2273,7 @@
   },
   {
     "name": "ship",
-    "parent": ["tourism"],
+    "parent": ["sights"],
     "tags": {"historic": "ship"},
     "moretags": {},
     "poi": true,
@@ -2273,7 +2281,7 @@
   },
   {
     "name": "monument",
-    "parent": ["tourism"],
+    "parent": ["sights"],
     "tags": {"historic": "monument"},
     "moretags": {},
     "poi": true,
