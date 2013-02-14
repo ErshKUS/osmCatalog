@@ -197,7 +197,7 @@
     "photographer": {"name": "Фотограф", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dphotographer", "keywords": ""},
     "photographic_laboratory": {"name": "Фотолаборатория", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dphotographic_laboratory", "keywords": ""},
     "picnic_site": {"name": "Место для пикника", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:tourism%3Dpicnic_site", "keywords": ""},
-    "pitch": {"name": "Спортивная площадка/поле", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:leisure%3Dpitch", "keywords": ""},
+    "pitch": {"name": "Спортивная площадка, поле, корт", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:leisure%3Dpitch", "keywords": ""},
     "place_of_worship": {"name": "Храм, церковь", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dplace_of_worship", "keywords": ""},
     "plasterer": {"name": "Штукатурные работы, изготовление лепнины", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dplasterer", "keywords": ""},
     "playground": {"name": "Детская площадка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:leisure%3Dplayground", "keywords": ""},
