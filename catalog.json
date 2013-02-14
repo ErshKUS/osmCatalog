@@ -1905,7 +1905,7 @@
   },
   {
     "name": "library",
-    "parent": ["education"],
+    "parent": ["education", "culture"],
     "tags": {"amenity": "library"},
     "moretags": {},
     "poi": true,
