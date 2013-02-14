@@ -2668,7 +2668,7 @@
   },
   {
     "name": "fishing",
-    "parent": ["entertainment"],
+    "parent": ["entertainment", "sport"],
     "tags": {"leisure": "fishing"},
     "moretags": {
       "fee": {
