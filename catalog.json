@@ -1937,7 +1937,7 @@
   },
   {
     "name": "arts_centre",
-    "parent": ["entertainment"],
+    "parent": ["culture", "entertainment"],
     "tags": {"amenity": "arts_centre"},
     "moretags": {},
     "poi": true,
@@ -1945,7 +1945,7 @@
   },
   {
     "name": "cinema",
-    "parent": ["entertainment"],
+    "parent": ["culture", "entertainment"],
     "tags": {"amenity": "cinema"},
     "moretags": {
       "drive_in":{
@@ -1975,7 +1975,7 @@
   },
   {
     "name": "theatre",
-    "parent": ["entertainment"],
+    "parent": ["culture", "entertainment"],
     "tags": {"amenity": "theatre"},
     "moretags": {},
     "poi": true,
@@ -2135,8 +2135,16 @@
     "type": []
   },
   {
-    "name": "museum",
+    "name": "culture",
     "parent": ["tourism"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "museum",
+    "parent": ["culture", "sights"],
     "tags": {"tourism": "museum"},
     "moretags": {},
     "poi": true,
