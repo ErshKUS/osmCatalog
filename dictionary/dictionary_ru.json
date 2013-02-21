@@ -13,7 +13,7 @@
     "archaeological_site": {"name": "Раскопки", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:historic%3Darchaeological_site", "keywords": ""},
     "architect": {"name": "Архитектура", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Darchitect", "keywords": ""},
     "art": {"name": "Предметы искусства", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dart", "keywords": ""},
-    "arts_centre": {"name": "Выставочный центр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Darts_centre", "keywords": ""},
+    "arts_centre": {"name": "Художественный центр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Darts_centre", "keywords": ""},
     "artwork": {"name": "Арт-объект", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:tourism%3Dartwork", "keywords": ""},
     "atm": {"name": "Банкомат", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Datm", "keywords": ""},
     "attraction": {"name": "Достопримечательности", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:tourism%3Dattraction", "keywords": ""},
