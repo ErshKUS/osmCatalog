@@ -2355,7 +2355,7 @@
   {
     "name": "government",
     "parent": ["office"],
-    "tags": {"amenity":"public_building"},
+    "tags": {"office":"government"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
