@@ -7,6 +7,8 @@ var dictionary = JSON.parse(fs.readFileSync('dictionary/dictionary_ru.json')); /
 var errors = 0;
 var warnings = 0;
 
+var current_warnings = 57; // Current number of warnings, to detect new ones
+
 // Load entries into by-name hash, do basic name checks along the way
 var entry_by_name = {};
 for (var entry in catalog) {
@@ -152,4 +154,13 @@ for (icon in icons) {
 
 // Done
 console.log(errors + ' error(s), ' + warnings + ' warning(s)');
+if (warnings > current_warnings) {
+	console.log('Number of warnings increased!');
+	console.log('Please fix them or change current_warnings in check.js to actual value (' + warnings + ')');
+	console.log('if they are not immediately fixable (e.g. lack of icon).');
+}
+if (warnings < current_warnings) {
+	console.log('Number of warnings decreased!');
+	console.log('Please change current_warnings in check.js to actual value (' + warnings + ')');
+}
 process.exit(errors);
