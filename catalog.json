@@ -2077,6 +2077,75 @@
     "type": ["node", "area"]
   },
   {
+    "name": "place_of_worship_christian",
+    "parent": ["place_of_worship"],
+    "tags": {"amenity": "place_of_worship", "religion": "christian"},
+    "moretags": {
+      "religion": {
+        "class": "religion",
+        "tag": "religion",
+        "type": "translate"
+      },
+      "denomination": {
+        "class": "denomination",
+        "tag": "denomination",
+        "type": "translate"
+      },
+      "service_times": {
+        "tag": "service_times",
+        "type": "period"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "place_of_worship_jewish",
+    "parent": ["place_of_worship"],
+    "tags": {"amenity": "place_of_worship", "religion": "jewish"},
+    "moretags": {
+      "religion": {
+        "class": "religion",
+        "tag": "religion",
+        "type": "translate"
+      },
+      "denomination": {
+        "class": "denomination",
+        "tag": "denomination",
+        "type": "translate"
+      },
+      "service_times": {
+        "tag": "service_times",
+        "type": "period"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "place_of_worship_muslim",
+    "parent": ["place_of_worship"],
+    "tags": {"amenity": "place_of_worship", "religion": "muslim"},
+    "moretags": {
+      "religion": {
+        "class": "religion",
+        "tag": "religion",
+        "type": "translate"
+      },
+      "denomination": {
+        "class": "denomination",
+        "tag": "denomination",
+        "type": "translate"
+      },
+      "service_times": {
+        "tag": "service_times",
+        "type": "period"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "police",
     "parent": ["democracy", "emergency"],
     "tags": {"amenity": "police"},
