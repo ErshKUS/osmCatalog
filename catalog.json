@@ -3137,5 +3137,13 @@
     },
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "theme_park",
+    "parent": ["sights", "sport_and_entertainment"],
+    "tags": {"tourism": "theme_park"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]

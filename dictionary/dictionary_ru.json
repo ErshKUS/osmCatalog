@@ -262,6 +262,7 @@
     "telecommunication": {"name": "Телекоммуникационная компания", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dtelecommunication", "keywords": ""},
     "telephone": {"name": "Телефон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dtelephone", "keywords": ""},
     "theatre": {"name": "Театр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dtheatre", "keywords": ""},
+    "theme_park": {"name": "Парк развлечений", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:tourism%3Dtheme_park", "keywords": ""},
     "ticket": {"name": "Продажа, бронирование билетов", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dticket", "keywords": ""},
     "tiler": {"name": "Плиточные работы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dtiler", "keywords": ""},
     "tinsmith": {"name": "Жестянщик, лудильщик", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dtinsmith", "keywords": ""},
