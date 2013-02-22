@@ -3151,5 +3151,13 @@
     },
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "customs",
+    "parent": ["democracy"],
+    "tags": {"amenity": "customs"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]

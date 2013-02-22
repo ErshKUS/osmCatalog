@@ -80,6 +80,7 @@
     "culture": {"name": "Культура, досуг", "description": "", "link": "", "keywords": ""},
     "currencyexchange": {"name": "Обмен валют", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dbureau_de_change", "keywords": ""},
     "curtain": {"name": "Шторы, портьеры", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcurtain", "keywords": ""},
+    "customs": {"name": "Таможенный пункт", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcustoms", "keywords": ""},
     "dance": {"name": "Танцплощадка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:leisure%3Ddance", "keywords": ""},
     "deli": {"name": "Деликатесы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Ddeli", "keywords": ""},
     "democracy": {"name": "Госучреждения", "description": "", "link": "", "keywords": ""},
