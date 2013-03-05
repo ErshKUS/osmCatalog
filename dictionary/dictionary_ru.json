@@ -216,6 +216,7 @@
     "radiotechnics": {"name": "Радиодетали", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dradiotechnics", "keywords": ""},
     "railway_halt": {"name": "Ж/д платформа", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:railway%3Dhalt", "keywords": ""},
     "railway_station": {"name": "Ж/д станция", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:railway%3Dstation", "keywords": ""},
+    "recycling": {"name": "Переработка отходов", "description": "", "link": "https://wiki.openstreetmap.org/wiki/Tag:amenity%3Drecycling", "keywords": ""},
     "register_office": {"name": "ЗАГС", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dregister_office", "keywords": ""},
     "religion": {"name": "Религия", "description": "", "link": "", "keywords": ""},
     "research": {"name": "Исследовательский центр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dresearch", "keywords": ""},
@@ -349,6 +350,7 @@
     "internet_access_operator": {"name": "Оператор доступа в интернет"},
     "open_date": {"name": "Дата открытия"},
     "postal_ref": {"name": "Номер отделения"},
+    "recycling_type": {"name": "Тип"},
     "religion": {"name": "Религия"},
     "route_ref": {"name": "Номера маршрутов"},
     "seasonal": {"name": "Сезонный"},
@@ -713,6 +715,10 @@
       "yes": "Есть"
     },
     "null": "неизвестно",
+    "recycling_type": {
+      "center": "Пункт переработки",
+      "container": "Контейнер"
+    },
     "religion": {
       "bahai": "Бахаи",
       "buddhist": "Буддизм",

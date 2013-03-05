@@ -3228,5 +3228,19 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "recycling",
+    "parent": ["service"],
+    "tags": {"amenity": "recycling"},
+    "moretags": {
+      "recycling_type": {
+        "class": "recycling_type",
+        "tag": "recycling_type",
+        "type": "translate"
+      }
+	},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]
