@@ -396,6 +396,7 @@
     "recycling_sheet_metal": { "name": "Принимает листовой метал" },
     "recycling_small_appliances": { "name": "Принимает мелкую кухонную технику" },
     "recycling_styrofoam": { "name": "Принимает пенопласт" },
+    "recycling_thermometers": { "name": "Принимает термометры" },
     "recycling_tv_monitor": { "name": "Принимает телевизоры" },
     "recycling_type": {"name": "Тип"},
     "recycling_tyres": { "name": "Принимает покрышки" },

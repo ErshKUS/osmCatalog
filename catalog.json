@@ -3285,6 +3285,7 @@
       "recycling_sheet_metal": { "class": "boolean", "tag": "recycling:sheet_metal", "type": "translate" },
       "recycling_small_appliances": { "class": "boolean", "tag": "recycling:small_appliances", "type": "translate" },
       "recycling_styrofoam": { "class": "boolean", "tag": "recycling:styrofoam", "type": "translate" },
+      "recycling_thermometers": { "class": "boolean", "tag": "recycling:thermometers", "type": "translate" },
       "recycling_tyres": { "class": "boolean", "tag": "recycling:tyres", "type": "translate" },
       "recycling_tv_monitor": { "class": "boolean", "tag": "recycling:tv_monitor", "type": "translate" },
       "recycling_waste": { "class": "boolean", "tag": "recycling:waste", "type": "translate" },
