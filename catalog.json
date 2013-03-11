@@ -839,6 +839,14 @@
     "type": ["node", "area"]
   },
   {
+    "name": "clinic",
+    "parent": ["health"],
+    "tags": { "amenity": "clinic"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "dentist",
     "parent": ["health"],
     "tags": {"amenity": "dentist"},
