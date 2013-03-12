@@ -834,7 +834,13 @@
     "name": "doctors",
     "parent": ["health"],
     "tags": { "amenity": "doctors"},
-    "moretags": {},
+    "moretags": {
+      "emergency": {
+        "class": "boolean",
+        "tag": "emergency",
+        "type": "translate"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
@@ -842,7 +848,13 @@
     "name": "clinic",
     "parent": ["health"],
     "tags": { "amenity": "clinic"},
-    "moretags": {},
+    "moretags": {
+      "emergency": {
+        "class": "boolean",
+        "tag": "emergency",
+        "type": "translate"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
