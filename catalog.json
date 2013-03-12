@@ -3155,6 +3155,32 @@
     "type": ["node", "area"]
   },
   {
+    "name": "helipad",
+    "parent": ["transport"],
+    "tags": {"aeroway": "helipad"},
+    "moretags": {
+      "ele": {
+        "tag": "ele",
+        "type": "number"
+      },
+      "iata": {
+        "tag": "iata",
+        "type": "number"
+      },
+      "icao": {
+        "tag": "icao",
+        "type": "number"
+      },
+      "surface": {
+        "class": "surface",
+        "tag": "surface",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "shelter",
     "parent": ["tourism"],
     "tags": {"amenity": "shelter"},

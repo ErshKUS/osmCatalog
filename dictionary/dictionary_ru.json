@@ -137,6 +137,7 @@
     "hardware": {"name": "Скобяные изделия и инструмент", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dhardware", "keywords": ""},
     "health": {"name": "Здоровье", "description": "", "link": "", "keywords": ""},
     "hearing_aids": {"name": "Слуховые аппараты", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dhearing_aids", "keywords": ""},
+    "helipad": {"name": "Вертолётная площадка", "description": "", "link": "https://wiki.openstreetmap.org/wiki/RU:Tag:aeroway%3Dhelipad", "keywords": ""},
     "herbalist": {"name": "Травы (народная медицина)", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dherbalist", "keywords": ""},
     "hifi": {"name": "Hi-Fi аппаратура", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dhifi", "keywords": ""},
     "horse_track": {"name": "Ипподром", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:leisure%3Dtrack", "keywords": ""},
