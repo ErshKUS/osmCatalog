@@ -1863,6 +1863,14 @@
     "type": ["node", "area"]
   },
   {
+    "name": "car_repair_tyres",
+    "parent": ["car_repair"],
+    "tags": {"shop": "car_repair", "service": "tyres"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "car_wash",
     "parent": ["transport"],
     "tags": {"amenity": "car_wash"},
