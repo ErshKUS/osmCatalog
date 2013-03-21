@@ -59,7 +59,7 @@
     "carpet": {"name": "Ковры", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcarpet", "keywords": ""},
     "carpet_layer": {"name": "Укладка ковров, ковролина", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dcarpet_layer", "keywords": ""},
     "castle": {"name": "Замок", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:historic%3Dcastle", "keywords": ""},
-    "caterer": {"name": "Кайтеринг", "description": "Выездное ресторанное обслуживание", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:craft%3Dcaterer", "keywords": ""},
+    "caterer": {"name": "Кейтеринг", "description": "Выездное ресторанное обслуживание", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:craft%3Dcaterer", "keywords": ""},
     "cave_entrance": {"name": "Вход в пещеру", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:natural%3Dcave_entrance", "keywords": ""},
     "cemetery": {"name": "Кладбище", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:landuse%3Dcemetery", "keywords": ""},
     "charity": {"name": "Благотворительный", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcharity", "keywords": ""},
