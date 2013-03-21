@@ -1,0 +1,57 @@
+body {
+	font-family : sans-serif;
+}
+
+ul {
+	display : block;
+	margin-left : 0px;
+	padding-left : 0px;
+}
+
+li ul {
+	margin-left : 20px;
+}
+
+li {
+	display : block;
+	margin-left : 0px;
+	padding-left : 0px;
+}
+
+.poi-info {
+	margin-bottom: 3px;
+
+	border : 1px solid #c0c0c0;
+	border-radius : 7px;
+	background : #e0e0e0;
+	box-shadow : inset 1px 1px 0px 0px #ffffff, 3px 3px 5px 2px #909090;
+}
+
+.poi-icon {
+   	width : 32px;
+	height : 37px;
+	margin : 2px;
+	border : 1px solid #808080;
+	border-radius : 5px;
+	float : left;
+}
+
+.poi-name {
+	font-size: 1.2em;
+	font-weight : bold;
+	float : left;
+	padding : 2px;
+	margin : 0px;
+}
+
+.poi-tags {
+	font-size : 0.8em;
+	float : left;
+	margin : 0px;
+	color : 808080;
+	padding : 2px;
+}
+
+.poi-info-footer {
+	clear : both;
+}
