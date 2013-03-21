@@ -2451,8 +2451,40 @@
   },
   {
     "name": "government",
-    "parent": ["office"],
+    "parent": ["democracy"],
     "tags": {"office":"government"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "bailiff",
+    "parent": ["democracy"],
+    "tags": {"office":"government", "government":"bailiff"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "prosecutor",
+    "parent": ["democracy"],
+    "tags": {"office":"government", "government":"prosecutor"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "pension_fund",
+    "parent": ["democracy"],
+    "tags": {"office":"government", "government":"pension_fund"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "migration",
+    "parent": ["democracy"],
+    "tags": {"office":"government", "government":"migration"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
