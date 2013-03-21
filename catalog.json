@@ -1855,6 +1855,14 @@
     "type": ["node", "area"]
   },
   {
+    "name": "taxi",
+    "parent": ["transport"],
+    "tags": {"amenity": "taxi"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "car_repair",
     "parent": ["transport"],
     "tags": {"shop": "car_repair"},
