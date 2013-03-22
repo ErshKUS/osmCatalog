@@ -50,13 +50,6 @@ ul.catalog-item > li {
 	margin : 0px;
 }
 
-.poi-tags {
-	font-size : 0.8em;
-	margin : 0px;
-	color : 808080;
-	padding : 2px;
-}
-
 ul.poi-moretags {
 	margin-left : 20px;
 }
@@ -67,4 +60,14 @@ ul.poi-moretags > li {
 
 .poi-info-float-breaker {
 	clear : both;
+}
+
+.tag {
+	font-size : 0.8em;
+	color : 808080;
+	margin : 2px 2px 2px 5px;
+}
+
+.tag a {
+	color : 808080;
 }

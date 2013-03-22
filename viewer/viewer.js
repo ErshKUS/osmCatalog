@@ -48,9 +48,14 @@ function createList(items) {
 		var rusname = dictionary.catalog[catname].name;
 
 		var tags = [];
+		for (var tag in items[iitem].tags) {
+			if (tags.length != 0)
+				tags.push(' + ');
 
-		for (var tag in items[iitem].tags)
-			tags.push(tag + '=' + items[iitem].tags[tag]);
+			tags.push(
+					$('<a>').prop('href', 'https://wiki.openstreetmap.org/wiki/Tag:' + tag + '%3D' + items[iitem].tags[tag]).text(tag + '=' + items[iitem].tags[tag])
+			);
+		}
 
 		var moretags = undefined;
 		for (var moretag in items[iitem].moretags) {
@@ -58,7 +63,11 @@ function createList(items) {
 				moretags = $('<ul>').addClass('poi-moretags');
 
 			var rusmoretag = dictionary.moretags[moretag].name;
-			$('<li>').text(rusmoretag).appendTo(moretags);
+			$('<li>').append(
+				$('<span>').prop('title', 'В каталоге значится как ' + moretag).text(rusmoretag)
+			).append(
+				$('<a>').addClass('tag').prop('href', 'https://wiki.openstreetmap.org/wiki/Key:' + items[iitem].moretags[moretag].tag).text(items[iitem].moretags[moretag].tag + '=*')
+			).appendTo(moretags);
 		}
 
 		$('<li>').append(
@@ -70,7 +79,7 @@ function createList(items) {
 						$('<div>').addClass('poi-info-right').append(
 							$('<h2>').addClass('poi-name').text(rusname).prop('title', 'В каталоге значится как ' + catname)
 						).append(
-							$('<span>').addClass('poi-tags').text(tags.join(' + '))
+							$('<span>').addClass('tag').append(tags)
 						).append(
 							moretags
 						)
