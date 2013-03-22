@@ -31,7 +31,7 @@ function createList(items) {
 	if (items.length == 0)
 		return;
 
-	var ul = $('<ul>');
+	var ul = $('<ul>').addClass('catalog-item');
 
 	items = items.sort(function(a, b) {
 		var aa = dictionary.catalog[a.name].name;
@@ -49,18 +49,33 @@ function createList(items) {
 
 		var tags = [];
 
-		for (tag in items[iitem].tags)
+		for (var tag in items[iitem].tags)
 			tags.push(tag + '=' + items[iitem].tags[tag]);
+
+		var moretags = undefined;
+		for (var moretag in items[iitem].moretags) {
+			if (typeof moretags === 'undefined')
+				moretags = $('<ul>').addClass('poi-moretags');
+
+			var rusmoretag = dictionary.moretags[moretag].name;
+			$('<li>').text(rusmoretag).appendTo(moretags);
+		}
 
 		$('<li>').append(
 					$('<div>').addClass('poi-info').append(
-						$('<div>').addClass('poi-icon').css('background-image', 'url(poi_marker/' + catname + '.png)')
+						$('<div>').addClass('poi-info-left').append(
+							$('<div>').addClass('poi-icon').css('background-image', 'url(poi_marker/' + catname + '.png)')
+						)
 					).append(
-						$('<h2>').addClass('poi-name').text(rusname).prop('title', 'В каталоге значится как ' + catname)
+						$('<div>').addClass('poi-info-right').append(
+							$('<h2>').addClass('poi-name').text(rusname).prop('title', 'В каталоге значится как ' + catname)
+						).append(
+							$('<span>').addClass('poi-tags').text(tags.join(' + '))
+						).append(
+							moretags
+						)
 					).append(
-						$('<span>').addClass('poi-tags').text(tags.join(', '))
-					).append(
-						$('<div>').addClass('poi-info-footer')
+						$('<div>').addClass('poi-info-float-breaker')
 					)
 				)
 				.append(createList(items[iitem].childs))
@@ -68,8 +83,4 @@ function createList(items) {
 	}
 
 	return ul;
-}
-
-function translateName(name) {
-	return dictionary.catalog[name].name;
 }

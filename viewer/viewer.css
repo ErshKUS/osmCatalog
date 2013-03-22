@@ -2,17 +2,17 @@ body {
 	font-family : sans-serif;
 }
 
-ul {
+ul.catalog-item {
 	display : block;
 	margin-left : 0px;
 	padding-left : 0px;
 }
 
-li ul {
+ul.catalog-item > li > ul.catalog-item {
 	margin-left : 20px;
 }
 
-li {
+ul.catalog-item > li {
 	display : block;
 	margin-left : 0px;
 	padding-left : 0px;
@@ -27,31 +27,44 @@ li {
 	box-shadow : inset 1px 1px 0px 0px #ffffff, 3px 3px 5px 2px #909090;
 }
 
+.poi-info-left {
+	float : left;
+}
+
+.poi-info-right {
+}
+
 .poi-icon {
    	width : 32px;
 	height : 37px;
 	margin : 2px;
 	border : 1px solid #808080;
 	border-radius : 5px;
-	float : left;
 }
 
 .poi-name {
+	display : inline;
 	font-size: 1.2em;
 	font-weight : bold;
-	float : left;
 	padding : 2px;
 	margin : 0px;
 }
 
 .poi-tags {
 	font-size : 0.8em;
-	float : left;
 	margin : 0px;
 	color : 808080;
 	padding : 2px;
 }
 
-.poi-info-footer {
+ul.poi-moretags {
+	margin-left : 20px;
+}
+
+ul.poi-moretags > li {
+	font-size : 0.8em;
+}
+
+.poi-info-float-breaker {
 	clear : both;
 }
