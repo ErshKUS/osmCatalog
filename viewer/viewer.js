@@ -77,7 +77,7 @@ function createList(items) {
 						)
 					).append(
 						$('<div>').addClass('poi-info-right').append(
-							$('<h2>').addClass('poi-name').text(rusname).prop('title', 'В каталоге значится как ' + catname)
+							$('<a>').addClass('poi-name').prop('href', 'viewer.html#' + catname).prop('title', 'В каталоге значится как ' + catname).prop('name', catname).text(rusname)
 						).append(
 							$('<span>').addClass('tag').append(tags)
 						).append(
