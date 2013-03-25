@@ -38,7 +38,6 @@
     "biergarten": {"name": "Летнее кафе", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dbiergarten", "keywords": ""},
     "blacksmith": {"name": "Кузница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dblacksmith", "keywords": ""},
     "boatbuilder": {"name": "Верфь", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dboatbuilder", "keywords": ""},
-    "bonfires": {"name": "Праздничные, ритуальные костры", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dbonfires", "keywords": ""},
     "bookbinder": {"name": "Переплётная мастерская", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dbookbinder", "keywords": ""},
     "bookshop": {"name": "Книжный", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbooks", "keywords": ""},
     "boundary_stone": {"name": "Межевой камень", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:historic%3Dboundary_stone", "keywords": ""},

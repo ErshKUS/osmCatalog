@@ -1382,14 +1382,6 @@
     "type": ["node", "area"]
   },
   {
-    "name": "bonfires",
-    "parent": ["craft"],
-    "tags": {"craft": "bonfires"},
-    "moretags": {},
-    "poi": true,
-    "type": ["node", "area"]
-  },
-  {
     "name": "bookbinder",
     "parent": ["craft"],
     "tags": {"craft": "bookbinder"},
