@@ -63,7 +63,7 @@
     "cemetery": {"name": "Кладбище", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:landuse%3Dcemetery", "keywords": ""},
     "charity": {"name": "Благотворительный", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcharity", "keywords": ""},
     "chemist": {"name": "Бытовая химия, косметика", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dchemist", "keywords": ""},
-    "cinema": {"name": "Кино", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcinema", "keywords": ""},
+    "cinema": {"name": "Кинотеатр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcinema", "keywords": ""},
     "city_gate": {"name": "Городские ворота", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:historic%3Dcity_gate", "keywords": ""},
     "clinic": {"name": "Поликлиника, клиника", "description": "", "link": "https://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dclinic", "keywords": ""},
     "clockmaker": {"name": "Часовая мастерская", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dclockmaker", "keywords": ""},
