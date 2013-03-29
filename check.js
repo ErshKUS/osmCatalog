@@ -156,11 +156,11 @@ for (icon in icons) {
 console.log(errors + ' error(s), ' + warnings + ' warning(s)');
 if (warnings > current_warnings) {
 	console.log('Number of warnings increased!');
-	console.log('Please fix them or change current_warnings in check.js to actual value (' + warnings + ')');
+	console.log('Please fix them or change current_warnings in check.js to actual value (' + current_warnings + ' -> ' + warnings + ')');
 	console.log('if they are not immediately fixable (e.g. lack of icon).');
 }
 if (warnings < current_warnings) {
 	console.log('Number of warnings decreased!');
-	console.log('Please change current_warnings in check.js to actual value (' + warnings + ')');
+	console.log('Please change current_warnings in check.js to actual value (' + current_warnings + ' -> ' + warnings + ')');
 }
 process.exit(errors);
