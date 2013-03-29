@@ -433,7 +433,7 @@
     "social_facility_type": {"name": "Тип"},
     "sport": {"name": "Виды спорта"},
     "stars": {"name": "Звёзды"},
-    "surface": {"name": "Поверхность"},
+    "surface": {"name": "Покрытие"},
     "ticket_office": {"name": "Наличие билетной кассы"},
     "tram": {"name": "Трамвай"},
     "trolleybus": {"name": "Троллейбус"},
