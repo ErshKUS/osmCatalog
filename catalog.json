@@ -152,6 +152,14 @@
     "type": []
   },
   {
+    "name": "road_features",
+    "parent": ["transport"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
     "name": "bakery",
     "parent": ["shop_food"],
     "tags": {"shop": "bakery"},
@@ -3380,5 +3388,79 @@
 	},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "ford",
+    "parent": ["road_features"],
+    "tags": {"ford": "yes"},
+    "moretags": {
+      "surface": {
+        "class": "surface",
+        "tag": "surface",
+        "type": "translate"
+      },
+      "depth": {
+        "tag": "depth",
+        "type": "number"
+      }
+    },
+    "poi": true,
+    "type": ["node", "way"]
+  },
+  {
+    "name": "road_obstacles",
+    "parent": ["road_features"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "gate",
+    "parent": ["road_obstacles"],
+    "tags": {"barrier": "gate"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node"]
+  },
+  {
+    "name": "lift_gate",
+    "parent": ["road_obstacles"],
+    "tags": {"barrier": "lift_gate"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node"]
+  },
+  {
+    "name": "road_traffic_calming",
+    "parent": ["road_features"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "bump",
+    "parent": ["road_traffic_calming"],
+    "tags": {"traffic_calming": "bump"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node"]
+  },
+  {
+    "name": "hump",
+    "parent": ["road_traffic_calming"],
+    "tags": {"traffic_calming": "hump"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node"]
+  },
+  {
+    "name": "cushion",
+    "parent": ["road_traffic_calming"],
+    "tags": {"traffic_calming": "cushion"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node"]
   }
 ]
