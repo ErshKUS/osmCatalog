@@ -2681,7 +2681,7 @@
   },
   {
     "name": "cave_entrance",
-    "parent": ["natural", "tourism"],
+    "parent": ["natural"],
     "tags": {"natural": "cave_entrance"},
     "moretags": {
       "fee": {
@@ -2699,7 +2699,7 @@
   },
   {
     "name": "peak",
-    "parent": ["natural", "tourism"],
+    "parent": ["natural"],
     "tags": {"natural": "peak"},
     "moretags": {
       "ele": {
@@ -2712,7 +2712,7 @@
   },
   {
     "name": "saddle",
-    "parent": ["natural", "tourism"],
+    "parent": ["natural"],
     "tags": {"natural": "saddle"},
     "moretags": {
       "ele": {
@@ -2725,7 +2725,7 @@
   },
   {
     "name": "volcano",
-    "parent": ["natural", "tourism"],
+    "parent": ["natural"],
     "tags": {"natural": "volcano"},
     "moretags": {
       "ele": {
@@ -2738,7 +2738,7 @@
   },
   {
     "name": "waterfall",
-    "parent": ["natural", "tourism"],
+    "parent": ["natural"],
     "tags": {"natural": "waterfall"},
     "moretags": {
       "height": {
@@ -2756,6 +2756,30 @@
     "moretags": {},
     "poi": true,
     "type": ["node"]
+  },
+  {
+    "name": "cape",
+    "parent": ["natural"],
+    "tags": {"natural": "cape"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "bay",
+    "parent": ["natural"],
+    "tags": {"natural": "bay"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "strait",
+    "parent": ["natural"],
+    "tags": {"natural": "strait"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "way", "area"]
   },
   {
     "name": "beach_resort",
