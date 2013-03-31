@@ -26,7 +26,7 @@
     "basket_maker": {"name": "Плетение из лозы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dbasket_maker", "keywords": ""},
     "bathroom_furnishing": {"name": "Сантехника, ванные, душевые, фурнитура", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbathroom_furnishing", "keywords": ""},
     "battlefield": {"name": "Поле исторической битвы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:historic%3Dbattlefield", "keywords": ""},
-    "bay": {"name": "Бухта", "description": "", "link": "https://wiki.openstreetmap.org/wiki/Tag:natural%3Dbay", "keywords": ""},
+    "bay": {"name": "Бухта, залив", "description": "", "link": "https://wiki.openstreetmap.org/wiki/Tag:natural%3Dbay", "keywords": ""},
     "beach_resort": {"name": "Пляж", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:leisure%3Dbeach_resort", "keywords": ""},
     "beauty_salon": {"name": "Салон красоты", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbeauty", "keywords": ""},
     "bed": {"name": "Матрацы, спальные принадлежности", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbed", "keywords": ""},
