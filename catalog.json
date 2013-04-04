@@ -2782,6 +2782,22 @@
     "type": ["node", "way", "area"]
   },
   {
+    "name": "island",
+    "parent": ["natural"],
+    "tags": {"place": "island"},
+    "moretags": {},
+    "poi": true,
+    "type": ["area"]
+  },
+  {
+    "name": "islet",
+    "parent": ["island"],
+    "tags": {"place": "islet"},
+    "moretags": {},
+    "poi": true,
+    "type": ["area"]
+  },
+  {
     "name": "beach_resort",
     "parent": ["sport_and_entertainment"],
     "tags": {"leisure": "beach_resort"},
