@@ -160,6 +160,14 @@
     "type": []
   },
   {
+    "name": "infrastructure",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
     "name": "bakery",
     "parent": ["shop_food"],
     "tags": {"shop": "bakery"},
@@ -3500,6 +3508,41 @@
     "parent": ["bump"],
     "tags": {"traffic_calming": "cushion"},
     "moretags": {},
+    "poi": true,
+    "type": ["node"]
+  },
+  {
+    "name": "surveillance",
+    "parent": ["infrastructure"],
+    "tags": {"man_made": "surveillance"},
+    "moretags": {
+      "surveillance": {
+        "class": "surveillance",
+        "tag": "surveillance",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node"]
+  },
+  {
+    "name": "communication_tower",
+    "parent": ["infrastructure"],
+    "tags": {"man_made": "tower", "tower_type": "communication"},
+    "moretags": {
+      "height": {
+        "tag": "height",
+        "type": "number"
+      },
+      "ele": {
+        "tag": "ele",
+        "type": "number"
+      },
+      "general_ref": {
+        "tag": "ref",
+        "type": "number"
+      }
+    },
     "poi": true,
     "type": ["node"]
   }

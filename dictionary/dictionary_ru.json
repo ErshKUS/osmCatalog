@@ -72,6 +72,7 @@
     "clockmaker": {"name": "Часовая мастерская", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dclockmaker", "keywords": ""},
     "clothes": {"name": "Одежда", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dclothes", "keywords": ""},
     "college": {"name": "Колледж", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcollege", "keywords": ""},
+    "communication_tower": {"name": "Вышка связи", "description": "", "link": "https://wiki.openstreetmap.org/wiki/RU:Tag:man_made%3Dtower", "keywords": ""},
     "community_centre": {"name": "Общественный центр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcommunity_centre", "keywords": ""},
     "company": {"name": "Фирма", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dcompany", "keywords": ""},
     "computer": {"name": "Компьютеры, оргтехника", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcomputer", "keywords": ""},
@@ -156,6 +157,7 @@
     "hvac": {"name": "Монтаж кондиционеров, систем вентиляции", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dhvac", "keywords": ""},
     "ice_rink": {"name": "Каток", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:leisure%3Dice_rink", "keywords": ""},
     "information": {"name": "Информационный стенд", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:tourism%3Dinformation", "keywords": ""},
+    "infrastructure": {"name": "Инфраструктура", "description": "", "link": "", "keywords": ""},
     "insulation": {"name": "Услуги по утеплению помещений", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dinsulation", "keywords": ""},
     "insurance": {"name": "Страховая компания", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dinsurance", "keywords": ""},
     "interior_decoration": {"name": "Декор и оформление", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dinterior_decoration", "keywords": ""},
@@ -280,6 +282,7 @@
     "subway_station": {"name": "Станция метро", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:railway%3Dstation", "keywords": ""},
     "sun_protection": {"name": "Изготовление навесов, жалюзи", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dsun_protection", "keywords": ""},
     "supermarket": {"name": "Супермаркет", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dsupermarket", "keywords": ""},
+    "surveillance": {"name": "Наблюдение", "description": "", "link": "https://wiki.openstreetmap.org/wiki/Tag:man_made%3Dsurveillance", "keywords": ""},
     "sweep": {"name": "Трубочист", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dsweep", "keywords": ""},
     "swimming_pool": {"name": "Бассейн", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:leisure%3Dswimming_pool", "keywords": ""},
     "tailor": {"name": "Ателье", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dtailor", "keywords": ""},
@@ -363,6 +366,7 @@
     "fuel_octane95": {"name": "Бензин АИ-95"},
     "fuel_octane98": {"name": "Бензин АИ-98"},
     "fuel_svo": {"name": "Биотопливо"},
+    "general_ref": {"name": "Номер"},
     "height": {"name": "Высота (м)"},
     "iata": {"name": "Код IATA"},
     "icao": {"name": "Код ICAO"},
@@ -439,6 +443,7 @@
     "sport": {"name": "Виды спорта"},
     "stars": {"name": "Звёзды"},
     "surface": {"name": "Покрытие"},
+    "surveillance": {"name": "Тип"},
     "ticket_office": {"name": "Наличие билетной кассы"},
     "tram": {"name": "Трамвай"},
     "trolleybus": {"name": "Троллейбус"},
@@ -946,6 +951,11 @@
       "tartan": "Тартан",
       "unpaved": "Без покрытия",
       "wood": "Дерево"
+    },
+    "surveillance": {
+      "indoor": "внутреннее",
+      "outdoor": "наружное",
+      "public": "публичное"
     },
     "wheelchair": {
       "designated": "специально предназначено",
