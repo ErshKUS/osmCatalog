@@ -201,7 +201,43 @@
     "name": "bicycle",
     "parent": ["shop"],
     "tags": {"shop":"bicycle"},
-    "moretags": {},
+    "moretags": {
+      "service_bicycle_retail": {
+        "class": "boolean",
+        "tag": "service:bicycle:retail",
+        "type": "translate"
+      },
+      "service_bicycle_repair": {
+        "class": "boolean",
+        "tag": "service:bicycle:repair",
+        "type": "translate"
+      },
+      "service_bicycle_rental": {
+        "class": "boolean",
+        "tag": "service:bicycle:rental",
+        "type": "translate"
+      },
+      "service_bicycle_pump": {
+        "class": "boolean",
+        "tag": "service:bicycle:pump",
+        "type": "translate"
+      },
+      "service_bicycle_diy": {
+        "class": "boolean",
+        "tag": "service:bicycle:diy",
+        "type": "translate"
+      },
+      "service_bicycle_cleaning": {
+        "class": "boolean",
+        "tag": "service:bicycle:cleaning",
+        "type": "translate"
+      },
+      "service_bicycle_second_hand": {
+        "class": "boolean",
+        "tag": "service:bicycle:second_hand",
+        "type": "translate"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
