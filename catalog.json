@@ -2300,6 +2300,48 @@
     "type": ["node", "area"]
   },
   {
+    "name": "climbing",
+    "parent": ["sport_and_entertainment"],
+    "tags": {"sport": "climbing"},
+    "moretags": {
+      "sport": {
+        "class": "sport",
+        "tag": "sport",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "athletics",
+    "parent": ["sport_and_entertainment"],
+    "tags": {"sport": "athletics"},
+    "moretags": {
+      "sport": {
+        "class": "sport",
+        "tag": "sport",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "weightlifting",
+    "parent": ["sport_and_entertainment"],
+    "tags": {"sport": "weightlifting"},
+    "moretags": {
+      "sport": {
+        "class": "sport",
+        "tag": "sport",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "museum",
     "parent": ["culture", "sights"],
     "tags": {"tourism": "museum"},
