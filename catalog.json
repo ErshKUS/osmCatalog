@@ -3564,7 +3564,7 @@
   {
     "name": "communication_tower",
     "parent": ["infrastructure"],
-    "tags": {"man_made": "tower", "tower_type": "communication"},
+    "tags": {"man_made": "tower", "tower:type": "communication"},
     "moretags": {
       "height": {
         "tag": "height",
