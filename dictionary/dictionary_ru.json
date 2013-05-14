@@ -290,6 +290,7 @@
     "taxi": {"name": "Стоянка такси", "description": "", "link": "https://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dtaxi", "keywords": ""},
     "telecommunication": {"name": "Телекоммуникационная компания", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dtelecommunication", "keywords": ""},
     "telephone": {"name": "Телефон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dtelephone", "keywords": ""},
+    "telephone_exchange": {"name": "АТС", "description": "", "link": "https://wiki.openstreetmap.org/wiki/Proposed_features/Telephone_Exchange", "keywords": ""},
     "theatre": {"name": "Театр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dtheatre", "keywords": ""},
     "theme_park": {"name": "Парк развлечений", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:tourism%3Dtheme_park", "keywords": ""},
     "ticket": {"name": "Продажа, бронирование билетов", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dticket", "keywords": ""},

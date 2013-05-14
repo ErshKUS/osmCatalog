@@ -3581,5 +3581,13 @@
     },
     "poi": true,
     "type": ["node"]
+  },
+  {
+    "name": "telephone_exchange",
+    "parent": ["infrastructure"],
+    "tags": {"man_made": "telephone_exchange"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]
