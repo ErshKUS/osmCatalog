@@ -369,6 +369,7 @@
     "fuel_svo": {"name": "Биотопливо"},
     "general_ref": {"name": "Номер"},
     "height": {"name": "Высота (м)"},
+    "hoops": {"name": "Число баскетбольных колец"},
     "iata": {"name": "Код IATA"},
     "icao": {"name": "Код ICAO"},
     "information_type": {"name": "Тип стенда"},
