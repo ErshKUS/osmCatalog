@@ -583,6 +583,14 @@
     "type": ["node","area"]
   },
   {
+    "name": "houseware",
+    "parent": ["shop"],
+    "tags": {"shop":"houseware"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
     "name": "hunting",
     "parent": ["shop"],
     "tags": {"shop":"hunting"},
@@ -738,6 +746,14 @@
     "name": "stationery",
     "parent": ["shop"],
     "tags": {"shop":"stationery"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
+    "name": "tableware",
+    "parent": ["shop"],
+    "tags": {"shop":"tableware"},
     "moretags":{},
     "poi": true,
     "type": ["node","area"]
