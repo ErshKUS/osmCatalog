@@ -2429,6 +2429,20 @@
     "type": ["node", "area"]
   },
   {
+    "name": "fountain",
+    "parent": ["sights"],
+    "tags": {"amenity": "fountain"},
+    "moretags": {
+      "drinkable": {
+        "class": "drinkable",
+        "tag": "drinkable",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "ruins",
     "parent": ["sights"],
     "tags": {"historic": "ruins"},

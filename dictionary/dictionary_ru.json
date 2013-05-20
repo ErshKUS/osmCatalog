@@ -125,6 +125,7 @@
     "food_court": {"name": "Ресторанный дворик", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dfood_court", "keywords": ""},
     "ford": {"name": "Брод", "description": "", "link": "https://wiki.openstreetmap.org/wiki/RU:Key:ford", "keywords": ""},
     "fort": {"name": "Фортификационные сооружения", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:historic%3Dfort", "keywords": ""},
+    "fountain": {"name": "Фонтан", "description": "", "link": "https://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dfountain", "keywords": ""},
     "frame": {"name": "Рамки, багет", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dframe", "keywords": ""},
     "fuel": {"name": "Заправка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dfuel", "keywords": ""},
     "funeral_directors": {"name": "Ритуальные услуги", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dfuneral_directors", "keywords": ""},
@@ -345,6 +346,7 @@
     "depth": {"name": "Глубина (м)"},
     "dispensing": {"name": "Изготовление лекарств по рецепту"},
     "disused": {"name": "Не используется"},
+    "drinkable": {"name": "Можно пить"},
     "drive_in": {"name": "Обслуживание не выходя из машины"},
     "ele": {"name": "Высота над уровнем моря (м)"},
     "emergency": {"name": "Неотложная помощь"},
@@ -781,6 +783,11 @@
       "orthodox": "Православие",
       "pentecostal": "Пятидесятничество",
       "russian_orthodox": "Православие"
+    },
+    "drinkable": {
+      "yes": "Да",
+      "no": "Нет",
+      "mineral": "Да, минеральная вода"
     },
     "fee": {
       "no": "бесплатный",
