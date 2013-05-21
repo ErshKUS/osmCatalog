@@ -120,6 +120,10 @@ for (var entry in dictionary.catalog) {
 		console.log('WARNING[1]: ' + entry + ': name found in dictionary, but not in the catalog');
 		warnings++;
 	}
+	if (dictionary.catalog[entry].link.search('https://') >= 0) {
+		console.log('ERROR[14]: ' + entry + ': https in link, not recommended');
+		errors++;
+	}
 }
 for (var entry in dictionary.moretags) {
 	if (typeof used_moretags[entry] === 'undefined') {
