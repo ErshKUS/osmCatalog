@@ -155,7 +155,8 @@
     "museum": {"name": "Музей", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:tourism%3Dmuseum", "keywords": ""},
     "attraction": {"name": "Достопримечательности", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:tourism%3Dattraction", "keywords": ""},
     "hotel": {"name": "Гостиница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:tourism%3Dhotel", "keywords": ""},
-    "hostel": {"name": "Хостел", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:tourism%3Dhostel", "keywords": ""}
+    "hostel": {"name": "Хостел", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:tourism%3Dhostel", "keywords": ""},
+    "bookmaker": {"name": "Букмекерская контора", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Bookmaker", "keywords": ""}
   },
   "moretags": {
     "second_hand": {"name": "Продажа б/у"},
