@@ -1423,10 +1423,18 @@
     "poi": true,
     "type": ["node", "area"]
   },
-    {
+  {
     "name": "educational_institution",
     "parent": ["office"],
     "tags": {"office": "educational_institution"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "bookmaker",
+    "parent": ["office"],
+    "tags": {"shop": "bookmaker", "office": "bookmaker"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
