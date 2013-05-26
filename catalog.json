@@ -1434,7 +1434,7 @@
   {
     "name": "bookmaker",
     "parent": ["office"],
-    "tags": {"shop": "bookmaker", "office": "bookmaker"},
+    "tags": {"shop": "bookmaker"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
