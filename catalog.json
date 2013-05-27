@@ -1346,6 +1346,14 @@
     "type": ["node", "area"]
   },
   {
+    "name": "nails",
+    "parent": ["service"],
+    "tags": {"shop": "beauty", "beauty": "nails"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "hairdresser",
     "parent": ["service"],
     "tags": {"shop": "hairdresser"},

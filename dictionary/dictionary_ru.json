@@ -193,6 +193,7 @@
     "motorcycle": {"name": "Мотоциклы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dmotorcycle", "keywords": ""},
     "museum": {"name": "Музей", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:tourism%3Dmuseum", "keywords": ""},
     "musical_instrument": {"name": "Музыкальные инструменты", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dmusical_instrument", "keywords": ""},
+    "nails": {"name": "Маникюрный салон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbeauty", "keywords": ""},
     "natural": {"name": "Природные объекты", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Key:natural", "keywords": ""},
     "newsagent": {"name": "Журнальный киоск", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dnewsagent", "keywords": ""},
     "newspaper": {"name": "Печатное издание", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dnewspaper", "keywords": ""},
