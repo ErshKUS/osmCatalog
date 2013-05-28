@@ -2451,6 +2451,54 @@
     "type": ["node", "area"]
   },
   {
+    "name": "clock",
+    "parent": ["tourism"],
+    "tags": {"amenity": "clock"},
+    "moretags": {
+      "clock_support": {
+        "class": "clock_support",
+        "tag": "support",
+        "type": "translate"
+      },
+      "clock_display": {
+        "class": "clock_display",
+        "tag": "display",
+        "type": "translate"
+      },
+      "clock_visibility": {
+        "class": "clock_visibility",
+        "tag": "visibility",
+        "type": "translate"
+      },
+      "clock_date": {
+        "class": "boolean",
+        "tag": "date",
+        "type": "translate"
+      },
+      "clock_thermometer": {
+        "class": "boolean",
+        "tag": "thermometer",
+        "type": "translate"
+      },
+      "clock_barometer": {
+        "class": "boolean",
+        "tag": "barometer",
+        "type": "translate"
+      },
+      "clock_hygrometer": {
+        "class": "boolean",
+        "tag": "hygrometer",
+        "type": "translate"
+      },
+      "clock_faces": {
+        "tag": "faces",
+        "type": "number"
+      }
+    },
+    "poi": true,
+    "type": ["node", "way", "area"]
+  },
+  {
     "name": "ruins",
     "parent": ["sights"],
     "tags": {"historic": "ruins"},

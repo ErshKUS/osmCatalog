@@ -70,6 +70,7 @@
     "cinema": {"name": "Кинотеатр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcinema", "keywords": ""},
     "city_gate": {"name": "Городские ворота", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:historic%3Dcity_gate", "keywords": ""},
     "clinic": {"name": "Поликлиника, клиника", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dclinic", "keywords": ""},
+    "clock": {"name": "Часы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dclock", "keywords": ""},
     "clockmaker": {"name": "Часовая мастерская", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dclockmaker", "keywords": ""},
     "clothes": {"name": "Одежда", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dclothes", "keywords": ""},
     "college": {"name": "Колледж", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcollege", "keywords": ""},
@@ -339,6 +340,14 @@
     "bicycle_capacity": {"name": "Количество мест"},
     "bin": {"name": "Урна для мусора"},
     "bus": {"name": "Автобус"},
+    "clock_barometer": {"name": "Показывает давление"},
+    "clock_date": {"name": "Показывает дату"},
+    "clock_display": {"name": "Метод отображения"},
+    "clock_faces": {"name": "Число циферблатов"},
+    "clock_hygrometer": {"name": "Показывает влажность"},
+    "clock_support": {"name": "Метод установки"},
+    "clock_thermometer": {"name": "Показывает температуру"},
+    "clock_visibility": {"name": "Видимость"},
     "comission": {"name": "Наличие комиссии"},
     "country": {"name": "Страна"},
     "covered": {"name": "Крытый"},
@@ -482,6 +491,23 @@
       "true": "да",
       "no": "нет",
       "yes": "да"
+    },
+    "clock_display": {
+      "analog": "аналоговый (стрелки)",
+      "digital": "цифровой",
+      "sundial": "солнечные часы",
+      "unorthodox": "нестандартный"
+    },
+    "clock_support": {
+      "pole": "крепление на столб",
+      "wall_mounted": "крепление на стену",
+      "billboard": "информационный щит",
+      "ground": "на земле"
+    },
+    "clock_visibility": {
+      "house": "в пределах нескольких метров",
+      "street": "в пределах улицы",
+      "area": "с большого расстояния"
     },
     "comission": {
       "no": "нет",
