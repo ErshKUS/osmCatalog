@@ -2724,6 +2724,14 @@
     "type": ["node", "area"]
   },
   {
+    "name": "bookmaker",
+    "parent": ["office"],
+    "tags": {"shop": "bookmaker"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "toilets",
     "parent": ["service"],
     "tags": {"amenity": "toilets"},
