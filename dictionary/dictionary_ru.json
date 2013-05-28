@@ -40,6 +40,7 @@
     "blacksmith": {"name": "Кузница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dblacksmith", "keywords": ""},
     "boatbuilder": {"name": "Верфь", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dboatbuilder", "keywords": ""},
     "bookbinder": {"name": "Переплётная мастерская", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dbookbinder", "keywords": ""},
+    "bookmaker": {"name": "Букмекерская контора", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Bookmaker", "keywords": ""},
     "bookshop": {"name": "Книжный", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbooks", "keywords": ""},
     "boundary_stone": {"name": "Межевой камень", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:historic%3Dboundary_stone", "keywords": ""},
     "boutique": {"name": "Бутик", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dboutique", "keywords": ""},
@@ -323,8 +324,7 @@
     "window_blind": {"name": "Жалюзи, ставни, маркизы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dwindow_blind", "keywords": ""},
     "window_construction": {"name": "Изготовление окон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dwindow_construction", "keywords": ""},
     "wreck": {"name": "Место кораблекрушения", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:historic%3Dwreck", "keywords": ""},
-    "zoo": {"name": "Зоопарк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:tourism%3Dzoo", "keywords": ""},
-    "bookmaker": {"name": "Букмекерская контора", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Bookmaker", "keywords": ""}
+    "zoo": {"name": "Зоопарк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:tourism%3Dzoo", "keywords": ""}
   },
   "moretags": {
     "anime_costume": {"name": "Костюмы для косплея"},
