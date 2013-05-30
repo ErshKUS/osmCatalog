@@ -211,6 +211,7 @@
     "paint": {"name": "Краски", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dpaint", "keywords": ""},
     "painter": {"name": "Маляр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dpainter", "keywords": ""},
     "park": {"name": "Парк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dpark", "keywords": ""},
+    "parking": {"name": "Автомобильная парковка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dparking", "keywords": ""},
     "parquet_layer": {"name": "Паркетные работы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dpainter", "keywords": ""},
     "pawnbroker": {"name": "Ломбард", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dpawnbroker", "keywords": ""},
     "peak": {"name": "Горная вершина", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:natural%3Dpeak", "keywords": ""},
