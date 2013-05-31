@@ -112,7 +112,7 @@
     "emergency_phone": {"name": "Экстренный телефон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:emergency%3Dphone", "keywords": ""},
     "employment_agency": {"name": "Биржа труда", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Demployment_agency", "keywords": ""},
     "erotic": {"name": "Секс-шоп", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Derotic", "keywords": ""},
-    "estate_agent": {"name": "Жилищное агентство", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Destate_agent", "keywords": ""},
+    "estate_agent": {"name": "Агентство недвижимости", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Destate_agent", "keywords": ""},
     "ev_charging": {"name": "Зарядка электромобилей", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dev_charging", "keywords": ""},
     "fabric": {"name": "Ткани", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dfabric", "keywords": ""},
     "farm": {"name": "Фермерские продукты", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dfarm", "keywords": ""},
