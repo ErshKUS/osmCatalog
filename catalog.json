@@ -152,7 +152,7 @@
     "type": []
   },
   {
-    "name": "road_features",
+    "name": "road_obstacles",
     "parent": ["transport"],
     "tags": {},
     "moretags": {},
@@ -3591,7 +3591,7 @@
   },
   {
     "name": "ford",
-    "parent": ["road_features"],
+    "parent": ["road_obstacles"],
     "tags": {"ford": "yes"},
     "moretags": {
       "surface": {
@@ -3606,14 +3606,6 @@
     },
     "poi": true,
     "type": ["node", "way"]
-  },
-  {
-    "name": "road_obstacles",
-    "parent": ["road_features"],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
   },
   {
     "name": "gate",
@@ -3632,16 +3624,8 @@
     "type": ["node"]
   },
   {
-    "name": "road_traffic_calming",
-    "parent": ["road_features"],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
-  },
-  {
     "name": "bump",
-    "parent": ["road_traffic_calming"],
+    "parent": ["road_obstacles"],
     "tags": {"traffic_calming": "bump"},
     "moretags": {},
     "poi": true,
