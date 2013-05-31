@@ -3478,6 +3478,53 @@
     "type": ["node", "area"]
   },
   {
+    "name": "parking",
+    "parent": ["transport"],
+    "tags": {"amenity": "parking"},
+    "moretags": {
+      "fee":{
+        "class": "fee",
+        "tag": "fee",
+        "type": "translate"
+      },
+      "covered": {
+        "class": "boolean",
+        "tag": "covered",
+        "type": "translate"
+      },
+      "car_capacity": {
+        "tag": "capacity",
+        "type": "number"
+      },
+      "parking": {
+        "class": "parking",
+        "tag": "parking",
+        "type": "translate"
+      },
+      "park_ride": {
+        "class": "park_ride",
+        "tag": "park_ride",
+        "type": "translate",
+        "multivalue": "yes"
+      },
+      "maxstay": {
+        "tag": "maystay",
+        "type": "number"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "parking_entrance",
+    "parent": ["transport"],
+    "tags": {"amenity": "parking_entrance"},
+    "moretags": {
+    },
+    "poi": true,
+    "type": ["node"]
+  },
+  {
     "name": "bicycle_parking",
     "parent": ["transport"],
     "tags": {"amenity": "bicycle_parking"},

@@ -211,6 +211,8 @@
     "paint": {"name": "Краски", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dpaint", "keywords": ""},
     "painter": {"name": "Маляр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dpainter", "keywords": ""},
     "park": {"name": "Парк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dpark", "keywords": ""},
+    "parking": {"name": "Парковка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dparking", "keywords": ""},
+    "parking_entrance": {"name": "Въезд на парковку", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dparking_entrance", "keywords": ""},
     "parquet_layer": {"name": "Паркетные работы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dpainter", "keywords": ""},
     "pawnbroker": {"name": "Ломбард", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dpawnbroker", "keywords": ""},
     "peak": {"name": "Горная вершина", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:natural%3Dpeak", "keywords": ""},
@@ -339,6 +341,7 @@
     "bicycle_capacity": {"name": "Количество мест"},
     "bin": {"name": "Урна для мусора"},
     "bus": {"name": "Автобус"},
+    "car_capacity": {"name": "Количество машиномест"},
     "clock_barometer": {"name": "Показывает давление"},
     "clock_date": {"name": "Показывает дату"},
     "clock_display": {"name": "Метод отображения"},
@@ -390,7 +393,10 @@
     "internet_access": {"name": "Доступ в интернет"},
     "internet_access_fee": {"name": "Плата за доступ в интернет"},
     "internet_access_operator": {"name": "Оператор доступа в интернет"},
+    "maxstay": {"name": "Ограничение по времени стоянки"},
     "open_date": {"name": "Дата открытия"},
+    "park_ride": {"name": "Перехватывающая парковка"},
+    "parking": {"name": "Тип парковки"},
     "postal_ref": {"name": "Номер отделения"},
     "recycling_aluminium": { "name": "Принимает алюминий" },
     "recycling_animal_waste": { "name": "Принимает продукты жизнедеятельности животных" },
@@ -839,6 +845,22 @@
       "yes": "Есть"
     },
     "null": "неизвестно",
+    "park_ride": {
+      "bus": "пересадка на автобус",
+      "ferry": "пересадка на паром",
+      "metro": "пересадка на метро",
+      "train": "пересадка на поезд",
+      "tram": "пересадка на трамвай",
+      "yes": "да"
+    },
+    "parking": {
+      "carports": "навесы",
+      "garage_boxes": "гаражи",
+      "multi-storey": "многоэтажная",
+      "sheds": "ракушки и пеналы",
+      "surface": "открытая",
+      "underground": "подземная"
+    },
     "recycling_type": {
       "center": "Пункт переработки",
       "container": "Контейнер"
