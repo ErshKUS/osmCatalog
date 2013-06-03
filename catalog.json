@@ -1410,7 +1410,7 @@
   },
   {
     "name": "bicycle_rental",
-    "parent": ["service"],
+    "parent": ["service", "sport_and_entertainment", "transport"],
     "tags": {"amenity": "bicycle_rental"},
     "moretags": {},
     "poi": true,
