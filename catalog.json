@@ -2638,6 +2638,14 @@
     "type": ["node", "area"]
   },
   {
+    "name": "tax_inspection",
+    "parent": ["democracy"],
+    "tags": {"office":"government", "government":"tax_inspection"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "insurance",
     "parent": ["office"],
     "tags": {"office": "insurance"},
