@@ -1,0 +1,88 @@
+[
+	{
+		"name": "described",
+		"parents": [],
+		"moretags": {
+			"name": {
+				"type": "namelang",
+				"tag": "name"
+			},
+			"description": {
+				"type": "string",
+				"tag": "description"
+			}
+		}
+	},
+	{
+		"name": "has_wiki",
+		"parents": ["described"],
+		"moretags": {
+			"wikipedia": {
+				"type": "string",
+				"tag": "wikipedia"
+			}
+		}
+	},
+	{
+		"name": "company_owned",
+		"parents": [],
+		"moretags": {
+			"brand": {
+				"type": "string",
+				"tag": "brand"
+			},
+			"operator": {
+				"type": "string",
+				"tag": "operator"
+			}
+		}
+	},
+	{
+		"name": "opening_hours",
+		"parents": [],
+		"moretags": {
+			"opening_hours": {
+				"type": "period",
+				"tag": "opening_hours"
+			}
+		}
+	},
+	{
+		"name": "contacts_phone",
+		"parents": [],
+		"moretags": {
+			"contact:phone": {
+				"type": "string",
+				"tag": "phone"
+			},
+			"contact:fax": {
+				"type": "string",
+				"tag": "fax"
+			}
+		}
+	},
+	{
+		"name": "contacts_web",
+		"parents": [],
+		"moretags": {			
+			"contact:email": {
+				"type": "string",
+				"tag": "email"
+			},
+			"contact:website": {
+				"type": "string",
+				"tag": "website"
+			}
+		}
+	},
+	{
+		"name": "contacts",
+		"parents": ["contacts_phone", "contacts_web"],
+		"moretags": {}
+	},
+	{
+		"name": "poi",
+		"parents": ["described", "has_wiki", "company_owned", "opening_hours", "contacts"],
+		"moretags": {}
+	}
+]
