@@ -3377,6 +3377,32 @@
     "type": ["node", "area"]
   },
   {
+    "name": "fire_hydrant",
+    "parent": ["emergency"],
+    "tags": {"emergency": "fire_hydrant"},
+    "moretags": {
+      "fire_hydrant_type" : {
+        "class": "fire_hydrant_type",
+        "tag": "fire_hydrant:type",
+        "type": "translate"
+      },
+      "fire_hydrant_diameter": {
+        "tag": "fire_hydrant:diameter",
+        "type": "number"
+      },
+      "fire_hydrant_pressure": {
+        "tag": "fire_hydrant:pressure",
+        "type": "number"
+      },
+      "fire_hydrant_count": {
+        "tag": "fire_hydrant:count",
+        "type": "number"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "ambulance_station",
     "parent": ["emergency", "health"],
     "tags": {"emergency": "ambulance_station"},

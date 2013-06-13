@@ -119,6 +119,7 @@
     "fast_food": {"name": "Фастфуд (быстрое питание)", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dfast_food", "keywords": ""},
     "ferry_terminal": {"name": "Причал парома", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dferry_terminal", "keywords": ""},
     "finance": {"name": "Финансы", "description": "", "link": "", "keywords": ""},
+    "fire_hydrant": {"name": "Пожарный гидрант", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:emergency%3Dfire_hydrant", "keywords": ""},
     "fire_station": {"name": "Пожарная часть", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dfire_station", "keywords": ""},
     "fishing": {"name": "Место для рыбалки", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dfishing", "keywords": ""},
     "fishing_shop": {"name": "Рыболов", "description": "", "link": "", "keywords": ""},
@@ -364,6 +365,10 @@
     "ele": {"name": "Высота над уровнем моря (м)"},
     "emergency": {"name": "Неотложная помощь"},
     "fee": {"name": "Наличие платы"},
+    "fire_hydrant_count": {"name": "Число гидрантов"},
+    "fire_hydrant_diameter": {"name": "Диаметр отверстия"},
+    "fire_hydrant_pressure": {"name": "Давление (атм.)"},
+    "fire_hydrant_type": {"name": "Тип гидранта"},
     "fuel_1_25": {"name": "Топливная смесь 1:25"},
     "fuel_1_50": {"name": "Топливная смесь 1:50"},
     "fuel_HGVdiesel": {"name": "LKW дизель"},
@@ -825,6 +830,12 @@
     "fee": {
       "no": "бесплатный",
       "yes": "платный"
+    },
+    "fire_hydrant_type": {
+      "pillar": "Столб",
+      "pond": "Пруд",
+      "underground": "Подземный",
+      "wall": "Настенный"
     },
     "information_type": {
       "audioguide": "Аудиогид",
