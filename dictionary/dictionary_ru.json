@@ -294,6 +294,7 @@
     "tableware": {"name": "Кухонные принадлежности", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dtableware", "keywords": ""},
     "tailor": {"name": "Ателье", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dtailor", "keywords": ""},
     "tattoo": {"name": "Тату салон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dtattoo", "keywords": ""},
+    "tax_inspection": {"name": "Налоговая инспекция", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dgovernment", "keywords": ""},
     "taxi": {"name": "Стоянка такси", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dtaxi", "keywords": ""},
     "telecommunication": {"name": "Телекоммуникационная компания", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dtelecommunication", "keywords": ""},
     "telephone": {"name": "Телефон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dtelephone", "keywords": ""},
