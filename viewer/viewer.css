@@ -2,6 +2,10 @@ body {
 	font-family : sans-serif;
 }
 
+a {
+	color : black;
+}
+
 ul.catalog-item {
 	display : block;
 	margin-left : 0px;
@@ -32,6 +36,13 @@ ul.catalog-item > li {
 }
 
 .poi-info-right {
+	display : inline-block;
+}
+
+.poi-info-top {
+}
+
+.poi-info-bottom {
 }
 
 .poi-icon {
@@ -51,24 +62,37 @@ a.poi-name {
 	margin : 0px;
 }
 
-ul.poi-moretags {
-	margin-left : 20px;
+div.poi-proplist {
+	margin-left : 5px;
+	padding : 5px 10px;
+	margin : 0px 10px 5px 5px;
+	float : left;
+	background-color : #d0d0d0;
+	border-radius : 10px;
 }
 
-ul.poi-moretags > li {
+div.poi-proplist > span {
 	font-size : 0.8em;
+	font-weight : bold;
+}
+
+div.poi-proplist ul {
+	font-size : 0.8em;
+	list-style-type: disc;
+	list-style-position: inside;
+	padding-left : 15px;
 }
 
 .poi-info-float-breaker {
 	clear : both;
 }
 
-.tag {
+.details {
 	font-size : 0.8em;
-	color : 808080;
-	margin : 2px 2px 2px 5px;
+	margin : 0px 5px;
+	vertical-align : baseline;
 }
 
-.tag a {
+.tag {
 	color : 808080;
 }

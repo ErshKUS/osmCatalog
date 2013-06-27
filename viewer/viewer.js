@@ -53,23 +53,49 @@ function createList(items) {
 				tags.push(' + ');
 
 			tags.push(
-					$('<a>').prop('href', 'https://wiki.openstreetmap.org/wiki/Tag:' + tag + '%3D' + items[iitem].tags[tag]).text(tag + '=' + items[iitem].tags[tag])
+				$('<a>').addClass('tag').prop('href', 'https://wiki.openstreetmap.org/wiki/Tag:' + tag + '%3D' + items[iitem].tags[tag]).text(tag + '=' + items[iitem].tags[tag])
 			);
 		}
 
 		var moretags = undefined;
 		for (var moretag in items[iitem].moretags) {
 			if (typeof moretags === 'undefined')
-				moretags = $('<ul>').addClass('poi-moretags');
+				moretags = $('<ul>');
 
 			var rusmoretag = dictionary.moretags[moretag].name;
 			$('<li>').append(
 				$('<span>').prop('title', 'В каталоге значится как ' + moretag).text(rusmoretag)
 			).append(
-				$('<a>').addClass('tag').prop('href', 'https://wiki.openstreetmap.org/wiki/Key:' + items[iitem].moretags[moretag].tag).text(items[iitem].moretags[moretag].tag + '=*')
+				$('<a>').addClass('tag').addClass('details').prop('href', 'https://wiki.openstreetmap.org/wiki/Key:' + items[iitem].moretags[moretag].tag).text(items[iitem].moretags[moretag].tag + '=*')
 			).appendTo(moretags);
 		}
+		if (typeof moretags !== 'undefined') {
+			moretags = $('<div>').addClass('poi-proplist').append(
+					$('<span>').text('Дополнительные тэги:')
+			).append(moretags);
+		}
 
+		var seealsos = undefined;
+		for (var seealso in dictionary.catalog[catname].seealso) {
+			if (typeof seealsos === 'undefined')
+				seealsos = $('<ul>').addClass('poi-proplist');
+
+			var seealsoname = dictionary.catalog[catname].seealso[seealso];
+			var russeealso = dictionary.catalog[seealsoname].name;
+			$('<li>').append(
+				$('<a>').prop('href', '#' + seealsoname).text(russeealso)
+			).appendTo(seealsos)
+		}
+		if (typeof seealsos !== 'undefined') {
+			seealsos = $('<div>').addClass('poi-proplist').append(
+				$('<span>').text('Смотри также:')
+			).append(seealsos);
+		}
+
+		var description = undefined;
+		if (dictionary.catalog[catname].description != '') {
+			description = $('<span>').addClass('details').append('(' + dictionary.catalog[catname].description + ')');
+		}
 		$('<li>').append(
 					$('<div>').addClass('poi-info').append(
 						$('<div>').addClass('poi-info-left').append(
@@ -77,11 +103,21 @@ function createList(items) {
 						)
 					).append(
 						$('<div>').addClass('poi-info-right').append(
-							$('<a>').addClass('poi-name').prop('href', 'viewer.html#' + catname).prop('title', 'В каталоге значится как ' + catname).prop('name', catname).text(rusname)
+							$('<div>').addClass('poi-info-top').append(
+								$('<a>').addClass('poi-name').prop('href', 'viewer.html#' + catname).prop('title', 'В каталоге значится как ' + catname).prop('name', catname).text(rusname)
+							).append(
+								$(' ')
+							).append(
+								$('<span>').addClass('details').append(tags)
+							).append(
+								description
+							)
 						).append(
-							$('<span>').addClass('tag').append(tags)
-						).append(
-							moretags
+							$('<div>').addClass('poi-info-bottom').append(
+								moretags
+							).append(
+								seealsos
+							)
 						)
 					).append(
 						$('<div>').addClass('poi-info-float-breaker')
