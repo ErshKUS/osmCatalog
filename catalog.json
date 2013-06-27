@@ -2954,6 +2954,20 @@
     "type": ["area"]
   },
   {
+    "name": "beach",
+    "parent": ["natural"],
+    "tags": {"natural": "beach"},
+    "moretags": {
+      "nudism": {
+        "class": "nudism",
+        "tag": "nudism",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["area"]
+  },
+  {
     "name": "islet",
     "parent": ["island"],
     "tags": {"place": "islet"},
@@ -2974,6 +2988,11 @@
       "surface": {
         "class": "surface",
         "tag": "surface",
+        "type": "translate"
+      },
+      "nudism": {
+        "class": "nudism",
+        "tag": "nudism",
         "type": "translate"
       }
     },
