@@ -2958,6 +2958,11 @@
     "parent": ["natural"],
     "tags": {"natural": "beach"},
     "moretags": {
+      "surface": {
+        "class": "surface",
+        "tag": "surface",
+        "type": "translate"
+      },
       "nudism": {
         "class": "nudism",
         "tag": "nudism",
@@ -2983,11 +2988,6 @@
       "fee": {
         "class": "fee",
         "tag": "fee",
-        "type": "translate"
-      },
-      "surface": {
-        "class": "surface",
-        "tag": "surface",
         "type": "translate"
       },
       "nudism": {
