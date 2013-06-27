@@ -431,6 +431,14 @@
     "type": ["node","area"]
   },
   {
+    "name": "bedding",
+    "parent": ["shop"],
+    "tags": {"shop":"bedding"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"]
+  },
+  {
     "name": "deli",
     "parent": ["shop_food"],
     "tags": {"shop":"deli"},
