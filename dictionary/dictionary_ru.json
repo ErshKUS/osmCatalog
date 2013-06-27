@@ -17,6 +17,7 @@
     "artwork": {"name": "Арт-объект", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:tourism%3Dartwork", "keywords": ""},
     "atm": {"name": "Банкомат", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Datm", "keywords": ""},
     "attraction": {"name": "Достопримечательности", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:tourism%3Dattraction", "keywords": ""},
+    "atv": {"name": "Квадроциклы", "description": "", "link": "", "keywords": ""},
     "baby_goods": {"name": "Детские товары", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbaby_goods", "keywords": ""},
     "bag": {"name": "Сумки, чемоданы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dbag", "keywords": ""},
     "bailiff": {"name": "Служба судебных приставов", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dgovernment", "keywords": ""},

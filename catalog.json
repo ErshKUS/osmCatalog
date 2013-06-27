@@ -871,6 +871,14 @@
     "type": ["node", "area"]
   },
   {
+    "name": "atv",
+    "parent": ["shop"],
+    "tags": {"shop": "atv"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "pharmacy",
     "parent": ["health"],
     "tags": {"amenity": "pharmacy"},
