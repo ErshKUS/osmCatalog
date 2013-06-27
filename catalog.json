@@ -3786,5 +3786,13 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "sewing",
+    "parent": ["shop"],
+    "tags": {"shop": "sewing"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]
