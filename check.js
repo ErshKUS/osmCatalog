@@ -124,6 +124,12 @@ for (var entry in dictionary.catalog) {
 		console.log('ERROR[14]: ' + entry + ': https in link, not recommended');
 		errors++;
 	}
+	for (var seealso in dictionary.catalog[entry].seealso) {
+		if (typeof entry_by_name[dictionary.catalog[entry].seealso[seealso]] === 'undefined') {
+			console.log('ERROR[15]: ' + entry + ': seealso points to non-existing object');
+			errors++;
+		}
+	}
 }
 for (var entry in dictionary.moretags) {
 	if (typeof used_moretags[entry] === 'undefined') {
