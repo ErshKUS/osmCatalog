@@ -32,7 +32,7 @@
     "beach_resort": {"name": "Пляжный комплекс", "description": "Оборудованный пляж с услугами", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:leisure%3Dbeach_resort", "keywords": "", "seealso": ["beach"] },
     "beauty_salon": {"name": "Салон красоты", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbeauty", "keywords": ""},
     "bed": {"name": "Матрацы, спальные принадлежности", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbed", "keywords": ""},
-    "bedding": {"name": "Текстиль для дома", "description": "Постельное бельё, полотенца и т.д.", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbed", "keywords": ""},
+    "bedding": {"name": "Постельное бельё", "description": "", "link": "", "keywords": ""},
     "beekeeper": {"name": "Пасека", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dbeekeeper", "keywords": ""},
     "beverages": {"name": "Напитки", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbeverages", "keywords": ""},
     "bicycle": {"name": "Велосипеды", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbicycle", "keywords": ""},
