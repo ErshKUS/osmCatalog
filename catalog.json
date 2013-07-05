@@ -3724,6 +3724,19 @@
     "type": ["node", "way"]
   },
   {
+    "name": "mountain_pass",
+    "parent": ["road_obstacles"],
+    "tags": {"mountain_pass": "yes"},
+    "moretags": {
+      "ele": {
+        "tag": "ele",
+        "type": "number"
+      }
+    },
+    "poi": true,
+    "type": ["node", "way"]
+  },
+  {
     "name": "gate",
     "parent": ["road_obstacles"],
     "tags": {"barrier": "gate"},
