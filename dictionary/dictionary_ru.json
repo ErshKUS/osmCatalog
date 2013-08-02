@@ -357,6 +357,7 @@
     "clock_support": {"name": "Метод установки"},
     "clock_thermometer": {"name": "Показывает температуру"},
     "clock_visibility": {"name": "Видимость"},
+    "collection_times": {"name": "Время сбора почты"},
     "comission": {"name": "Наличие комиссии"},
     "country": {"name": "Страна"},
     "covered": {"name": "Крытый"},

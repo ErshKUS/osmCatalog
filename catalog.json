@@ -1360,6 +1360,10 @@
       "general_ref":{
         "tag": "ref",
         "type": "number"
+      },
+      "collection_times":{
+        "tag": "collection_times",
+        "type": "period"
       }
     },
     "poi": true,
