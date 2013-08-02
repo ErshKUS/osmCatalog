@@ -1356,7 +1356,12 @@
     "name": "post_box",
     "parent": ["service"],
     "tags": {"amenity": "post_box"},
-    "moretags": {},
+    "moretags": {
+      "general_ref":{
+        "tag": "ref",
+        "type": "number"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
