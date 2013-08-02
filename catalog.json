@@ -1361,7 +1361,7 @@
         "tag": "ref",
         "type": "number"
       },
-      "collection_times":{
+      "collection_times_post":{
         "tag": "collection_times",
         "type": "period"
       }
@@ -3657,6 +3657,10 @@
         "class": "recycling_type",
         "tag": "recycling_type",
         "type": "translate"
+      },
+      "collection_times_waste":{
+        "tag": "collection_times",
+        "type": "period"
       },
       "recycling_animal_waste": { "class": "boolean", "tag": "recycling:animal_waste", "type": "translate" },
       "recycling_aluminium": { "class": "boolean", "tag": "recycling:aluminium", "type": "translate" },
