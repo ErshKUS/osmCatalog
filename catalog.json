@@ -160,6 +160,14 @@
     "type": []
   },
   {
+    "name": "ship_navigation",
+    "parent": ["transport"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
     "name": "infrastructure",
     "parent": [],
     "tags": {},
@@ -3847,5 +3855,38 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "leading_beacon",
+    "parent": ["ship_navigation"],
+    "tags": {"seamark:type": "beacon_special_purpose", "seamark:beacon_special_purpose:category": "leading"},
+    "moretags": {
+    },
+    "poi": true,
+    "type": ["node"]
+  },
+  {
+    "name": "lateral_buoy",
+    "parent": ["ship_navigation"],
+    "tags": {"seamark:type": "buoy_lateral"},
+    "moretags": {
+      "lateral_buoy_category": {
+        "class": "lateral_buoy_category",
+        "tag": "seamark:buoy_lateral:category",
+        "type": "translate"
+      },
+      "color": {
+        "class": "color",
+        "tag": "seamark:buoy_lateral:colour",
+        "type": "translate"
+      },
+      "buoy_shape": {
+        "class": "buoy_shape",
+        "tag": "seamark:buoy_lateral:shape",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node"]
   }
 ]
