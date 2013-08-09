@@ -473,6 +473,7 @@
     "recycling_wood": { "name": "Принимает дерево" },
     "religion": {"name": "Религия"},
     "route_ref": {"name": "Номера маршрутов"},
+    "seamark_name": {"name": "Обозначение"},
     "seasonal": {"name": "Сезонный"},
     "second_hand": {"name": "Продажа б/у"},
     "service_bicycle_cleaning": {"name": "Мойка велосипедов"},

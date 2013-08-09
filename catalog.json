@@ -3884,6 +3884,10 @@
         "class": "buoy_shape",
         "tag": "seamark:buoy_lateral:shape",
         "type": "translate"
+      },
+      "seamark_name": {
+        "tag": "seamark:name",
+        "type": "number"
       }
     },
     "poi": true,
