@@ -1288,6 +1288,18 @@
         "class": "boolean",
         "tag": "atm",
         "type": "translate"
+      },
+      "bank_ref": {
+        "tag": "ref",
+        "type": "number"
+      },
+      "bank_branch": {
+        "tag": "branch",
+        "type": "number"
+      },
+      "bank_department": {
+        "tag": "department",
+        "type": "number"
       }
     },
     "poi": true,
