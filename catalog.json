@@ -917,6 +917,10 @@
         "class": "boolean",
         "tag": "emergency",
         "type": "translate"
+      },
+      "visiting_hours": {
+        "tag": "opening_hours:visitors",
+        "type": "period"
       }
     },
     "poi": true,

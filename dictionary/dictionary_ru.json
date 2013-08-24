@@ -504,6 +504,7 @@
     "ticket_office": {"name": "Наличие билетной кассы"},
     "tram": {"name": "Трамвай"},
     "trolleybus": {"name": "Троллейбус"},
+    "visiting_hours": {"name": "Время посещений"},
     "wheelchair": {"name": "Доступ на инвалидной коляске"}
   },
   "class": {
