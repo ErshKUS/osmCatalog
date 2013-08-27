@@ -3951,6 +3951,21 @@
       "general_ref": {
         "tag": "ref",
         "type": "number"
+      },
+      "communication_mobile_phone": {
+        "class": "communication_mobile_phone",
+        "tag": "communication:mobile_phone",
+        "type": "translate"
+      },
+      "communication_radio": {
+        "class": "communication_radio",
+        "tag": "communication:radio",
+        "type": "translate"
+      },
+      "communication_television": {
+        "class": "communication_television",
+        "tag": "communication:television",
+        "type": "translate"
       }
     },
     "poi": true,

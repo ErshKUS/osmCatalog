@@ -371,6 +371,9 @@
     "collection_times_waste": {"name": "Время вывоза мусора"},
     "color": {"name": "Цвет"},
     "comission": {"name": "Наличие комиссии"},
+    "communication_mobile_phone": {"name": "Сотовая связь"},
+    "communication_radio": {"name": "Радиовещание"},
+    "communication_television": {"name": "Телевещание"},
     "country": {"name": "Страна"},
     "covered": {"name": "Крытый"},
     "cuisine": {"name": "Кухня"},
@@ -565,6 +568,27 @@
       "time_subscription": "временный абонемент",
       "varies": "процент",
       "yes": "да"
+    },
+    "communication_mobile_phone": {
+      "yes": "используется",
+      "no": "не используется",
+      "gsm": "GSM",
+      "umts": "UMTS",
+      "cdma": "CDMA",
+      "lte": "LTE"
+    },
+    "communication_radio": {
+      "yes": "используется",
+      "no": "не используется",
+      "fm": "FM",
+      "am": "AM",
+      "dav": "DAB"
+    },
+    "communication_television": {
+      "yes": "используется",
+      "no": "не используется",
+      "analogue": "аналоговое",
+      "dvb-t": "DVB-T"
     },
     "country": {
       "AD": "Андорра",
