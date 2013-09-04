@@ -170,6 +170,7 @@
     "insulation": {"name": "Услуги по утеплению помещений", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dinsulation", "keywords": ""},
     "insurance": {"name": "Страховая компания", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dinsurance", "keywords": ""},
     "interior_decoration": {"name": "Декор и оформление", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dinterior_decoration", "keywords": ""},
+    "internet_cafe": {"name": "Интернет-кафе", "description": "", "link": "", "keywords": ""},
     "island": {"name": "Остров", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:place%3Disland", "keywords": ""},
     "islet": {"name": "Остров (небольшой)", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:place%3Dislet", "keywords": ""},
     "it": {"name": "Информационные технологии", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:office%3Dit", "keywords": ""},
