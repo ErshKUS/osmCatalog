@@ -1288,6 +1288,18 @@
         "class": "boolean",
         "tag": "atm",
         "type": "translate"
+      },
+      "bank_ref": {
+        "tag": "ref",
+        "type": "number"
+      },
+      "bank_branch": {
+        "tag": "branch",
+        "type": "number"
+      },
+      "bank_department": {
+        "tag": "department",
+        "type": "number"
       }
     },
     "poi": true,
@@ -3939,6 +3951,21 @@
       "general_ref": {
         "tag": "ref",
         "type": "number"
+      },
+      "communication_mobile_phone": {
+        "class": "communication_mobile_phone",
+        "tag": "communication:mobile_phone",
+        "type": "translate"
+      },
+      "communication_radio": {
+        "class": "communication_radio",
+        "tag": "communication:radio",
+        "type": "translate"
+      },
+      "communication_television": {
+        "class": "communication_television",
+        "tag": "communication:television",
+        "type": "translate"
       }
     },
     "poi": true,
