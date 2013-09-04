@@ -1367,6 +1367,20 @@
       "postal_ref":{
         "tag": "ref",
         "type": "number"
+      },
+      "internet_access": {
+        "class": "internet_access",
+        "tag": "internet_access",
+        "type": "translate"
+      },
+      "internet_access_operator": {
+        "tag": "internet_access:operator",
+        "type": "number"
+      },
+      "internet_access_fee": {
+        "class": "boolean",
+        "tag": "internet_access:fee",
+        "type": "translate"
       }
     },
     "poi": true,
