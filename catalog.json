@@ -1329,7 +1329,7 @@
   },
   {
     "name": "pawnbroker",
-    "parent": ["finance"],
+    "parent": ["finance", "shop"],
     "tags": {"shop":"pawnbroker"},
     "moretags":{},
     "poi": true,
