@@ -25,7 +25,8 @@ function initCatalog() {
 	}
 
 	$('#viewer').empty().append(createList(catalog_root_items));
-	window.location = window.location.hash;
+	if (window.location.hash !== '')
+		window.location = window.location.hash;
 }
 
 function createList(items) {
