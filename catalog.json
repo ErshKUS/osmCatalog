@@ -2139,6 +2139,14 @@
     "type": ["node", "area"]
   },
   {
+    "name": "vehicle_ramp",
+    "parent": ["transport"],
+    "tags": {"amenity": "vehicle_ramp"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node"]
+  },
+  {
     "name": "school",
     "parent": ["education"],
     "tags": {"amenity": "school"},
