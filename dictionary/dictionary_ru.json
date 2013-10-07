@@ -345,7 +345,7 @@
     "water_park": {"name": "Аквапарк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:leisure%3Dwater_park", "keywords": ""},
     "water_supply": {"name": "Водоснабжение", "description": "", "link": "", "keywords": ""},
     "water_tower": {"name": "Водонапорная башня", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:man_made%3Dwater_tower", "keywords": ""},
-    "water_well": {"name": "Колодец", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:man_made%3Dwater_well", "keywords": ""},
+    "water_well": {"name": "Колодец, колонка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:man_made%3Dwater_well", "keywords": ""},
     "water_works": {"name": "Водозабор", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:man_made%3Dwater_works", "keywords": ""},
     "waterfall": {"name": "Водопад", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:waterway%3Dwaterfall", "keywords": ""},
     "window_blind": {"name": "Жалюзи, ставни, маркизы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dwindow_blind", "keywords": ""},
