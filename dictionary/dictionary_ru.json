@@ -521,6 +521,7 @@
     "ticket_office": {"name": "Наличие билетной кассы"},
     "tram": {"name": "Трамвай"},
     "trolleybus": {"name": "Троллейбус"},
+    "water_capacity": {"name": "Вместимость (м³)"},
     "wheelchair": {"name": "Доступ на инвалидной коляске"}
   },
   "class": {

@@ -4059,7 +4059,16 @@
     "name": "water_tower",
     "parent": ["water_supply"],
     "tags": {"man_made": "water_tower"},
-    "moretags": {},
+    "moretags": {
+      "water_capacity": {
+        "tag": "capacity",
+        "type": "number"
+      },
+      "height": {
+        "tag": "height",
+        "type": "number"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
