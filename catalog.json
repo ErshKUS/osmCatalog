@@ -4092,7 +4092,40 @@
     "name": "power_plant",
     "parent": ["power"],
     "tags": {"power": "plant", "plant:output:electricity": "*" },
-    "moretags": {},
+    "moretags": {
+      "power_output_electricity": {
+        "tag": "plant:output:electricity",
+        "type": "number"
+      },
+      "power_output_hot_water": {
+        "tag": "plant:output:hot_water",
+        "type": "number"
+      },
+      "power_output_hot_air": {
+        "tag": "plant:output:hot_air",
+        "type": "number"
+      },
+      "power_output_cold_water": {
+        "tag": "plant:output:cold_water",
+        "type": "number"
+      },
+      "power_output_cold_air": {
+        "tag": "plant:output:cold_air",
+        "type": "number"
+      },
+      "power_output_compressed_air": {
+        "tag": "plant:output:compressed_air",
+        "type": "number"
+      },
+      "power_output_steam": {
+        "tag": "plant:output:steam",
+        "type": "number"
+      },
+      "power_output_vacuum": {
+        "tag": "plant:output:vacuum",
+        "type": "number"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
@@ -4100,7 +4133,55 @@
     "name": "power_generator",
     "parent": ["power"],
     "tags": {"power": "generator", "generator:output:electricity": "*" },
-    "moretags": {},
+    "moretags": {
+      "generator_source": {
+        "class": "generator_source",
+        "tag": "generator:source",
+        "type": "translate"
+      },
+      "generator_method": {
+        "class": "generator_method",
+        "tag": "generator:method",
+        "type": "translate"
+      },
+      "generator_type": {
+        "class": "generator_type",
+        "tag": "generator:type",
+        "type": "translate"
+      },
+      "power_output_electricity": {
+        "tag": "generator:output:electricity",
+        "type": "number"
+      },
+      "power_output_hot_water": {
+        "tag": "generator:output:hot_water",
+        "type": "number"
+      },
+      "power_output_hot_air": {
+        "tag": "generator:output:hot_air",
+        "type": "number"
+      },
+      "power_output_cold_water": {
+        "tag": "generator:output:cold_water",
+        "type": "number"
+      },
+      "power_output_cold_air": {
+        "tag": "generator:output:cold_air",
+        "type": "number"
+      },
+      "power_output_compressed_air": {
+        "tag": "generator:output:compressed_air",
+        "type": "number"
+      },
+      "power_output_steam": {
+        "tag": "generator:output:steam",
+        "type": "number"
+      },
+      "power_output_vacuum": {
+        "tag": "generator:output:vacuum",
+        "type": "number"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
