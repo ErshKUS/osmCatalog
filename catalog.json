@@ -4076,7 +4076,17 @@
     "name": "substation",
     "parent": ["power"],
     "tags": {"power": "substation"},
-    "moretags": {},
+    "moretags": {
+      "voltages": {
+        "type": "number",
+        "tag": "voltage"
+      },
+      "gas_insulated": {
+        "type": "translate",
+        "class": "boolean",
+        "tag": "gas_insulated"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
@@ -4084,7 +4094,20 @@
     "name": "transformer",
     "parent": ["power"],
     "tags": {"power": "transformer"},
-    "moretags": {},
+    "moretags": {
+      "voltages": {
+        "type": "number",
+        "tag": "voltage"
+      },
+      "frequency": {
+        "type": "number",
+        "tag": "frequency"
+      },
+      "phases": {
+        "type": "number",
+        "tag": "phases"
+      }
+    },
     "poi": true,
     "type": ["node", "area"]
   },
