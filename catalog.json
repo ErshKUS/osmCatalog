@@ -176,6 +176,30 @@
     "type": []
   },
   {
+    "name": "water_supply",
+    "parent": ["infrastructure"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "power",
+    "parent": ["infrastructure"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "communications",
+    "parent": ["infrastructure"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
     "name": "bakery",
     "parent": ["shop_food"],
     "tags": {"shop": "bakery"},
@@ -3959,7 +3983,7 @@
   },
   {
     "name": "communication_tower",
-    "parent": ["infrastructure"],
+    "parent": ["communications"],
     "tags": {"man_made": "tower", "tower:type": "communication"},
     "moretags": {
       "height": {
@@ -3995,8 +4019,78 @@
   },
   {
     "name": "telephone_exchange",
-    "parent": ["infrastructure"],
+    "parent": ["communications"],
     "tags": {"man_made": "telephone_exchange"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "water_well",
+    "parent": ["water_supply"],
+    "tags": {"man_made": "water_well"},
+    "moretags": {
+      "pump": {
+        "class": "pump",
+        "tag": "pump",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "water_works",
+    "parent": ["water_supply"],
+    "tags": {"man_made": "water_works"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "wastewater_plant",
+    "parent": ["water_supply"],
+    "tags": {"man_made": "wastewater_plant"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "water_tower",
+    "parent": ["water_supply"],
+    "tags": {"man_made": "water_tower"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "substation",
+    "parent": ["power"],
+    "tags": {"power": "substation"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "transformer",
+    "parent": ["power"],
+    "tags": {"power": "transformer"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "power_plant",
+    "parent": ["power"],
+    "tags": {"power": "plant", "plant:output:electricity": "*" },
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "power_generator",
+    "parent": ["power"],
+    "tags": {"power": "generator", "generator:output:electricity": "*" },
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
