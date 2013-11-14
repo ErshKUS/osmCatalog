@@ -136,6 +136,14 @@
     "type": []
   },
   {
+    "name": "clubs",
+    "parent": ["culture"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
     "name": "office",
     "parent": [],
     "tags": {},
@@ -4304,6 +4312,205 @@
         "type": "translate"
       }
     },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_art",
+    "parent": ["clubs"],
+    "tags": {"club": "art"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_astronomy",
+    "parent": ["clubs"],
+    "tags": {"club": "astronomy"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_computer",
+    "parent": ["clubs"],
+    "tags": {"club": "computer"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_board_games",
+    "parent": ["clubs"],
+    "tags": {"club": "board_games"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_motorcycle",
+    "parent": ["clubs"],
+    "tags": {"club": "motorcycle"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_sport",
+    "parent": ["clubs", "sport_and_entertainment"],
+    "tags": {"club": "sport"},
+    "moretags": {
+      "sport": {
+        "class": "sport",
+        "tag": "sport",
+        "type": "translate",
+        "multivalue": "yes"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_game",
+    "parent": ["clubs"],
+    "tags": {"club": "game"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_automobile",
+    "parent": ["clubs"],
+    "tags": {"club": "automobile"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_chess",
+    "parent": ["clubs"],
+    "tags": {"club": "chess"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_cinema",
+    "parent": ["clubs"],
+    "tags": {"club": "cinema"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_fan",
+    "parent": ["clubs"],
+    "tags": {"club": "fan"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_fishing",
+    "parent": ["clubs"],
+    "tags": {"club": "fishing"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_veterans",
+    "parent": ["clubs"],
+    "tags": {"club": "veterans"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_linux",
+    "parent": ["clubs"],
+    "tags": {"club": "linux"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_theatre",
+    "parent": ["clubs"],
+    "tags": {"club": "theatre"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_history",
+    "parent": ["clubs"],
+    "tags": {"club": "history"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_music",
+    "parent": ["clubs"],
+    "tags": {"club": "music"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_ethnic",
+    "parent": ["clubs"],
+    "tags": {"club": "ethnic"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_nature",
+    "parent": ["clubs"],
+    "tags": {"club": "nature"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_photography",
+    "parent": ["clubs"],
+    "tags": {"club": "photography"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_hunting",
+    "parent": ["clubs"],
+    "tags": {"club": "hunting"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_shooting",
+    "parent": ["clubs"],
+    "tags": {"club": "shooting"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_tourism",
+    "parent": ["clubs", "tourism"],
+    "tags": {"club": "tourism"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "club_charity",
+    "parent": ["clubs"],
+    "tags": {"club": "charity"},
+    "moretags": {},
     "poi": true,
     "type": ["node", "area"]
   }
