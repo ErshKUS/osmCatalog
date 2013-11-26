@@ -4561,5 +4561,13 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "construction",
+    "parent": ["infrastructure"],
+    "tags": {"landuse": "construction"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]

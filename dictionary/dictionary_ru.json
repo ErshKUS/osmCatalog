@@ -111,6 +111,7 @@
     "company": {"name": "Фирма", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dcompany", "keywords": ""},
     "computer": {"name": "Компьютеры, оргтехника", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcomputer", "keywords": ""},
     "confectionery": {"name": "Кондитерская", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dconfectionery", "keywords": ""},
+    "construction": {"name": "Стройка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:landuse%3Dconstruction", "keywords": ""},
     "convenience": {"name": "Магазин", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dconvenience", "keywords": ""},
     "copyshop": {"name": "Ксерокопия, полиграфия", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcopyshop", "keywords": ""},
     "cosmetics": {"name": "Косметика, парфюмерия", "description": "", "link": "", "keywords": ""},
