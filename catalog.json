@@ -2307,7 +2307,7 @@
   {
     "name": "theatre",
     "parent": ["culture"],
-    "tags": {"amenity": "theatre", "theatre:genre": "!circus"},
+    "tags": {"amenity": "theatre"},
     "moretags": {
       "theatre_genre":{
         "class": "theatre_genre",
@@ -2320,7 +2320,7 @@
   },
   {
     "name": "circus",
-    "parent": ["culture"],
+    "parent": ["theatre"],
     "tags": {"amenity": "theatre", "theatre:genre": "circus"},
     "moretags": {},
     "poi": true,
