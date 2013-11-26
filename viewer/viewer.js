@@ -54,9 +54,16 @@ function createList(items) {
 			if (tags.length != 0)
 				tags.push(' + ');
 
-			tags.push(
-				$('<a>').addClass('tag').prop('href', 'https://wiki.openstreetmap.org/wiki/Tag:' + tag + '%3D' + items[iitem].tags[tag]).text(tag + '=' + items[iitem].tags[tag])
-			);
+			if (items[iitem].tags[tag][0] === '!') {
+				tags.push(' отсутствие ');
+				tags.push(
+					$('<a>').addClass('tag').prop('href', 'https://wiki.openstreetmap.org/wiki/Tag:' + tag + '%3D' + items[iitem].tags[tag]).text(tag + '=' + items[iitem].tags[tag].substr(1))
+				);
+			} else {
+				tags.push(
+					$('<a>').addClass('tag').prop('href', 'https://wiki.openstreetmap.org/wiki/Tag:' + tag + '%3D' + items[iitem].tags[tag]).text(tag + '=' + items[iitem].tags[tag])
+				);
+			}
 		}
 
 		var moretags = undefined;
