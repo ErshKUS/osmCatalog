@@ -224,6 +224,14 @@
     "type": []
   },
   {
+    "name": "transport_constructions",
+    "parent": ["transport", "infrastructure"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
     "name": "water_supply",
     "parent": ["infrastructure"],
     "tags": {},
@@ -4534,6 +4542,22 @@
     "name": "club_charity",
     "parent": ["clubs"],
     "tags": {"club": "charity"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "tunnel",
+    "parent": ["transport_constructions"],
+    "tags": {"man_made": "tunnel"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "bridge",
+    "parent": ["transport_constructions"],
+    "tags": {"man_made": "bridge"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
