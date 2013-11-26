@@ -7,7 +7,7 @@ var dictionary = JSON.parse(fs.readFileSync('dictionary/dictionary_ru.json')); /
 var errors = 0;
 var warnings = 0;
 
-var current_warnings = 71; // Current number of warnings, to detect new ones
+var current_warnings = 70; // Current number of warnings, to detect new ones
 
 // Load entries into by-name hash, do basic name checks along the way
 var entry_by_name = {};
