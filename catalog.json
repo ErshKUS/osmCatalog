@@ -4599,5 +4599,18 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "speed_camera",
+    "parent": ["personal_transport", "road_obstacles"],
+    "tags": {"highway": "speed_camera"},
+    "moretags": {
+      "maxspeed": {
+        "tag": "maxspeed",
+        "type": "number"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]
