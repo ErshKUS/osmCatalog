@@ -217,6 +217,7 @@
     "leading_beacon": {"name": "Створовый знак", "description": "", "link": "http://wiki.openstreetmap.org/wiki/OpenSeaMap/Beacons", "keywords": ""},
     "library": {"name": "Библиотека", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dlibrary", "keywords": ""},
     "lift_gate": {"name": "Шлагбаум", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Key:barrier", "keywords": ""},
+    "lighthouse": {"name": "Маяк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:man_made%3Dlighthouse", "keywords": ""},
     "locksmith": {"name": "Слесарные работы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dlocksmith", "keywords": ""},
     "lodging": {"name": "Проживание", "description": "", "link": "", "keywords": ""},
     "mall": {"name": "Торговый центр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dmall", "keywords": ""},

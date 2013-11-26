@@ -4577,5 +4577,13 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "lighthouse",
+    "parent": ["ship_navigation", "sights"],
+    "tags": {"man_made": "lighthouse"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]
