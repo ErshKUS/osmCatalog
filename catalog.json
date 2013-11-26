@@ -4569,5 +4569,13 @@
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "landfill",
+    "parent": ["infrastructure"],
+    "tags": {"landuse": "landfill"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
   }
 ]

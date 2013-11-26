@@ -210,6 +210,7 @@
     "kindergarten": {"name": "Детский сад", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dkindergarten", "keywords": ""},
     "kiosk": {"name": "Киоск, ларёк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dkiosk", "keywords": ""},
     "kitchen": {"name": "Кухни на заказ", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dkitchen", "keywords": ""},
+    "landfill": {"name": "Свалка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:landuse%3Dlandfill", "keywords": ""},
     "lateral_buoy": {"name": "Буй", "description": "", "link": "http://wiki.openstreetmap.org/wiki/OpenSeaMap/Buoys", "keywords": ""},
     "laundry": {"name": "Прачечная", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dlaundry", "keywords": ""},
     "lawyer": {"name": "Юридические услуги", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dlawyer", "keywords": ""},
