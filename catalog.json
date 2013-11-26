@@ -2308,6 +2308,13 @@
     "name": "theatre",
     "parent": ["culture"],
     "tags": {"amenity": "theatre"},
+    "moretags": {
+      "theatre_genre":{
+        "class": "theatre_genre",
+        "tag": "theatre:genre",
+        "type": "translate"
+      }
+    },
     "moretags": {},
     "poi": true,
     "type": ["node", "area"]
