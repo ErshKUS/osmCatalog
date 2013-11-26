@@ -166,6 +166,7 @@
     "frame": {"name": "Рамки, багет", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dframe", "keywords": ""},
     "fuel": {"name": "Заправка", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dfuel", "keywords": ""},
     "funeral_directors": {"name": "Ритуальные услуги", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dfuneral_directors", "keywords": ""},
+    "funicular": {"name": "Фуникулёр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:railway%3Dfunicular", "keywords": ""},
     "furnace": {"name": "Системы отопления", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dfurnace", "keywords": ""},
     "furniture": {"name": "Мебель", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dfurniture", "keywords": ""},
     "garden_centre": {"name": "Семена, садовые принадлежности", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dgarden_centre", "keywords": ""},

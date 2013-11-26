@@ -4612,5 +4612,13 @@
     },
     "poi": true,
     "type": ["node", "area"]
+  },
+  {
+    "name": "funicular",
+    "parent": ["public_transport", "tourism"],
+    "tags": {"railway": "funicular"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "way", "area"]
   }
 ]
