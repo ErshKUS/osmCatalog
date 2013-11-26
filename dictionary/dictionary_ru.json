@@ -74,6 +74,7 @@
     "charity": {"name": "Благотворительный", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dcharity", "keywords": ""},
     "chemist": {"name": "Бытовая химия, косметика", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dchemist", "keywords": ""},
     "cinema": {"name": "Кинотеатр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dcinema", "keywords": ""},
+    "circus": {"name": "Цирк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dtheatre", "keywords": ""},
     "city_gate": {"name": "Городские ворота", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:historic%3Dcity_gate", "keywords": ""},
     "clinic": {"name": "Поликлиника, клиника", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dclinic", "keywords": ""},
     "clock": {"name": "Часы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dclock", "keywords": ""},
