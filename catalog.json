@@ -168,14 +168,6 @@
     "type": []
   },
   {
-    "name": "ship_navigation",
-    "parent": ["transport"],
-    "tags": {},
-    "moretags": {},
-    "poi": false,
-    "type": []
-  },
-  {
     "name": "personal_transport",
     "parent": ["transport"],
     "tags": {},
@@ -185,6 +177,38 @@
   },
   {
     "name": "public_transport",
+    "parent": ["transport"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "air_transport",
+    "parent": ["transport"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "water_transport",
+    "parent": ["transport"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "ship_navigation",
+    "parent": ["water_transport"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
+    "name": "bicycle_transport",
     "parent": ["transport"],
     "tags": {},
     "moretags": {},
@@ -1517,7 +1541,7 @@
   },
   {
     "name": "bicycle_rental",
-    "parent": ["service", "sport_and_entertainment", "personal_transport"],
+    "parent": ["service", "sport_and_entertainment", "bicycle_transport"],
     "tags": {"amenity": "bicycle_rental"},
     "moretags": {},
     "poi": true,
@@ -3310,7 +3334,7 @@
   },
   {
     "name": "slipway",
-    "parent": ["sport_and_entertainment"],
+    "parent": ["sport_and_entertainment", "water_transport"],
     "tags": {"leisure": "slipway"},
     "moretags": {},
     "poi": true,
@@ -3581,7 +3605,7 @@
   },
   {
     "name": "ferry_terminal",
-    "parent": ["public_transport"],
+    "parent": ["water_transport"],
     "tags": {"amenity": "ferry_terminal"},
     "moretags": {},
     "poi": true,
@@ -3666,7 +3690,7 @@
   },
   {
     "name": "airport",
-    "parent": ["public_transport"],
+    "parent": ["air_transport"],
     "tags": {"aeroway": "aerodrome"},
     "moretags": {
       "ele": {
@@ -3687,7 +3711,7 @@
   },
   {
     "name": "helipad",
-    "parent": ["personal_transport", "public_transport"],
+    "parent": ["air_transport"],
     "tags": {"aeroway": "helipad"},
     "moretags": {
       "ele": {
@@ -3798,7 +3822,7 @@
   },
   {
     "name": "bicycle_parking",
-    "parent": ["personal_transport"],
+    "parent": ["bicycle_transport"],
     "tags": {"amenity": "bicycle_parking"},
     "moretags": {
       "fee":{
