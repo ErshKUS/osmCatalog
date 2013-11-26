@@ -3954,7 +3954,7 @@
       "recycling_waste": { "class": "boolean", "tag": "recycling:waste", "type": "translate" },
       "recycling_white_goods": { "class": "boolean", "tag": "recycling:white_goods", "type": "translate" },
       "recycling_wood": { "class": "boolean", "tag": "recycling:wood", "type": "translate" }
-	},
+    },
     "poi": true,
     "type": ["node", "area"]
   },
