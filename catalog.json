@@ -927,6 +927,14 @@
     "type": ["node", "area"]
   },
   {
+    "name": "ice_cream",
+    "parent": ["shop_food"],
+    "tags": {"shop": "ice_cream"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "supermarket",
     "parent": ["shop","shop_food"],
     "tags": {"shop": "supermarket"},

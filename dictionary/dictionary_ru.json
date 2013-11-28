@@ -196,6 +196,7 @@
     "hump": {"name": "Лежачий полицейский (широкий)", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Key:traffic_calming", "keywords": ""},
     "hunting": {"name": "Охота", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dhunting", "keywords": ""},
     "hvac": {"name": "Монтаж кондиционеров, систем вентиляции", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dhvac", "keywords": ""},
+    "ice_cream": {"name": "Мороженое", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dice_cream", "keywords": ""},
     "ice_rink": {"name": "Каток", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:leisure%3Dice_rink", "keywords": ""},
     "information": {"name": "Информационный стенд", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:tourism%3Dinformation", "keywords": ""},
     "infrastructure": {"name": "Инфраструктура", "description": "", "link": "", "keywords": ""},
