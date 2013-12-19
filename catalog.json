@@ -5038,6 +5038,15 @@
     "id": 395
   },
   {
+    "name": "garages",
+    "parent": ["personal_transport"],
+    "tags": {"landuse": "garages"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"],
+    "id": 397
+  },
+  {
     "name": "lighthouse",
     "parent": ["ship_navigation", "sights"],
     "tags": {"man_made": "lighthouse"},

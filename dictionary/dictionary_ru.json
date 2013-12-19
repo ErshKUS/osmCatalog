@@ -170,6 +170,7 @@
     "funicular": {"name": "Фуникулёр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:railway%3Dfunicular", "keywords": ""},
     "furnace": {"name": "Системы отопления", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dfurnace", "keywords": ""},
     "furniture": {"name": "Мебель", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dfurniture", "keywords": ""},
+    "garages": {"name": "Гаражный комплекс", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:landuse%3Dgarages", "keywords": ""},
     "garden_centre": {"name": "Семена, садовые принадлежности", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dgarden_centre", "keywords": ""},
     "gardener": {"name": "Садовник, ландшафтный дизайнер", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dgardener", "keywords": ""},
     "gas": {"name": "Газ в баллонах", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dgas", "keywords": ""},
