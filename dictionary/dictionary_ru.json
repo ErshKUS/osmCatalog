@@ -364,6 +364,7 @@
     "town_hall": {"name": "Администрация нас.пункта", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dtownhall", "keywords": ""},
     "toys": {"name": "Игрушки", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dtoys", "keywords": ""},
     "trade": {"name": "Оптовый склад", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dtrade", "keywords": ""},
+    "traffic_signals": {"name": "Светофор", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:highway%3Dtraffic_signals", "keywords": ""},
     "tram_stop": {"name": "Остановка трамвая", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:railway%3Dtram_stop", "keywords": ""},
     "transformer": {"name": "Трансформатор", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Proposed_features/Substation_refinement", "keywords": ""},
     "transport": {"name": "Транспорт", "description": "", "link": "", "keywords": ""},
