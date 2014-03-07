@@ -3703,6 +3703,14 @@
     "type": ["node", "area"]
   },
   {
+    "name": "fire_water_pond",
+    "parent": ["emergency"],
+    "tags": {"emergency": "fire_water_pond"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "ambulance_station",
     "parent": ["emergency", "health"],
     "tags": {"emergency": "ambulance_station"},

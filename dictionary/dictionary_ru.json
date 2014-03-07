@@ -155,6 +155,7 @@
     "finance": {"name": "Финансы", "description": "", "link": "", "keywords": ""},
     "fire_hydrant": {"name": "Пожарный гидрант", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:emergency%3Dfire_hydrant", "keywords": ""},
     "fire_station": {"name": "Пожарная часть", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dfire_station", "keywords": ""},
+    "fire_water_pond": {"name": "Пожарный водоём", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:emergency%3Dfire_water_pond", "keywords": ""},
     "fishing": {"name": "Место для рыбалки", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dfishing", "keywords": ""},
     "fishing_shop": {"name": "Рыболов", "description": "", "link": "", "keywords": ""},
     "florist": {"name": "Цветы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dflorist", "keywords": ""},
