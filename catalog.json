@@ -1449,7 +1449,7 @@
   },
   {
     "name": "post_office",
-    "parent": ["service"],
+    "parent": ["service", "communications"],
     "tags": {"amenity": "post_office"},
     "moretags": {
       "postal_ref":{
@@ -1476,7 +1476,7 @@
   },
   {
     "name": "post_box",
-    "parent": ["service"],
+    "parent": ["service", "communications"],
     "tags": {"amenity": "post_box"},
     "moretags": {
       "general_ref":{
@@ -3627,7 +3627,7 @@
   },
   {
     "name": "telephone",
-    "parent": ["service"],
+    "parent": ["service", "communications"],
     "tags": {"amenity": "telephone"},
     "moretags": {},
     "poi": true,
@@ -3670,7 +3670,7 @@
   },
   {
     "name": "emergency_phone",
-    "parent": ["emergency"],
+    "parent": ["emergency", "communications"],
     "tags": {"emergency": "phone"},
     "moretags": {},
     "poi": true,
