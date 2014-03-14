@@ -4625,6 +4625,19 @@
     "type": ["node", "area"]
   },
   {
+    "name": "waste_disposal",
+    "parent": ["trash_disposal"],
+    "tags": {"amenity": "waste_disposal"},
+    "moretags": {
+      "collection_times_waste":{
+        "tag": "collection_times",
+        "type": "period"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "lighthouse",
     "parent": ["ship_navigation", "sights"],
     "tags": {"man_made": "lighthouse"},

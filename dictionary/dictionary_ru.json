@@ -382,6 +382,7 @@
     "video": {"name": "Продажа, прокат DVD", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dvideo", "keywords": ""},
     "viewpoint": {"name": "Вид", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:tourism%3Dviewpoint", "keywords": ""},
     "volcano": {"name": "Вулкан", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:natural%3Dvolcano", "keywords": ""},
+    "waste_disposal": {"name": "Мусорный контейнер", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dwaste_disposal", "keywords": ""},
     "wastewater_plant": {"name": "Очистные сооружения", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:man_made%3Dwastewater_plant", "keywords": ""},
     "watchmaker": {"name": "Часовщик", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dwatchmaker", "keywords": ""},
     "water_park": {"name": "Аквапарк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:leisure%3Dwater_park", "keywords": ""},
