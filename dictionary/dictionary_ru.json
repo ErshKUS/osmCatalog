@@ -370,6 +370,7 @@
     "transformer": {"name": "Трансформатор", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Proposed_features/Substation_refinement", "keywords": ""},
     "transport": {"name": "Транспорт", "description": "", "link": "", "keywords": ""},
     "transport_constructions": {"name": "Транспортные сооружения", "description": "", "link": "", "keywords": ""},
+    "trash_disposal": {"name": "Утилизация мусора", "description": "", "link": "", "keywords": ""},
     "travel_agent": {"name": "Турагентство", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dtravel_agent", "keywords": ""},
     "tunnel": {"name": "Туннель", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Proposed_features/man_made%3Dbridge", "keywords": ""},
     "university": {"name": "Институт", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Duniversity", "keywords": ""},

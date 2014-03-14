@@ -256,6 +256,14 @@
     "type": []
   },
   {
+    "name": "trash_disposal",
+    "parent": ["infrastructure"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": []
+  },
+  {
     "name": "bakery",
     "parent": ["shop_food"],
     "tags": {"shop": "bakery"},
@@ -3906,7 +3914,7 @@
   },
   {
     "name": "recycling",
-    "parent": ["service"],
+    "parent": ["service", "trash_disposal"],
     "tags": {"amenity": "recycling"},
     "moretags": {
       "recycling_type": {
@@ -4610,7 +4618,7 @@
   },
   {
     "name": "landfill",
-    "parent": ["infrastructure"],
+    "parent": ["trash_disposal"],
     "tags": {"landuse": "landfill"},
     "moretags": {},
     "poi": true,
