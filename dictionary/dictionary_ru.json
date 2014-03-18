@@ -377,6 +377,7 @@
     "upholsterer": {"name": "Драпировщик, обивка мебели", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:craft%3Dupholsterer", "keywords": ""},
     "vacuum_cleaner": {"name": "Пылесосы и аксессуары", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dvacuum_cleaner", "keywords": ""},
     "variety_store": {"name": "Всё по одной цене", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dvariety_store", "keywords": ""},
+    "vehicle_inspection": {"name": "Пункт техосмотра", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Proposed_features/Inspection_station", "keywords": ""},
     "vehicle_ramp": {"name": "Ремонтная эстакада/яма", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Proposed_features/Vehicle_Ramp", "keywords": ""},
     "veterinary": {"name": "Ветлечебница", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dveterinary", "keywords": ""},
     "video": {"name": "Продажа, прокат DVD", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dvideo", "keywords": ""},

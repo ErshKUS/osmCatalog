@@ -2110,6 +2110,14 @@
     "type": ["node", "area"]
   },
   {
+    "name": "vehicle_inspection",
+    "parent": ["personal_transport"],
+    "tags": {"amenity": "vehicle_inspection"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "car_wash",
     "parent": ["personal_transport"],
     "tags": {"amenity": "car_wash"},
