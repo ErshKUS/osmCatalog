@@ -350,6 +350,7 @@
     "tattoo": {"name": "Тату салон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dtattoo", "keywords": ""},
     "tax_inspection": {"name": "Налоговая", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dgovernment", "keywords": ""},
     "taxi": {"name": "Стоянка такси", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dtaxi", "keywords": ""},
+    "tea": {"name": "Чай", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dtea", "keywords": ""},
     "telecommunication": {"name": "Телекоммуникационная компания", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dtelecommunication", "keywords": ""},
     "telephone": {"name": "Телефон", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dtelephone", "keywords": ""},
     "telephone_exchange": {"name": "АТС", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Proposed_features/Telephone_Exchange", "keywords": ""},

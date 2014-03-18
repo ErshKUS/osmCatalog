@@ -5068,5 +5068,13 @@
     "poi": true,
     "type": ["node", "way", "area"],
     "id": 389
+  },
+  {
+    "name": "tea",
+    "parent": ["shop_food"],
+    "tags": {"shop": "tea"},
+    "moretags": {},
+    "poi": true,
+    "id": 396
   }
 ]
