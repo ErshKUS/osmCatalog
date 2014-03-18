@@ -5,6 +5,53 @@ $.getJSON('dictionary/dictionary_ru.json', function(data) { dictionary = data; i
 
 var j = 0;
 
+var alphabet = '0123456789_~abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+function numset_pack(numbers) {
+    // Sort input
+    var sorted_numbers = numbers.slice(0);
+    sorted_numbers.sort(function(a,b){return a-b;});
+
+    // RLE
+    var lengths = [];
+    var empty_range_start = 0;
+    for (var pos = 0; pos < sorted_numbers.length; ++pos) {
+        // starting number of current range
+        var full_range_start = sorted_numbers[pos];
+
+        // trace continuous range of numbers (allows duplicates)
+        while (pos + 1 < sorted_numbers.length && sorted_numbers[pos + 1] <= sorted_numbers[pos] + 1)
+            pos++;
+
+        // ending number of current range
+        var full_range_end = sorted_numbers[pos];
+
+        // save next empty range
+        lengths.push(full_range_start - empty_range_start);
+
+        // save next full range
+        lengths.push(full_range_end - full_range_start + 1);
+
+        empty_range_start = full_range_end + 1;
+    }
+
+    // Prefix encoding
+    var output = '';
+    for (var pos = 0; pos < lengths.length; ++pos) {
+        while (lengths[pos] >= 32) {
+            // Store high-order parts of a number in 1XXXXX form
+            var lowpart = lengths[pos] & 0x1f;
+            lengths[pos] = lengths[pos] >> 5;
+            lowpart |= 0x20;
+            output += '' + alphabet.substr(lowpart, 1);
+        }
+        // Store low-order part of a number in 0XXXXX form
+        output += '' + alphabet.substr(lengths[pos], 1);
+    }
+
+    return output;
+}
+
 function initCatalog() {
 	if (typeof catalog !== 'object' || typeof dictionary !== 'object')
 		return; // need all data
@@ -29,6 +76,29 @@ function initCatalog() {
 		window.location = window.location.hash;
 }
 
+function createTag(key, val) {
+	var tag, wiki_url, taginfo_url;
+
+	if (arguments.length == 1) {
+		tag = key + '=*';
+		wiki_url = 'https://wiki.openstreetmap.org/wiki/Key:' + key;
+		taginfo_url = 'http://taginfo.openstreetmap.ru/keys/' + key;
+	} else {
+		tag = key + '=' + val;
+		wiki_url = 'https://wiki.openstreetmap.org/wiki/Tag:' + key + '%3D' + val;
+		taginfo_url = 'http://taginfo.openstreetmap.ru/tags/' + key + '=' + val;
+	}
+
+	return [
+		$('<span>').addClass('tag').text(tag),
+		' (',
+		$('<a>').prop('href', wiki_url).text('wiki'),
+		' ',
+		$('<a>').prop('href', taginfo_url).text('taginfo'),
+		')'
+	];
+}
+
 function createList(items) {
 	if (items.length == 0)
 		return;
@@ -49,22 +119,27 @@ function createList(items) {
 		var catname = items[iitem].name;
 		var rusname = dictionary.catalog[catname].name;
 
-		var tags = [];
+		var tags = $('<span>').addClass('details');
+		var first = true;
 		for (var tag in items[iitem].tags) {
-			if (tags.length != 0)
-				tags.push(' + ');
-
-			if (items[iitem].tags[tag][0] === '!') {
-				tags.push(' отсутствие ');
-				tags.push(
-					$('<a>').addClass('tag').prop('href', 'https://wiki.openstreetmap.org/wiki/Tag:' + tag + '%3D' + items[iitem].tags[tag]).text(tag + '=' + items[iitem].tags[tag].substr(1))
-				);
+			if (first) {
+				first = false;
 			} else {
-				tags.push(
-					$('<a>').addClass('tag').prop('href', 'https://wiki.openstreetmap.org/wiki/Tag:' + tag + '%3D' + items[iitem].tags[tag]).text(tag + '=' + items[iitem].tags[tag])
-				);
+				tags.append(' + ');
 			}
+
+			var val = items[iitem].tags[tag];
+			if (val[0] === '!') {
+				tags.append('отсутствие ');
+				val = val.substr(1);
+			}
+
+			tags.append(createTag(tag, val));
 		}
+
+		var view = $('<span>').addClass('details').append(
+			$('<a>').prop('href', 'http://openstreetmap.ru/#poi=' + numset_pack([items[iitem].id])).text('смотреть POI')
+		);
 
 		var moretags = undefined;
 		for (var moretag in items[iitem].moretags) {
@@ -75,7 +150,9 @@ function createList(items) {
 			$('<li>').append(
 				$('<span>').prop('title', 'В каталоге значится как ' + moretag).text(rusmoretag)
 			).append(
-				$('<a>').addClass('tag').addClass('details').prop('href', 'https://wiki.openstreetmap.org/wiki/Key:' + items[iitem].moretags[moretag].tag).text(items[iitem].moretags[moretag].tag + '=*')
+				': '
+			).append(
+				createTag(items[iitem].moretags[moretag].tag)
 			).appendTo(moretags);
 		}
 		if (typeof moretags !== 'undefined') {
@@ -117,7 +194,9 @@ function createList(items) {
 							).append(
 								$(' ')
 							).append(
-								$('<span>').addClass('details').append(tags)
+								tags
+							).append(
+								view
 							).append(
 								description
 							)

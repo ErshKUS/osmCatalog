@@ -3,7 +3,7 @@ body {
 }
 
 a {
-	color : black;
+	color : 808080;
 }
 
 ul.catalog-item {
@@ -65,7 +65,7 @@ a.poi-name {
 div.poi-proplist {
 	margin-left : 5px;
 	padding : 5px 10px;
-	margin : 0px 10px 5px 5px;
+	margin : 5px 10px 5px 5px;
 	float : left;
 	background-color : #d0d0d0;
 	border-radius : 10px;
@@ -94,5 +94,12 @@ div.poi-proplist ul {
 }
 
 .tag {
-	color : 808080;
+	font-weight : bold;
+	background-color : #d0d0d0;
+	padding : 1px 5px;
+	border-radius : 5px;
+}
+
+div.poi-proplist .tag {
+	background-color : #c0c0c0;
 }
