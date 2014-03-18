@@ -10,6 +10,8 @@ var warnings = 0;
 var current_warnings = 67; // Current number of warnings, to detect new ones
 
 // Load entries into by-name hash, do basic name checks along the way
+var name_by_id = {};
+name_by_id[390] = 'root'; // root id is hardcoded after introducing ids to catalog
 var entry_by_name = {};
 for (var entry in catalog) {
 	if (typeof catalog[entry].name !== 'string') {
@@ -61,6 +63,19 @@ for (var entry in entry_by_name) {
 					errors++;
 				}
 			}
+		}
+	}
+
+	// Check POI id
+	if (typeof entry_by_name[entry].id !== 'number') {
+		console.log('ERROR[16]: ' + entry_by_name[entry].name + ': no id');
+		errors++;
+	} else {
+		if (typeof name_by_id[entry_by_name[entry].id] !== 'undefined') {
+			console.log('ERROR[17]: ' + entry_by_name[entry].name + ': duplicate id: ' + entry_by_name[entry].id + ' (with ' + name_by_id[entry_by_name[entry].id] + ')');
+			errors++;
+		} else {
+			name_by_id[entry_by_name[entry].id] = entry_by_name[entry].name;
 		}
 	}
 
