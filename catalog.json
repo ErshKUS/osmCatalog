@@ -5,7 +5,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 0
   },
   {
     "name": "shop_food",
@@ -13,7 +14,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 1
   },
   {
     "name": "health",
@@ -21,7 +23,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 2
   },
   {
     "name": "food",
@@ -29,7 +32,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 3
   },
   {
     "name": "finance",
@@ -37,7 +41,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 4
   },
   {
     "name": "service",
@@ -45,7 +50,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 5
   },
   {
     "name": "craft",
@@ -53,7 +59,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 6
   },
   {
     "name": "transport",
@@ -61,7 +68,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 7
   },
   {
     "name": "education",
@@ -69,7 +77,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 8
   },
   {
     "name": "sport_and_entertainment",
@@ -77,7 +86,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 9
   },
   {
     "name": "religion",
@@ -85,7 +95,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 10
   },
   {
     "name": "democracy",
@@ -93,7 +104,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 11
   },
   {
     "name": "emergency",
@@ -101,7 +113,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 12
   },
   {
     "name": "tourism",
@@ -109,7 +122,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 13
   },
   {
     "name": "sights",
@@ -117,7 +131,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 14
   },
   {
     "name": "lodging",
@@ -125,7 +140,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 15
   },
   {
     "name": "culture",
@@ -133,7 +149,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 16
   },
   {
     "name": "clubs",
@@ -141,7 +158,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 17
   },
   {
     "name": "office",
@@ -149,7 +167,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 18
   },
   {
     "name": "natural",
@@ -157,7 +176,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 19
   },
   {
     "name": "road_obstacles",
@@ -165,7 +185,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 20
   },
   {
     "name": "personal_transport",
@@ -173,7 +194,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 21
   },
   {
     "name": "public_transport",
@@ -181,7 +203,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 22
   },
   {
     "name": "air_transport",
@@ -189,7 +212,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 23
   },
   {
     "name": "water_transport",
@@ -197,7 +221,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 24
   },
   {
     "name": "ship_navigation",
@@ -205,7 +230,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 25
   },
   {
     "name": "bicycle_transport",
@@ -213,7 +239,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 26
   },
   {
     "name": "infrastructure",
@@ -221,7 +248,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 27
   },
   {
     "name": "transport_constructions",
@@ -229,7 +257,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 28
   },
   {
     "name": "water_supply",
@@ -237,7 +266,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 29
   },
   {
     "name": "power",
@@ -245,7 +275,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 30
   },
   {
     "name": "communications",
@@ -253,7 +284,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 31
   },
   {
     "name": "trash_disposal",
@@ -261,7 +293,8 @@
     "tags": {},
     "moretags": {},
     "poi": false,
-    "type": []
+    "type": [],
+    "id": 391
   },
   {
     "name": "bakery",
@@ -269,7 +302,8 @@
     "tags": {"shop": "bakery"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 32
   },
   {
     "name": "bookshop",
@@ -283,7 +317,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 33
   },
   {
     "name": "alcohol",
@@ -291,7 +326,8 @@
     "tags": {"shop": "alcohol"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 34
   },
   {
     "name": "bicycle",
@@ -335,7 +371,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 35
   },
   {
     "name": "convenience",
@@ -343,7 +380,8 @@
     "tags": {"shop":"convenience"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 36
   },
   {
     "name": "mall",
@@ -351,7 +389,8 @@
     "tags": {"shop":"mall"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 37
   },
   {
     "name": "anime",
@@ -380,7 +419,8 @@
       }
     },
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 38
   },
   {
     "name": "antiques",
@@ -388,7 +428,8 @@
     "tags": {"shop":"antiques"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 39
   },
   {
     "name": "art",
@@ -396,7 +437,8 @@
     "tags": {"shop":"art"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 40
   },
   {
     "name": "bag",
@@ -404,7 +446,8 @@
     "tags": {"shop":"bag"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 41
   },
   {
     "name": "baby_goods",
@@ -412,7 +455,8 @@
     "tags": {"shop":"baby_goods"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 42
   },
   {
     "name": "bathroom_furnishing",
@@ -420,7 +464,8 @@
     "tags": {"shop":"bathroom_furnishing"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 43
   },
   {
     "name": "bed",
@@ -428,7 +473,8 @@
     "tags": {"shop":"bed"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 44
   },
   {
     "name": "boutique",
@@ -436,7 +482,8 @@
     "tags": {"shop":"boutique"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 45
   },
   {
     "name": "beverages",
@@ -444,7 +491,8 @@
     "tags": {"shop":"beverages"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 46
   },
   {
     "name": "butcher",
@@ -452,7 +500,8 @@
     "tags": {"shop":"butcher"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 47
   },
   {
     "name": "carpet",
@@ -460,7 +509,8 @@
     "tags": {"shop":"carpet"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 48
   },
   {
     "name": "charity",
@@ -468,7 +518,8 @@
     "tags": {"shop":"charity"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 49
   },
   {
     "name": "chemist",
@@ -476,7 +527,8 @@
     "tags": {"shop":"chemist"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 50
   },
   {
     "name": "clothes",
@@ -484,7 +536,8 @@
     "tags": {"shop":"clothes"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 51
   },
   {
     "name": "shoes",
@@ -492,7 +545,8 @@
     "tags": {"shop":"shoes"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 52
   },
   {
     "name": "computer",
@@ -500,7 +554,8 @@
     "tags": {"shop":"computer"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 53
   },
   {
     "name": "copyshop",
@@ -508,7 +563,8 @@
     "tags": {"shop":"copyshop"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 54
   },
   {
     "name": "curtain",
@@ -516,7 +572,8 @@
     "tags": {"shop":"curtain"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 55
   },
   {
     "name": "fabric",
@@ -524,7 +581,8 @@
     "tags": {"shop":"fabric"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 56
   },
   {
     "name": "bedding",
@@ -532,7 +590,8 @@
     "tags": {"shop":"bedding"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 57
   },
   {
     "name": "deli",
@@ -540,7 +599,8 @@
     "tags": {"shop":"deli"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 58
   },
   {
     "name": "dive",
@@ -548,7 +608,8 @@
     "tags": {"shop":"dive"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 59
   },
   {
     "name": "doityourself",
@@ -556,7 +617,8 @@
     "tags": {"shop":"doityourself"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 60
   },
   {
     "name": "erotic",
@@ -564,7 +626,8 @@
     "tags": {"shop":"erotic"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 61
   },
   {
     "name": "farm",
@@ -572,7 +635,8 @@
     "tags": {"shop":"farm"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 62
   },
   {
     "name": "fishing_shop",
@@ -580,7 +644,8 @@
     "tags": {"shop":"fishing"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 63
   },
   {
     "name": "florist",
@@ -588,7 +653,8 @@
     "tags": {"shop":"florist"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 64
   },
   {
     "name": "frame",
@@ -596,7 +662,8 @@
     "tags": {"shop":"frame"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 65
   },
   {
     "name": "funeral_directors",
@@ -604,7 +671,8 @@
     "tags": {"shop":"funeral_directors"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 66
   },
   {
     "name": "furniture",
@@ -612,7 +680,8 @@
     "tags": {"shop":"furniture"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 67
   },
   {
     "name": "garden_centre",
@@ -620,7 +689,8 @@
     "tags": {"shop":"garden_centre"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 68
   },
   {
     "name": "gas",
@@ -628,7 +698,8 @@
     "tags": {"shop":"gas"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 69
   },
   {
     "name": "gift",
@@ -636,7 +707,8 @@
     "tags": {"shop":"gift"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 70
   },
   {
     "name": "glaziery_shop",
@@ -644,7 +716,8 @@
     "tags": {"shop":"glaziery"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 71
   },
   {
     "name": "greengrocer",
@@ -652,7 +725,8 @@
     "tags": {"shop":"greengrocer"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 72
   },
   {
     "name": "hardware",
@@ -660,7 +734,8 @@
     "tags": {"shop":"hardware"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 73
   },
   {
     "name": "hearing_aids",
@@ -668,7 +743,8 @@
     "tags": {"shop":"hearing_aids"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 74
   },
   {
     "name": "herbalist",
@@ -676,7 +752,8 @@
     "tags": {"shop":"herbalist"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 75
   },
   {
     "name": "hifi",
@@ -684,7 +761,8 @@
     "tags": {"shop":"hifi"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 76
   },
   {
     "name": "houseware",
@@ -692,7 +770,8 @@
     "tags": {"shop":"houseware"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 77
   },
   {
     "name": "hunting",
@@ -700,7 +779,8 @@
     "tags": {"shop":"hunting"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 78
   },
   {
     "name": "interior_decoration",
@@ -708,7 +788,8 @@
     "tags": {"shop":"interior_decoration"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 79
   },
   {
     "name": "jewelry",
@@ -716,7 +797,8 @@
     "tags": {"shop":"jewelry"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 80
   },
   {
     "name": "kiosk",
@@ -724,7 +806,8 @@
     "tags": {"shop":"kiosk"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 81
   },
   {
     "name": "kitchen",
@@ -732,7 +815,8 @@
     "tags": {"shop":"kitchen"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 82
   },
   {
     "name": "mobile_phone",
@@ -740,7 +824,8 @@
     "tags": {"shop":"mobile_phone"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 83
   },
   {
     "name": "motorcycle",
@@ -748,7 +833,8 @@
     "tags": {"shop":"motorcycle"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 84
   },
   {
     "name": "musical_instrument",
@@ -756,7 +842,8 @@
     "tags": {"shop":"musical_instrument"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 85
   },
   {
     "name": "newsagent",
@@ -764,7 +851,8 @@
     "tags": {"shop":"newsagent"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 86
   },
   {
     "name": "optician_shop",
@@ -772,7 +860,8 @@
     "tags": {"shop":"optician"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 87
   },
   {
     "name": "organic",
@@ -780,7 +869,8 @@
     "tags": {"shop":"organic"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 88
   },
   {
     "name": "outdoor",
@@ -788,7 +878,8 @@
     "tags": {"shop":"outdoor"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 89
   },
   {
     "name": "paint",
@@ -796,7 +887,8 @@
     "tags": {"shop":"paint"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 90
   },
   {
     "name": "pet",
@@ -804,7 +896,8 @@
     "tags": {"shop":"pet"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 91
   },
   {
     "name": "radiotechnics",
@@ -812,7 +905,8 @@
     "tags": {"shop":"radiotechnics"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 92
   },
   {
     "name": "seafood",
@@ -820,7 +914,8 @@
     "tags": {"shop":"seafood"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 93
   },
   {
     "name": "second_hand",
@@ -828,7 +923,8 @@
     "tags": {"shop":"second_hand"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 94
   },
   {
     "name": "ship_chandler",
@@ -836,7 +932,8 @@
     "tags": {"shop":"ship_chandler"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 95
   },
   {
     "name": "sports",
@@ -844,7 +941,8 @@
     "tags": {"shop":"sports"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 96
   },
   {
     "name": "stationery",
@@ -852,7 +950,8 @@
     "tags": {"shop":"stationery"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 97
   },
   {
     "name": "tableware",
@@ -860,7 +959,8 @@
     "tags": {"shop":"tableware"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 98
   },
   {
     "name": "ticket",
@@ -868,7 +968,8 @@
     "tags": {"shop":"ticket"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 99
   },
   {
     "name": "tobacco",
@@ -876,7 +977,8 @@
     "tags": {"shop":"tobacco"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 100
   },
   {
     "name": "toys",
@@ -884,7 +986,8 @@
     "tags": {"shop":"toys"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 101
   },
   {
     "name": "trade",
@@ -892,7 +995,8 @@
     "tags": {"shop":"trade"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 102
   },
   {
     "name": "vacuum_cleaner",
@@ -900,7 +1004,8 @@
     "tags": {"shop":"vacuum_cleaner"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 103
   },
   {
     "name": "variety_store",
@@ -908,7 +1013,8 @@
     "tags": {"shop":"variety_store"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 104
   },
   {
     "name": "video",
@@ -916,7 +1022,8 @@
     "tags": {"shop":"video"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 105
   },
   {
     "name": "window_blind",
@@ -924,7 +1031,8 @@
     "tags": {"shop":"window_blind"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 106
   },
   {
     "name": "confectionery",
@@ -932,7 +1040,8 @@
     "tags": {"shop": "confectionery"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 107
   },
   {
     "name": "ice_cream",
@@ -940,7 +1049,8 @@
     "tags": {"shop": "ice_cream"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 108
   },
   {
     "name": "supermarket",
@@ -948,7 +1058,8 @@
     "tags": {"shop": "supermarket"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 109
   },
   {
     "name": "department_store",
@@ -956,7 +1067,8 @@
     "tags": {"shop": "department_store"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 110
   },
   {
     "name": "electronics",
@@ -964,7 +1076,8 @@
     "tags": {"shop": "electronics"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 111
   },
   {
     "name": "car",
@@ -972,7 +1085,8 @@
     "tags": {"shop": "car"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 112
   },
   {
     "name": "car_parts",
@@ -980,7 +1094,8 @@
     "tags": {"shop": "car_parts"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 113
   },
   {
     "name": "atv",
@@ -988,7 +1103,8 @@
     "tags": {"shop": "atv"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 114
   },
   {
     "name": "pharmacy",
@@ -1002,7 +1118,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 115
   },
   {
     "name": "hospital",
@@ -1016,7 +1133,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 116
   },
   {
     "name": "doctors",
@@ -1030,7 +1148,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 117
   },
   {
     "name": "clinic",
@@ -1044,7 +1163,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 118
   },
   {
     "name": "dentist",
@@ -1052,7 +1172,8 @@
     "tags": {"amenity": "dentist"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 119
   },
   {
     "name": "nursing_home",
@@ -1060,7 +1181,8 @@
     "tags": {"amenity": "nursing_home"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 120
   },
   {
     "name": "social_facility",
@@ -1079,7 +1201,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 121
   },
   {
     "name": "veterinary",
@@ -1087,7 +1210,8 @@
     "tags": {"amenity": "veterinary"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 122
   },
   {
     "name": "mortuary",
@@ -1095,7 +1219,8 @@
     "tags": {"amenity": "mortuary"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 123
   },
   {
     "name": "cafe",
@@ -1134,7 +1259,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 124
   },
   {
     "name": "biergarten",
@@ -1173,7 +1299,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 125
   },
   {
     "name": "restaurant",
@@ -1217,7 +1344,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 126
   },
   {
     "name": "fast_food",
@@ -1256,7 +1384,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 127
   },
   {
     "name": "bar",
@@ -1295,7 +1424,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 128
   },
   {
     "name": "pub",
@@ -1334,7 +1464,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 129
   },
   {
     "name": "food_court",
@@ -1373,7 +1504,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 130
   },
   {
     "name": "bank",
@@ -1399,7 +1531,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 131
   },
   {
     "name": "atm",
@@ -1413,7 +1546,8 @@
       }
     },
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 132
   },
   {
     "name": "money_lender",
@@ -1421,7 +1555,8 @@
     "tags": {"shop":"money_lender"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 133
   },
   {
     "name": "pawnbroker",
@@ -1429,7 +1564,8 @@
     "tags": {"shop":"pawnbroker"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 134
   },
   {
     "name": "currencyexchange",
@@ -1437,7 +1573,8 @@
     "tags": {"amenity": "bureau_de_change"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 135
   },
   {
     "name": "driving_school",
@@ -1445,7 +1582,8 @@
     "tags": {"amenity": "driving_school"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 136
   },
   {
     "name": "craft_computer",
@@ -1453,7 +1591,8 @@
     "tags": {"craft": "computer"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 137
   },
   {
     "name": "post_office",
@@ -1480,7 +1619,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 138
   },
   {
     "name": "post_box",
@@ -1497,7 +1637,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 139
   },
   {
     "name": "beauty_salon",
@@ -1505,7 +1646,8 @@
     "tags": {"shop": "beauty"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 140
   },
   {
     "name": "nails",
@@ -1513,7 +1655,8 @@
     "tags": {"shop": "beauty", "beauty": "nails"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 141
   },
   {
     "name": "hairdresser",
@@ -1521,7 +1664,8 @@
     "tags": {"shop": "hairdresser"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 142
   },
   {
     "name": "massage",
@@ -1529,7 +1673,8 @@
     "tags": {"shop":"massage"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 143
   },
   {
     "name": "tattoo",
@@ -1537,7 +1682,8 @@
     "tags": {"shop":"tattoo"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 144
   },
   {
     "name": "dry_cleaning",
@@ -1545,7 +1691,8 @@
     "tags": {"shop":"dry_cleaning"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 145
   },
   {
     "name": "laundry",
@@ -1553,7 +1700,8 @@
     "tags": {"shop":"laundry"},
     "moretags":{},
     "poi": true,
-    "type": ["node","area"]
+    "type": ["node","area"],
+    "id": 146
   },
   {
     "name": "car_rental",
@@ -1561,7 +1709,8 @@
     "tags": {"amenity": "car_rental"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 147
   },
   {
     "name": "bicycle_rental",
@@ -1569,7 +1718,8 @@
     "tags": {"amenity": "bicycle_rental"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 148
   },
   {
     "name": "agricultural_engines",
@@ -1577,7 +1727,8 @@
     "tags": {"craft": "agricultural_engines"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 149
   },
   {
     "name": "basket_maker",
@@ -1585,7 +1736,8 @@
     "tags": {"craft": "basket_maker"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 150
   },
   {
     "name": "beekeeper",
@@ -1593,7 +1745,8 @@
     "tags": {"craft": "beekeeper"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 151
   },
   {
     "name": "blacksmith",
@@ -1601,7 +1754,8 @@
     "tags": {"craft": "blacksmith"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 152
   },
   {
     "name": "brewery",
@@ -1609,7 +1763,8 @@
     "tags": {"craft": "brewery"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 153
   },
   {
     "name": "boatbuilder",
@@ -1617,7 +1772,8 @@
     "tags": {"craft": "boatbuilder"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 154
   },
   {
     "name": "bookbinder",
@@ -1625,7 +1781,8 @@
     "tags": {"craft": "bookbinder"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 155
   },
   {
     "name": "carpenter",
@@ -1633,7 +1790,8 @@
     "tags": {"craft": "carpenter"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 156
   },
   {
     "name": "carpet_layer",
@@ -1641,7 +1799,8 @@
     "tags": {"craft": "carpet_layer"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 157
   },
   {
     "name": "caterer",
@@ -1649,7 +1808,8 @@
     "tags": {"craft": "caterer"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 158
   },
   {
     "name": "clockmaker",
@@ -1657,7 +1817,8 @@
     "tags": {"craft": "clockmaker"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 159
   },
   {
     "name": "dressmaker",
@@ -1665,7 +1826,8 @@
     "tags": {"craft": "dressmaker"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 160
   },
   {
     "name": "electrician",
@@ -1673,7 +1835,8 @@
     "tags": {"craft": "electrician"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 161
   },
   {
     "name": "gardener",
@@ -1681,7 +1844,8 @@
     "tags": {"craft": "gardener"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 162
   },
   {
     "name": "glaziery_craft",
@@ -1689,7 +1853,8 @@
     "tags": {"craft": "glaziery"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 163
   },
   {
     "name": "handicraft",
@@ -1697,7 +1862,8 @@
     "tags": {"craft": "handicraft"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 164
   },
   {
     "name": "hvac",
@@ -1705,7 +1871,8 @@
     "tags": {"craft": "hvac"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 165
   },
   {
     "name": "insulation",
@@ -1713,7 +1880,8 @@
     "tags": {"craft": "insulation"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 166
   },
   {
     "name": "jeweller",
@@ -1721,7 +1889,8 @@
     "tags": {"craft": "jeweller"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 167
   },
   {
     "name": "locksmith",
@@ -1729,7 +1898,8 @@
     "tags": {"craft": "locksmith"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 168
   },
   {
     "name": "key_cutter",
@@ -1737,7 +1907,8 @@
     "tags": {"craft": "key_cutter"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 169
   },
   {
     "name": "metal_construction",
@@ -1745,7 +1916,8 @@
     "tags": {"craft": "metal_construction"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 170
   },
   {
     "name": "optician_craft",
@@ -1753,7 +1925,8 @@
     "tags": {"craft": "optician"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 171
   },
   {
     "name": "painter",
@@ -1761,7 +1934,8 @@
     "tags": {"craft": "painter"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 172
   },
   {
     "name": "parquet_layer",
@@ -1769,7 +1943,8 @@
     "tags": {"craft": "parquet_layer"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 173
   },
   {
     "name": "photographer",
@@ -1777,7 +1952,8 @@
     "tags": {"craft": "photographer"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 174
   },
   {
     "name": "photographic_laboratory",
@@ -1785,7 +1961,8 @@
     "tags": {"craft": "photographic_laboratory"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 175
   },
   {
     "name": "plasterer",
@@ -1793,7 +1970,8 @@
     "tags": {"craft": "plasterer"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 176
   },
   {
     "name": "plumber",
@@ -1801,7 +1979,8 @@
     "tags": {"craft": "plumber"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 177
   },
   {
     "name": "pottery",
@@ -1809,7 +1988,8 @@
     "tags": {"craft": "pottery"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 178
   },
   {
     "name": "rigger",
@@ -1817,7 +1997,8 @@
     "tags": {"craft": "rigger"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 179
   },
   {
     "name": "roofer",
@@ -1825,7 +2006,8 @@
     "tags": {"craft": "roofer"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 180
   },
   {
     "name": "saddler",
@@ -1833,7 +2015,8 @@
     "tags": {"craft": "saddler"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 181
   },
   {
     "name": "sailmaker",
@@ -1841,7 +2024,8 @@
     "tags": {"craft": "sailmaker"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 182
   },
   {
     "name": "sawmill",
@@ -1849,7 +2033,8 @@
     "tags": {"craft": "sawmill"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 183
   },
   {
     "name": "scaffolder",
@@ -1857,7 +2042,8 @@
     "tags": {"craft": "scaffolder"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 184
   },
   {
     "name": "sculptor",
@@ -1865,7 +2051,8 @@
     "tags": {"craft": "sculptor"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 185
   },
   {
     "name": "shoemaker",
@@ -1873,7 +2060,8 @@
     "tags": {"craft": "shoemaker"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 186
   },
   {
     "name": "stand_builder",
@@ -1881,7 +2069,8 @@
     "tags": {"craft": "stand_builder"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 187
   },
   {
     "name": "stonemason",
@@ -1889,7 +2078,8 @@
     "tags": {"craft": "stonemason"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 188
   },
   {
     "name": "sun_protection",
@@ -1897,7 +2087,8 @@
     "tags": {"craft": "sun_protection"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 189
   },
   {
     "name": "sweep",
@@ -1905,7 +2096,8 @@
     "tags": {"craft": "sweep"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 190
   },
   {
     "name": "tailor",
@@ -1913,7 +2105,8 @@
     "tags": {"craft": "tailor"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 191
   },
   {
     "name": "tiler",
@@ -1921,7 +2114,8 @@
     "tags": {"craft": "tiler"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 192
   },
   {
     "name": "tinsmith",
@@ -1929,7 +2123,8 @@
     "tags": {"craft": "tinsmith"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 193
   },
   {
     "name": "upholsterer",
@@ -1937,7 +2132,8 @@
     "tags": {"craft": "upholsterer"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 194
   },
   {
     "name": "watchmaker",
@@ -1945,7 +2141,8 @@
     "tags": {"craft": "watchmaker"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 195
   },
   {
     "name": "window_construction",
@@ -1953,7 +2150,8 @@
     "tags": {"craft": "window_construction"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 196
   },
   {
     "name": "bus_station",
@@ -1961,7 +2159,8 @@
     "tags": {"amenity": "bus_station"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 197
   },
   {
     "name": "subway_entrance",
@@ -1984,7 +2183,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 198
   },
   {
     "name": "railway_station",
@@ -2003,7 +2203,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 199
   },
   {
     "name": "railway_halt",
@@ -2022,7 +2223,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 200
   },
   {
     "name": "subway_station",
@@ -2030,7 +2232,8 @@
     "tags": {"railway": "station", "station": "subway"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 201
   },
   {
     "name": "bus_stop",
@@ -2059,7 +2262,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 202
   },
   {
     "name": "tram_stop",
@@ -2083,7 +2287,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 203
   },
   {
     "name": "taxi",
@@ -2091,7 +2296,8 @@
     "tags": {"amenity": "taxi"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 204
   },
   {
     "name": "car_repair",
@@ -2099,7 +2305,8 @@
     "tags": {"shop": "car_repair"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 205
   },
   {
     "name": "car_repair_tyres",
@@ -2107,7 +2314,8 @@
     "tags": {"shop": "car_repair", "service": "tyres"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 206
   },
   {
     "name": "vehicle_inspection",
@@ -2115,7 +2323,8 @@
     "tags": {"amenity": "vehicle_inspection"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 392
   },
   {
     "name": "car_wash",
@@ -2123,7 +2332,8 @@
     "tags": {"amenity": "car_wash"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 207
   },
   {
     "name": "fuel",
@@ -2232,7 +2442,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 208
   },
   {
     "name": "ev_charging",
@@ -2240,7 +2451,8 @@
     "tags": {"amenity": "ev_charging"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 209
   },
   {
     "name": "vehicle_ramp",
@@ -2248,7 +2460,8 @@
     "tags": {"amenity": "vehicle_ramp"},
     "moretags": {},
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 210
   },
   {
     "name": "school",
@@ -2256,7 +2469,8 @@
     "tags": {"amenity": "school"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 211
   },
   {
     "name": "kindergarten",
@@ -2264,7 +2478,8 @@
     "tags": {"amenity": "kindergarten"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 212
   },
   {
     "name": "library",
@@ -2272,7 +2487,8 @@
     "tags": {"amenity": "library"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 213
   },
   {
     "name": "college",
@@ -2280,7 +2496,8 @@
     "tags": {"amenity": "college"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 214
   },
   {
     "name": "university",
@@ -2288,7 +2505,8 @@
     "tags": {"amenity": "university"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 215
   },
   {
     "name": "arts_centre",
@@ -2296,7 +2514,8 @@
     "tags": {"amenity": "arts_centre"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 216
   },
   {
     "name": "cinema",
@@ -2310,7 +2529,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 217
   },
   {
     "name": "nightclub",
@@ -2318,7 +2538,8 @@
     "tags": {"amenity": "nightclub"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 218
   },
   {
     "name": "community_centre",
@@ -2326,7 +2547,8 @@
     "tags": {"amenity": "community_centre"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 219
   },
   {
     "name": "theatre",
@@ -2340,7 +2562,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 220
   },
   {
     "name": "circus",
@@ -2348,7 +2571,8 @@
     "tags": {"amenity": "theatre", "theatre:genre": "circus"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 221
   },
   {
     "name": "place_of_worship",
@@ -2371,7 +2595,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 222
   },
   {
     "name": "place_of_worship_christian",
@@ -2394,7 +2619,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 223
   },
   {
     "name": "place_of_worship_jewish",
@@ -2417,7 +2643,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 224
   },
   {
     "name": "place_of_worship_muslim",
@@ -2440,7 +2667,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 225
   },
   {
     "name": "police",
@@ -2448,7 +2676,8 @@
     "tags": {"amenity": "police"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 226
   },
   {
     "name": "courthouse",
@@ -2456,7 +2685,8 @@
     "tags": {"amenity": "courthouse"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 227
   },
   {
     "name": "prison",
@@ -2464,7 +2694,8 @@
     "tags": {"amenity": "prison"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 228
   },
   {
     "name": "register_office",
@@ -2472,7 +2703,8 @@
     "tags": {"amenity": "register_office"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 229
   },
   {
     "name": "embassy",
@@ -2486,7 +2718,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 230
   },
   {
     "name": "stadium",
@@ -2501,7 +2734,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 231
   },
   {
     "name": "sports_centre",
@@ -2516,7 +2750,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 232
   },
   {
     "name": "museum",
@@ -2524,7 +2759,8 @@
     "tags": {"tourism": "museum"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 233
   },
   {
     "name": "attraction",
@@ -2532,7 +2768,8 @@
     "tags": {"tourism": "attraction"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 234
   },
   {
     "name": "information",
@@ -2546,7 +2783,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 235
   },
   {
     "name": "memorial",
@@ -2554,7 +2792,8 @@
     "tags": {"historic": "memorial"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 236
   },
   {
     "name": "artwork",
@@ -2576,7 +2815,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "way", "area"]
+    "type": ["node", "way", "area"],
+    "id": 237
   },
   {
     "name": "archaeological_site",
@@ -2584,7 +2824,8 @@
     "tags": {"historic": "archaeological_site"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 238
   },
   {
     "name": "battlefield",
@@ -2597,7 +2838,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 239
   },
   {
     "name": "boundary_stone",
@@ -2605,7 +2847,8 @@
     "tags": {"historic": "boundary_stone"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 240
   },
   {
     "name": "castle",
@@ -2613,7 +2856,8 @@
     "tags": {"historic": "castle"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 241
   },
   {
     "name": "city_gate",
@@ -2621,7 +2865,8 @@
     "tags": {"historic": "city_gate"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 242
   },
   {
     "name": "fort",
@@ -2629,7 +2874,8 @@
     "tags": {"historic": "fort"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 243
   },
   {
     "name": "fountain",
@@ -2643,7 +2889,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 244
   },
   {
     "name": "clock",
@@ -2691,7 +2938,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "way", "area"]
+    "type": ["node", "way", "area"],
+    "id": 245
   },
   {
     "name": "ruins",
@@ -2699,7 +2947,8 @@
     "tags": {"historic": "ruins"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 246
   },
   {
     "name": "rune_stone",
@@ -2707,7 +2956,8 @@
     "tags": {"historic": "rune_stone"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 247
   },
   {
     "name": "wreck",
@@ -2715,7 +2965,8 @@
     "tags": {"historic": "wreck"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 248
   },
   {
     "name": "ship",
@@ -2723,7 +2974,8 @@
     "tags": {"historic": "ship"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 249
   },
   {
     "name": "monument",
@@ -2731,7 +2983,8 @@
     "tags": {"historic": "monument"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 250
   },
   {
     "name": "hotel",
@@ -2772,7 +3025,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 251
   },
   {
     "name": "guest_house",
@@ -2804,7 +3058,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 252
   },
   {
     "name": "hostel",
@@ -2840,7 +3095,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 253
   },
   {
     "name": "motel",
@@ -2876,7 +3132,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 254
   },
   {
     "name": "company",
@@ -2884,7 +3141,8 @@
     "tags": {"office": "company"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 255
   },
   {
     "name": "government",
@@ -2892,7 +3150,8 @@
     "tags": {"office":"government"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 256
   },
   {
     "name": "bailiff",
@@ -2900,7 +3159,8 @@
     "tags": {"office":"government", "government":"bailiff"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 257
   },
   {
     "name": "prosecutor",
@@ -2908,7 +3168,8 @@
     "tags": {"office":"government", "government":"prosecutor"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 258
   },
   {
     "name": "pension_fund",
@@ -2916,7 +3177,8 @@
     "tags": {"office":"government", "government":"pension_fund"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 259
   },
   {
     "name": "migration",
@@ -2924,7 +3186,8 @@
     "tags": {"office":"government", "government":"migration"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 260
   },
   {
     "name": "tax_inspection",
@@ -2932,7 +3195,8 @@
     "tags": {"office":"government", "government":"taxes"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 261
   },
   {
     "name": "insurance",
@@ -2940,7 +3204,8 @@
     "tags": {"office": "insurance"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 262
   },
   {
     "name": "estate_agent",
@@ -2948,7 +3213,8 @@
     "tags": {"office": "estate_agent"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 263
   },
   {
     "name": "lawyer",
@@ -2956,7 +3222,8 @@
     "tags": {"office": "lawyer"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 264
   },
   {
     "name": "notary",
@@ -2964,7 +3231,8 @@
     "tags": {"office": "lawyer", "lawyer": "notary" },
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 265
   },
   {
     "name": "telecommunication",
@@ -2972,7 +3240,8 @@
     "tags": {"office": "telecommunication"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 266
   },
   {
     "name": "travel_agent",
@@ -2980,7 +3249,8 @@
     "tags": {"office": "travel_agent"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 267
   },
   {
     "name": "ngo",
@@ -2988,7 +3258,8 @@
     "tags": {"office": "ngo"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 268
   },
   {
     "name": "administrative",
@@ -2996,7 +3267,8 @@
     "tags": {"office": "administrative"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 269
   },
   {
     "name": "town_hall",
@@ -3004,7 +3276,8 @@
     "tags": {"amenity": "townhall"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 270
   },
   {
     "name": "accountant",
@@ -3012,7 +3285,8 @@
     "tags": {"office": "accountant"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 271
   },
   {
     "name": "employment_agency",
@@ -3020,7 +3294,8 @@
     "tags": {"office": "employment_agency"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 272
   },
   {
     "name": "research",
@@ -3028,7 +3303,8 @@
     "tags": {"office": "research"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 273
   },
   {
     "name": "it",
@@ -3036,7 +3312,8 @@
     "tags": {"office": "it"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 274
   },
   {
     "name": "newspaper",
@@ -3044,7 +3321,8 @@
     "tags": {"office": "newspaper"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 275
   },
   {
     "name": "architect",
@@ -3052,7 +3330,8 @@
     "tags": {"office": "architect"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 276
   },
   {
     "name": "advertising_agency",
@@ -3060,7 +3339,8 @@
     "tags": {"office": "advertising_agency"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 277
   },
   {
     "name": "educational_institution",
@@ -3068,7 +3348,8 @@
     "tags": {"office": "educational_institution"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 278
   },
   {
     "name": "studio",
@@ -3076,7 +3357,8 @@
     "tags": {"amenity": "studio"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 279
   },
   {
     "name": "bookmaker",
@@ -3084,7 +3366,8 @@
     "tags": {"shop": "bookmaker"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 280
   },
   {
     "name": "toilets",
@@ -3098,7 +3381,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 281
   },
   {
     "name": "viewpoint",
@@ -3106,7 +3390,8 @@
     "tags": {"tourism": "viewpoint"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 282
   },
   {
     "name": "camp_site",
@@ -3114,7 +3399,8 @@
     "tags": {"tourism": "camp_site"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 283
   },
   {
     "name": "picnic_site",
@@ -3122,7 +3408,8 @@
     "tags": {"tourism": "picnic_site"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 284
   },
   {
     "name": "cave_entrance",
@@ -3140,7 +3427,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 285
   },
   {
     "name": "peak",
@@ -3153,7 +3441,8 @@
       }
     },
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 286
   },
   {
     "name": "saddle",
@@ -3166,7 +3455,8 @@
       }
     },
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 287
   },
   {
     "name": "volcano",
@@ -3179,7 +3469,8 @@
       }
     },
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 288
   },
   {
     "name": "waterfall",
@@ -3192,7 +3483,8 @@
       }
     },
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 289
   },
   {
     "name": "spring",
@@ -3200,7 +3492,8 @@
     "tags": {"natural": "spring"},
     "moretags": {},
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 290
   },
   {
     "name": "cape",
@@ -3208,7 +3501,8 @@
     "tags": {"natural": "cape"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 291
   },
   {
     "name": "bay",
@@ -3216,7 +3510,8 @@
     "tags": {"natural": "bay"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 292
   },
   {
     "name": "strait",
@@ -3224,7 +3519,8 @@
     "tags": {"natural": "strait"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "way", "area"]
+    "type": ["node", "way", "area"],
+    "id": 293
   },
   {
     "name": "island",
@@ -3232,7 +3528,8 @@
     "tags": {"place": "island"},
     "moretags": {},
     "poi": true,
-    "type": ["area"]
+    "type": ["area"],
+    "id": 294
   },
   {
     "name": "beach",
@@ -3251,7 +3548,8 @@
       }
     },
     "poi": true,
-    "type": ["area"]
+    "type": ["area"],
+    "id": 295
   },
   {
     "name": "islet",
@@ -3259,7 +3557,8 @@
     "tags": {"place": "islet"},
     "moretags": {},
     "poi": true,
-    "type": ["area"]
+    "type": ["area"],
+    "id": 296
   },
   {
     "name": "beach_resort",
@@ -3278,7 +3577,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 297
   },
   {
     "name": "dance",
@@ -3297,7 +3597,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 298
   },
   {
     "name": "dog_park",
@@ -3305,7 +3606,8 @@
     "tags": {"leisure": "dog_park"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 299
   },
   {
     "name": "fishing",
@@ -3319,7 +3621,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 300
   },
   {
     "name": "golf_course",
@@ -3333,7 +3636,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 301
   },
   {
     "name": "ice_rink",
@@ -3363,7 +3667,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 302
   },
   {
     "name": "marina",
@@ -3376,7 +3681,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 303
   },
   {
     "name": "slipway",
@@ -3384,7 +3690,8 @@
     "tags": {"leisure": "slipway"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 304
   },
   {
     "name": "miniature_golf",
@@ -3392,7 +3699,8 @@
     "tags": {"leisure": "miniature_golf"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 305
   },
   {
     "name": "pitch",
@@ -3431,7 +3739,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 306
   },
   {
     "name": "running_track",
@@ -3466,7 +3775,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "way", "area"]
+    "type": ["node", "way", "area"],
+    "id": 307
   },
   {
     "name": "bicycle_track",
@@ -3501,7 +3811,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "way", "area"]
+    "type": ["node", "way", "area"],
+    "id": 308
   },
   {
     "name": "horse_track",
@@ -3536,7 +3847,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "way", "area"]
+    "type": ["node", "way", "area"],
+    "id": 309
   },
   {
     "name": "raceway",
@@ -3571,7 +3883,8 @@
       }
     },
     "poi": true,
-    "type": ["way"]
+    "type": ["way"],
+    "id": 310
   },
   {
     "name": "playground",
@@ -3579,7 +3892,8 @@
     "tags": {"leisure": "playground"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 311
   },
   {
     "name": "swimming_pool",
@@ -3604,7 +3918,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 312
   },
   {
     "name": "water_park",
@@ -3623,7 +3938,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 313
   },
   {
     "name": "cosmetics",
@@ -3631,7 +3947,8 @@
     "tags": {"shop": "cosmetics"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 314
   },
   {
     "name": "marketplace",
@@ -3639,7 +3956,8 @@
     "tags": {"amenity": "marketplace"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 315
   },
   {
     "name": "telephone",
@@ -3647,7 +3965,8 @@
     "tags": {"amenity": "telephone"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 316
   },
   {
     "name": "ferry_terminal",
@@ -3655,7 +3974,8 @@
     "tags": {"amenity": "ferry_terminal"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 317
   },
   {
     "name": "cemetery",
@@ -3674,7 +3994,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 318
   },
   {
     "name": "fire_station",
@@ -3682,7 +4003,8 @@
     "tags": {"amenity": "fire_station"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 319
   },
   {
     "name": "emergency_phone",
@@ -3690,7 +4012,8 @@
     "tags": {"emergency": "phone"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 320
   },
   {
     "name": "fire_hydrant",
@@ -3716,7 +4039,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 321
   },
   {
     "name": "fire_water_pond",
@@ -3724,7 +4048,8 @@
     "tags": {"emergency": "fire_water_pond"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 393
   },
   {
     "name": "ambulance_station",
@@ -3732,7 +4057,8 @@
     "tags": {"emergency": "ambulance_station"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 322
   },
   {
     "name": "park",
@@ -3740,7 +4066,8 @@
     "tags": {"leisure": "park"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 323
   },
   {
     "name": "airport",
@@ -3761,7 +4088,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 324
   },
   {
     "name": "helipad",
@@ -3787,7 +4115,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 325
   },
   {
     "name": "shelter",
@@ -3801,7 +4130,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 326
   },
   {
     "name": "drinking_water",
@@ -3809,7 +4139,8 @@
     "tags": {"amenity": "drinking_water"},
     "moretags": {},
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 327
   },
   {
     "name": "sauna",
@@ -3817,7 +4148,8 @@
     "tags": {"amenity": "sauna"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 328
   },
   {
     "name": "zoo",
@@ -3825,7 +4157,8 @@
     "tags": {"tourism": "zoo"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 329
   },
   {
     "name": "parking",
@@ -3863,7 +4196,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 330
   },
   {
     "name": "parking_entrance",
@@ -3872,7 +4206,8 @@
     "moretags": {
     },
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 331
   },
   {
     "name": "bicycle_parking",
@@ -3895,7 +4230,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 332
   },
   {
     "name": "theme_park",
@@ -3910,7 +4246,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 333
   },
   {
     "name": "customs",
@@ -3918,7 +4255,8 @@
     "tags": {"amenity": "customs"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 334
   },
   {
     "name": "recycling",
@@ -3988,7 +4326,8 @@
       "recycling_wood": { "class": "boolean", "tag": "recycling:wood", "type": "translate" }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 335
   },
   {
     "name": "ford",
@@ -4006,7 +4345,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "way"]
+    "type": ["node", "way"],
+    "id": 336
   },
   {
     "name": "mountain_pass",
@@ -4019,7 +4359,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "way"]
+    "type": ["node", "way"],
+    "id": 337
   },
   {
     "name": "gate",
@@ -4027,7 +4368,8 @@
     "tags": {"barrier": "gate"},
     "moretags": {},
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 338
   },
   {
     "name": "lift_gate",
@@ -4035,7 +4377,8 @@
     "tags": {"barrier": "lift_gate"},
     "moretags": {},
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 339
   },
   {
     "name": "toll_booth",
@@ -4043,7 +4386,8 @@
     "tags": {"barrier": "toll_booth"},
     "moretags": {},
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 340
   },
   {
     "name": "bump",
@@ -4051,7 +4395,8 @@
     "tags": {"traffic_calming": "bump"},
     "moretags": {},
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 341
   },
   {
     "name": "hump",
@@ -4059,7 +4404,8 @@
     "tags": {"traffic_calming": "hump"},
     "moretags": {},
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 342
   },
   {
     "name": "cushion",
@@ -4067,7 +4413,8 @@
     "tags": {"traffic_calming": "cushion"},
     "moretags": {},
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 343
   },
   {
     "name": "traffic_signals",
@@ -4075,7 +4422,8 @@
     "tags": {"highway": "traffic_signals"},
     "moretags": {},
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 394
   },
   {
     "name": "surveillance",
@@ -4089,7 +4437,8 @@
       }
     },
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 344
   },
   {
     "name": "communication_tower",
@@ -4125,7 +4474,8 @@
       }
     },
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 345
   },
   {
     "name": "telephone_exchange",
@@ -4133,7 +4483,8 @@
     "tags": {"man_made": "telephone_exchange"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 346
   },
   {
     "name": "water_well",
@@ -4147,7 +4498,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 347
   },
   {
     "name": "water_works",
@@ -4155,7 +4507,8 @@
     "tags": {"man_made": "water_works"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 348
   },
   {
     "name": "wastewater_plant",
@@ -4163,7 +4516,8 @@
     "tags": {"man_made": "wastewater_plant"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 349
   },
   {
     "name": "water_tower",
@@ -4180,7 +4534,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 350
   },
   {
     "name": "substation",
@@ -4198,7 +4553,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 351
   },
   {
     "name": "transformer",
@@ -4219,7 +4575,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 352
   },
   {
     "name": "power_plant",
@@ -4270,7 +4627,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 353
   },
   {
     "name": "power_generator",
@@ -4326,7 +4684,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 354
   },
   {
     "name": "sewing",
@@ -4334,7 +4693,8 @@
     "tags": {"shop": "sewing"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 355
   },
   {
     "name": "leading_beacon",
@@ -4343,7 +4703,8 @@
     "moretags": {
     },
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 356
   },
   {
     "name": "lateral_buoy",
@@ -4371,7 +4732,8 @@
       }
     },
     "poi": true,
-    "type": ["node"]
+    "type": ["node"],
+    "id": 357
   },
   {
     "name": "internet_cafe",
@@ -4399,7 +4761,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 358
   },
   {
     "name": "club_art",
@@ -4407,7 +4770,8 @@
     "tags": {"club": "art"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 359
   },
   {
     "name": "club_astronomy",
@@ -4415,7 +4779,8 @@
     "tags": {"club": "astronomy"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 360
   },
   {
     "name": "club_computer",
@@ -4423,7 +4788,8 @@
     "tags": {"club": "computer"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 361
   },
   {
     "name": "club_board_games",
@@ -4431,7 +4797,8 @@
     "tags": {"club": "board_games"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 362
   },
   {
     "name": "club_motorcycle",
@@ -4439,7 +4806,8 @@
     "tags": {"club": "motorcycle"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 363
   },
   {
     "name": "club_sport",
@@ -4454,7 +4822,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 364
   },
   {
     "name": "club_game",
@@ -4462,7 +4831,8 @@
     "tags": {"club": "game"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 365
   },
   {
     "name": "club_automobile",
@@ -4470,7 +4840,8 @@
     "tags": {"club": "automobile"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 366
   },
   {
     "name": "club_chess",
@@ -4478,7 +4849,8 @@
     "tags": {"club": "chess"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 367
   },
   {
     "name": "club_cinema",
@@ -4486,7 +4858,8 @@
     "tags": {"club": "cinema"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 368
   },
   {
     "name": "club_fan",
@@ -4494,7 +4867,8 @@
     "tags": {"club": "fan"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 369
   },
   {
     "name": "club_fishing",
@@ -4502,7 +4876,8 @@
     "tags": {"club": "fishing"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 370
   },
   {
     "name": "club_veterans",
@@ -4510,7 +4885,8 @@
     "tags": {"club": "veterans"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 371
   },
   {
     "name": "club_linux",
@@ -4518,7 +4894,8 @@
     "tags": {"club": "linux"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 372
   },
   {
     "name": "club_theatre",
@@ -4526,7 +4903,8 @@
     "tags": {"club": "theatre"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 373
   },
   {
     "name": "club_history",
@@ -4534,7 +4912,8 @@
     "tags": {"club": "history"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 374
   },
   {
     "name": "club_music",
@@ -4542,7 +4921,8 @@
     "tags": {"club": "music"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 375
   },
   {
     "name": "club_ethnic",
@@ -4550,7 +4930,8 @@
     "tags": {"club": "ethnic"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 376
   },
   {
     "name": "club_nature",
@@ -4558,7 +4939,8 @@
     "tags": {"club": "nature"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 377
   },
   {
     "name": "club_photography",
@@ -4566,7 +4948,8 @@
     "tags": {"club": "photography"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 378
   },
   {
     "name": "club_hunting",
@@ -4574,7 +4957,8 @@
     "tags": {"club": "hunting"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 379
   },
   {
     "name": "club_shooting",
@@ -4582,7 +4966,8 @@
     "tags": {"club": "shooting"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 380
   },
   {
     "name": "club_tourism",
@@ -4590,7 +4975,8 @@
     "tags": {"club": "tourism"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 381
   },
   {
     "name": "club_charity",
@@ -4598,7 +4984,8 @@
     "tags": {"club": "charity"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 382
   },
   {
     "name": "tunnel",
@@ -4606,7 +4993,8 @@
     "tags": {"man_made": "tunnel"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 383
   },
   {
     "name": "bridge",
@@ -4614,7 +5002,8 @@
     "tags": {"man_made": "bridge"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 384
   },
   {
     "name": "construction",
@@ -4622,7 +5011,8 @@
     "tags": {"landuse": "construction"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 385
   },
   {
     "name": "landfill",
@@ -4630,7 +5020,8 @@
     "tags": {"landuse": "landfill"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 386
   },
   {
     "name": "waste_disposal",
@@ -4643,7 +5034,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 395
   },
   {
     "name": "lighthouse",
@@ -4651,7 +5043,8 @@
     "tags": {"man_made": "lighthouse"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 387
   },
   {
     "name": "speed_camera",
@@ -4664,7 +5057,8 @@
       }
     },
     "poi": true,
-    "type": ["node", "area"]
+    "type": ["node", "area"],
+    "id": 388
   },
   {
     "name": "funicular",
@@ -4672,6 +5066,7 @@
     "tags": {"railway": "funicular"},
     "moretags": {},
     "poi": true,
-    "type": ["node", "way", "area"]
+    "type": ["node", "way", "area"],
+    "id": 389
   }
 ]
