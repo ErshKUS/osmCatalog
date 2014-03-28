@@ -298,7 +298,7 @@
   },
   {
     "name": "advertising",
-    "parent": [],
+    "parent": ["infrastructure"],
     "tags": {},
     "moretags": {},
     "poi": false,
