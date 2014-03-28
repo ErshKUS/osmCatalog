@@ -297,6 +297,15 @@
     "id": 391
   },
   {
+    "name": "advertising",
+    "parent": [],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": [],
+    "id": 398
+  },
+  {
     "name": "bakery",
     "parent": ["shop_food"],
     "tags": {"shop": "bakery"},
@@ -5084,6 +5093,70 @@
     "tags": {"shop": "tea"},
     "moretags": {},
     "poi": true,
+    "type": ["node", "way", "area"],
     "id": 396
+  },
+  {
+    "name": "advertising_billboard",
+    "parent": ["advertising"],
+    "tags": {"advertising": "billboard"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "way", "area"],
+    "id": 399
+  },
+  {
+    "name": "advertising_column",
+    "parent": ["advertising"],
+    "tags": {"advertising": "column"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"],
+    "id": 400
+  },
+  {
+    "name": "advertising_flag",
+    "parent": ["advertising"],
+    "tags": {"advertising": "flag"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"],
+    "id": 401
+  },
+  {
+    "name": "advertising_sign",
+    "parent": ["advertising"],
+    "tags": {"advertising": "sign"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "way", "area"],
+    "id": 402
+  },
+  {
+    "name": "advertising_screen",
+    "parent": ["advertising"],
+    "tags": {"advertising": "screen"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "way"],
+    "id": 403
+  },
+  {
+    "name": "advertising_sculpture",
+    "parent": ["advertising"],
+    "tags": {"advertising": "culpture"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "way"],
+    "id": 404
+  },
+  {
+    "name": "advertising_wall_painting",
+    "parent": ["advertising"],
+    "tags": {"advertising": "wall_painting"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "way"],
+    "id": 405
   }
 ]
