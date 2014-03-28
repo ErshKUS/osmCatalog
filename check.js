@@ -43,6 +43,10 @@ for (var entry in entry_by_name) {
 	}
 
 	// Check type
+	if (typeof entry_by_name[entry].type === 'undefined' || (entry_by_name[entry].type.poi && entry_by_name[entry].type.length == 0)) {
+		console.log('ERROR[18]: ' + entry_by_name[entry].name + ': no/invalid type');
+		errors++;
+	}
 	for (var type in entry_by_name[entry].type) {
 		if (entry_by_name[entry].type[type] !== 'node' && entry_by_name[entry].type[type] !== 'area' && entry_by_name[entry].type[type] !== 'way' && entry_by_name[entry].type[type] !== 'relation') {
 			console.log('ERROR[5]: ' + entry_by_name[entry].name + ': unknown type: ' + entry_by_name[entry].type[type]);
