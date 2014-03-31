@@ -4594,12 +4594,12 @@
     "moretags": {
       "power_generation_source": {
         "class": "power_generation_source",
-        "tag": "generator:source",
+        "tag": "plant:source",
         "type": "translate"
       },
       "power_generation_method": {
         "class": "power_generation_method",
-        "tag": "generator:method",
+        "tag": "plant:method",
         "type": "translate"
       },
       "power_output_electricity": {
