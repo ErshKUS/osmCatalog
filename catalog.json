@@ -2455,9 +2455,9 @@
     "id": 208
   },
   {
-    "name": "ev_charging",
+    "name": "charging_station",
     "parent": ["personal_transport", "service"],
-    "tags": {"amenity": "ev_charging"},
+    "tags": {"amenity": "charging_station"},
     "moretags": {},
     "poi": true,
     "type": ["node", "area"],
