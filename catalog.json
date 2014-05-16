@@ -279,6 +279,15 @@
     "id": 30
   },
   {
+    "name": "heat",
+    "parent": ["infrastructure"],
+    "tags": {},
+    "moretags": {},
+    "poi": false,
+    "type": [],
+    "id": 406
+  },
+  {
     "name": "communications",
     "parent": ["infrastructure"],
     "tags": {},
@@ -4695,6 +4704,58 @@
     "poi": true,
     "type": ["node", "area"],
     "id": 354
+  },
+  {
+    "name": "heat_boiler_house",
+    "parent": ["power"],
+    "tags": {"power": "generator", "generator:output:hot_water": "*" },
+    "moretags": {
+      "power_generation_source": {
+        "class": "power_generation_source",
+        "tag": "plant:source",
+        "type": "translate"
+      },
+      "power_generation_method": {
+        "class": "power_generation_method",
+        "tag": "plant:method",
+        "type": "translate"
+      },
+      "power_output_electricity": {
+        "tag": "plant:output:electricity",
+        "type": "number"
+      },
+      "power_output_hot_water": {
+        "tag": "plant:output:hot_water",
+        "type": "number"
+      },
+      "power_output_hot_air": {
+        "tag": "plant:output:hot_air",
+        "type": "number"
+      },
+      "power_output_cold_water": {
+        "tag": "plant:output:cold_water",
+        "type": "number"
+      },
+      "power_output_cold_air": {
+        "tag": "plant:output:cold_air",
+        "type": "number"
+      },
+      "power_output_compressed_air": {
+        "tag": "plant:output:compressed_air",
+        "type": "number"
+      },
+      "power_output_steam": {
+        "tag": "plant:output:steam",
+        "type": "number"
+      },
+      "power_output_vacuum": {
+        "tag": "plant:output:vacuum",
+        "type": "number"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"],
+    "id": 407
   },
   {
     "name": "sewing",
