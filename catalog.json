@@ -4511,6 +4511,21 @@
     "id": 347
   },
   {
+    "name": "standpipe",
+    "parent": ["water_supply"],
+    "tags": {"man_made": "standpipe"},
+    "moretags": {
+      "pump": {
+        "class": "pump",
+        "tag": "pump",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"],
+    "id": 406
+  },
+  {
     "name": "water_works",
     "parent": ["water_supply"],
     "tags": {"man_made": "water_works"},
