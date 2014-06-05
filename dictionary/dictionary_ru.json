@@ -242,6 +242,7 @@
     "migration": {"name": "Миграционная служба", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dgovernment", "keywords": ""},
     "miniature_golf": {"name": "Мини-гольф", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dminiature_golf", "keywords": ""},
     "mobile_phone": {"name": "Салон связи", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dmobile_phone", "keywords": ""},
+    "monastery": {"name": "Монастырь", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dmonastery", "keywords": ""},
     "money_lender": {"name": "Ростовщик", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dmoney_lender", "keywords": ""},
     "monument": {"name": "Монумент (памятник)", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:historic%3Dmonument", "keywords": ""},
     "mortuary": {"name": "Морг", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dmortuary", "keywords": ""},
@@ -443,6 +444,7 @@
     "communication_mobile_phone": {"name": "Сотовая связь"},
     "communication_radio": {"name": "Радиовещание"},
     "communication_television": {"name": "Телевещание"},
+	"community_gender": {"name": "Тип"},
     "country": {"name": "Страна"},
     "covered": {"name": "Крытый"},
     "cuisine": {"name": "Кухня"},
@@ -678,6 +680,10 @@
       "no": "не используется",
       "analogue": "аналоговое",
       "dvb-t": "DVB-T"
+    },
+    "community_gender": {
+      "male": "мужской",
+      "female": "женский"
     },
     "country": {
       "AD": "Андорра",

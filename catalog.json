@@ -2680,6 +2680,31 @@
     "id": 225
   },
   {
+    "name": "monastery",
+    "parent": ["religion"],
+    "tags": {"amenity": "monastery"},
+    "moretags": {
+      "religion": {
+        "class": "religion",
+        "tag": "religion",
+        "type": "translate"
+      },
+      "denomination": {
+        "class": "denomination",
+        "tag": "denomination",
+        "type": "translate"
+      },
+      "community_gender": {
+        "class": "community_gender",
+        "tag": "community:gender",
+        "type": "translate"
+      }
+    },
+    "poi": true,
+    "type": ["node", "area"],
+    "id": 407
+  },
+  {
     "name": "police",
     "parent": ["democracy", "emergency"],
     "tags": {"amenity": "police"},
