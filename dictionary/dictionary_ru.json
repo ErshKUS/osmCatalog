@@ -25,7 +25,7 @@
     "arts_centre": {"name": "Художественный центр", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Darts_centre", "keywords": ""},
     "artwork": {"name": "Арт-объект", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:tourism%3Dartwork", "keywords": ""},
     "atm": {"name": "Банкомат", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Datm", "keywords": ""},
-    "attraction": {"name": "Достопримечательности", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:tourism%3Dattraction", "keywords": ""},
+    "attraction": {"name": "Достопримечательность", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:tourism%3Dattraction", "keywords": ""},
     "atv": {"name": "Квадроциклы", "description": "", "link": "", "keywords": ""},
     "baby_goods": {"name": "Детские товары", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:shop%3Dbaby_goods", "keywords": ""},
     "bag": {"name": "Сумки, чемоданы", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dbag", "keywords": ""},
