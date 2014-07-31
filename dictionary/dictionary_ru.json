@@ -227,7 +227,7 @@
     "lateral_buoy": {"name": "Буй", "description": "", "link": "http://wiki.openstreetmap.org/wiki/OpenSeaMap/Buoys", "keywords": ""},
     "laundry": {"name": "Прачечная", "description": "", "link": "http://wiki.openstreetmap.org/wiki/Tag:shop%3Dlaundry", "keywords": ""},
     "lawyer": {"name": "Юридические услуги", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:office%3Dlawyer", "keywords": ""},
-    "leading_beacon": {"name": "Створовый знак", "description": "", "link": "http://wiki.openstreetmap.org/wiki/OpenSeaMap/Beacons", "keywords": ""},
+    "leading_beacon": {"name": "Створный знак", "description": "", "link": "http://wiki.openstreetmap.org/wiki/OpenSeaMap/Beacons", "keywords": ""},
     "library": {"name": "Библиотека", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:amenity%3Dlibrary", "keywords": ""},
     "lift_gate": {"name": "Шлагбаум", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Key:barrier", "keywords": ""},
     "lighthouse": {"name": "Маяк", "description": "", "link": "http://wiki.openstreetmap.org/wiki/RU:Tag:man_made%3Dlighthouse", "keywords": ""},
