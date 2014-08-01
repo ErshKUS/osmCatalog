@@ -738,6 +738,69 @@
     "id": 52
   },
   {
+    "name": "shoes_children",
+    "parent": ["shoes"],
+    "tags": {"shop":"shoes", "shoes":"children"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 428
+  },
+  {
+    "name": "shoes_dancing",
+    "parent": ["shoes"],
+    "tags": {"shop":"shoes", "shoes":"dancing"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 429
+  },
+  {
+    "name": "shoes_men",
+    "parent": ["shoes"],
+    "tags": {"shop":"shoes", "shoes":"men"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 430
+  },
+  {
+    "name": "shoes_orthopaedic",
+    "parent": ["shoes"],
+    "tags": {"shop":"shoes", "shoes":"orthopaedic"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 431
+  },
+  {
+    "name": "shoes_oversize",
+    "parent": ["shoes"],
+    "tags": {"shop":"shoes", "shoes":"oversize"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 432
+  },
+  {
+    "name": "shoes_sport",
+    "parent": ["shoes"],
+    "tags": {"shop":"shoes", "shoes":"sport"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 433
+  },
+  {
+    "name": "shoes_women",
+    "parent": ["shoes"],
+    "tags": {"shop":"shoes", "shoes":"women"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 434
+  },
+  {
     "name": "computer",
     "parent": ["shop"],
     "tags": {"shop":"computer"},
