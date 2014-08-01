@@ -549,6 +549,186 @@
     "id": 51
   },
   {
+    "name": "clothes_babies",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "babies"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 408
+  },
+  {
+    "name": "clothes_children",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "children"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 409
+  },
+  {
+    "name": "clothes_costumes",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "costumes"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 410
+  },
+  {
+    "name": "clothes_denim",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "denim"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 411
+  },
+  {
+    "name": "clothes_fashion",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "fashion"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 412
+  },
+  {
+    "name": "clothes_fur",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "fur"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 413
+  },
+  {
+    "name": "clothes_hats",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "hats"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 414
+  },
+  {
+    "name": "clothes_leather",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "leather"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 415
+  },
+  {
+    "name": "clothes_maternity",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "maternity"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 416
+  },
+  {
+    "name": "clothes_men",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "men"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 417
+  },
+  {
+    "name": "clothes_oversize",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "oversize"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 418
+  },
+  {
+    "name": "clothes_schoolwear",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "schoolwear"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 419
+  },
+  {
+    "name": "clothes_sports",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "sports"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 420
+  },
+  {
+    "name": "clothes_suits",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "suits"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 421
+  },
+  {
+    "name": "clothes_swimwear",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "swimwear"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 422
+  },
+  {
+    "name": "clothes_traditional",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "traditional"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 423
+  },
+  {
+    "name": "clothes_underwear",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "underwear"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 424
+  },
+  {
+    "name": "clothes_wedding",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "wedding"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 425
+  },
+  {
+    "name": "clothes_women",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "women"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 426
+  },
+  {
+    "name": "clothes_workwear",
+    "parent": ["clothes"],
+    "tags": {"shop":"clothes", "clothes": "workwear"},
+    "moretags":{},
+    "poi": true,
+    "type": ["node","area"],
+    "id": 427
+  },
+  {
     "name": "shoes",
     "parent": ["shop"],
     "tags": {"shop":"shoes"},
