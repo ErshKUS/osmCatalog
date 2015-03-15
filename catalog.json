@@ -3205,6 +3205,70 @@
     "id": 232
   },
   {
+    "name": "climbing",
+    "parent": ["sport_and_entertainment"],
+    "tags": {"sport": "climbing"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "athletics",
+    "parent": ["sport_and_entertainment"],
+    "tags": {"sport": "athletics"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "weightlifting",
+    "parent": ["sport_and_entertainment"],
+    "tags": {"sport": "weightlifting"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "motocross",
+    "parent": ["sport_and_entertainment"],
+    "tags": {"sport": "motocross"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "basketball",
+    "parent": ["sport_and_entertainment"],
+    "tags": {"sport": "basketball"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "bmx",
+    "parent": ["sport_and_entertainment"],
+    "tags": {"sport": "bmx"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "bowling",
+    "parent": ["sport_and_entertainment"],
+    "tags": {"sport": "9pin"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
+    "name": "boxing",
+    "parent": ["sport_and_entertainment"],
+    "tags": {"sport": "boxing"},
+    "moretags": {},
+    "poi": true,
+    "type": ["node", "area"]
+  },
+  {
     "name": "museum",
     "parent": ["culture", "sights"],
     "tags": {"tourism": "museum"},
